@@ -1,5 +1,5 @@
-TimelineSettings:132;StateMachineSettings:63;StateCollectionSettings:27;WorkspaceWindowSettings:101;WorkspaceDockSettings:4371;BookmarkSettings:20;
-<TimelineSettings FrameLength="0.01666667" MouseWheelSensitivity="0.0002" MousePanSensitivity="0.3" DefaultTimelineDuration="120" /><StateMachineSettings><ElementName250 /></StateMachineSettings><StateCollectionSettings /><WorkspaceWindowSettings Maximised="True" PositionX="-8" PositionY="-8" Height="1048" Width="1936" />SaveableWindowChunk@19
+TimelineSettings:132;StateMachineSettings:24;StateCollectionSettings:27;WorkspaceWindowSettings:101;WorkspaceDockSettings:5242;BookmarkSettings:20;
+<TimelineSettings FrameLength="0.01666667" MouseWheelSensitivity="0.0002" MousePanSensitivity="0.3" DefaultTimelineDuration="120" /><StateMachineSettings /><StateCollectionSettings /><WorkspaceWindowSettings Maximised="True" PositionX="-8" PositionY="-8" Height="1048" Width="1936" />SaveableWindowChunk@19
 <SaveableWindows /><?xml version="1.0"?>
 <DockPanelSerialiser xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <DockLeftPortion>0.25</DockLeftPortion>
@@ -16,7 +16,7 @@ TimelineSettings:132;StateMachineSettings:63;StateCollectionSettings:27;Workspac
         <PaneSerialiser>
           <ID>0</ID>
           <DockState>Document</DockState>
-          <ActiveContent>0</ActiveContent>
+          <ActiveContent>2</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Right</Alignment>
           <Proportion>0.5</Proportion>
@@ -35,18 +35,25 @@ TimelineSettings:132;StateMachineSettings:63;StateCollectionSettings:27;Workspac
               <IsHidden>false</IsHidden>
               <IsFloat>false</IsFloat>
             </DockContentSerialiser>
+            <DockContentSerialiser>
+              <ID>2</ID>
+              <PersistString>All Objects:</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
           </Contents>
         </PaneSerialiser>
         <PaneSerialiser>
           <ID>1</ID>
           <DockState>Document</DockState>
-          <ActiveContent>2</ActiveContent>
+          <ActiveContent>3</ActiveContent>
           <PrevPane>0</PrevPane>
           <Alignment>Right</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
-              <ID>2</ID>
+              <ID>3</ID>
               <PersistString>Viewport:510|All</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
@@ -63,13 +70,13 @@ TimelineSettings:132;StateMachineSettings:63;StateCollectionSettings:27;Workspac
         <PaneSerialiser>
           <ID>2</ID>
           <DockState>DockLeft</DockState>
-          <ActiveContent>3</ActiveContent>
+          <ActiveContent>4</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Bottom</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
-              <ID>3</ID>
+              <ID>4</ID>
               <PersistString>Project:</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
@@ -86,14 +93,14 @@ TimelineSettings:132;StateMachineSettings:63;StateCollectionSettings:27;Workspac
         <PaneSerialiser>
           <ID>3</ID>
           <DockState>DockRight</DockState>
-          <ActiveContent>4</ActiveContent>
+          <ActiveContent>5</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Bottom</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
-              <ID>4</ID>
-              <PersistString>Properties:103-General;|194-General;|231-General;|250-General;|122-General;|160-General;|279-General;|381-General;|418-General;|447-General;|476-General;|510-General;|548-General;|4294967295-General;|579-General;|608-General;|639-General;|668-General;|697-General;|726-General;|755-General;|784-General;|813-General;|842-General;|880-General;|914-General;|921-General;|928-General;|935-General;|942-General;|949-General;|956-General;|1043-General;|1062-General;|1089-General;|987-General;|999-General;|1011-General;|1023-General;|963-General;|975-General;|</PersistString>
+              <ID>5</ID>
+              <PersistString>Properties:103-General;|194-General;|231-General;|250-General;|122-General;|160-General;|279-General;|381-General;|418-General;|447-General;|476-General;|510-General;|548-General;|4294967295-General;|579-General;|608-General;|639-General;|668-General;|697-General;|726-General;|755-General;|784-General;|813-General;|842-General;|880-General;|914-General;|921-General;|928-General;|935-General;|942-General;|949-General;|956-General;|1043-General;|1062-General;|1089-General;|987-General;|999-General;|1011-General;|1023-General;|963-General;|975-General;|1084-General;|1113-General;|1142-General;|1171-General;|1200-General;|1229-General;|1258-General;|1287-General;|1316-General;|1345-General;|1368-General;|1391-General;|1420-General;|1449-General;|1478-General;|1507-General;|1536-General;|1565-General;|1594-General;|1623-General;|1652-General;|1675-General;|1704-General;|1733-General;|1762-General;|1791-General;|1820-General;|1849-General;|1878-General;|1907-General;|1936-General;|1959-General;|1988-General;|2017-General;|2046-General;|2075-General;|2104-General;|2133-General;|2162-General;|2191-General;|2228-General;|</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
               <IsFloat>false</IsFloat>
