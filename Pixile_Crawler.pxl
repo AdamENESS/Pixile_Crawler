@@ -25,7 +25,7 @@
         <Attribute name="Generate Script" value="" id="125" />
         <Attribute name="Parent" value="608" id="126" />
         <Attribute name="Position" value="0.000000, 1.800000, -0.500000" id="127" />
-        <Attribute name="Rotation" value="-0.000000, 0.000000, 0.000000" id="128" />
+        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="128" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="129" />
         <Attribute name="Is Visible" value="1" id="130" />
         <Attribute name="Is Cullable" value="0" id="131" />
@@ -39,15 +39,15 @@
         <Attribute name="Visibility Fade Out Time" value="-1.000000" id="139" />
         <Attribute name="On Pick" value="" id="140" />
         <Attribute name="Clip Near" value="0.100000" id="141" />
-        <Attribute name="Clip Far" value="1000.000000" id="142" />
+        <Attribute name="Clip Far" value="10.400001" id="142" />
         <Attribute name="Is Enabled" value="1" id="143" />
-        <Attribute name="Clear Colour" value="0.000000, 0.000000, 0.000000, 1.000000" id="144" />
+        <Attribute name="Clear Colour" value="0.137255, 0.000000, 0.423529, 1.000000" id="144" />
         <Attribute name="Debug Rendering Mode" value="" id="145" />
         <Attribute name="Clear Frame" value="1" id="146" />
-        <Attribute name="Fog Colour" value="0.100000, 0.100000, 0.100000, 0.100000" id="147" />
-        <Attribute name="Fog Density" value="0.050000" id="148" />
+        <Attribute name="Fog Colour" value="0.000000, 0.000000, 0.000000, 1.000000" id="147" />
+        <Attribute name="Fog Density" value="0.000000" id="148" />
         <Attribute name="GUI" value="0" id="149" />
-        <Attribute name="Post Effects" value="" id="150" />
+        <Attribute name="Post Effects" value="2405" id="150" />
         <Attribute name="FOV" value="90.000000" id="151" />
         <Attribute name="Aspect" value="1.777778" id="152" />
         <Attribute name="Camera Mode" value="0" id="153" />
@@ -109,7 +109,7 @@
         <Attribute name="Auto Weld on Quad Creation" value="0" id="207" />
         <Attribute name="Hide Unselected Vertices" value="1" id="208" />
         <Attribute name="Default Vertex Debug Colour" value="1.000000, 0.000000, 0.000000, 1.000000" id="209" />
-        <Attribute name="Enable VSync" value="0" id="210" />
+        <Attribute name="Enable VSync" value="1" id="210" />
         <Attribute name="Enable Mobile Script Caching" value="0" id="211" />
         <Attribute name="AlertBox Alternative" value="0" id="212" />
         <Attribute name="Create Object" value="" id="213" />
@@ -325,7 +325,7 @@
         <Attribute name="Script" value="" id="512" />
         <Attribute name="Generate Script" value="" id="513" />
         <Attribute name="Parent" value="103" id="514" />
-        <Attribute name="Position" value="0.068080, 14.313971, -2.833807" id="515" />
+        <Attribute name="Position" value="-0.446570, 24.782104, -5.527758" id="515" />
         <Attribute name="Rotation" value="73.427986, -0.635597, 0.000000" id="516" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="517" />
         <Attribute name="Is Visible" value="1" id="518" />
@@ -354,7 +354,7 @@
         <Attribute name="Camera Mode" value="0" id="541" />
         <Attribute name="LookAt" value="0.000000, 0.000000, 0.000000" id="542" />
         <Attribute name="UpVector" value="-0.010632, 0.285220, 0.958403" id="543" />
-        <Attribute name="CameraOffset" value="0.068080, 14.313971, -2.833807" id="544" />
+        <Attribute name="CameraOffset" value="-0.446570, 24.782104, -5.527758" id="544" />
         <Attribute name="Orthogonal" value="0" id="545" />
         <Attribute name="Ortho Width" value="1.000000" id="546" />
         <Attribute name="Ortho Height" value="1.000000" id="547" />
@@ -427,7 +427,7 @@
         <Attribute name="Script" value="" id="610" />
         <Attribute name="Generate Script" value="" id="611" />
         <Attribute name="Parent" value="548" id="612" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="613" />
+        <Attribute name="Position" value="0.100000, 0.000000, 0.000000" id="613" />
         <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="614" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="615" />
         <Attribute name="Is Visible" value="1" id="616" />
@@ -1950,4 +1950,142 @@
         <Attribute name="Animations" value="" id="2226" />
         <Attribute name="Baking Timestep" value="0.100000" id="2227" />
     </CMesh>
+    <CAttributeModifierAttractFloat name="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2257" parent_id="0">
+        <Attribute name="Name" value="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2258" />
+        <Attribute name="Script" value="" id="2259" />
+        <Attribute name="Generate Script" value="" id="2260" />
+        <Attribute name="Attributes" value="" id="2261" />
+        <Attribute name="Enable Updates" value="1" id="2262" />
+        <Attribute name="Linked Attribute" value="2308" id="2263" />
+        <Attribute name="Mass" value="1.000000" id="2264" />
+        <Attribute name="Damping" value="0.250000" id="2265" />
+        <Attribute name="Magnitude" value="2000.000000" id="2266" />
+        <Attribute name="Power" value="1.000000" id="2267" />
+        <Attribute name="Drag Force" value="0.000000" id="2268" />
+        <Attribute name="Speed Limit" value="100.000000" id="2269" />
+        <Attribute name="Handle Rotation" value="0" id="2270" />
+    </CAttributeModifierAttractFloat>
+    <CSceneNodeVertex name="Avatar_Target" id="2279" parent_id="548">
+        <Attribute name="Name" value="Avatar_Target" id="2280" />
+        <Attribute name="Script" value="" id="2281" />
+        <Attribute name="Generate Script" value="" id="2282" />
+        <Attribute name="Parent" value="548" id="2283" />
+        <Attribute name="Position" value="5.000000, 0.000000, 0.000000" id="2284" />
+        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="2285" />
+        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2286" />
+        <Attribute name="Is Visible" value="1" id="2287" />
+        <Attribute name="Is Cullable" value="1" id="2288" />
+        <Attribute name="Is Locked" value="0" id="2289" />
+        <Attribute name="Is Pickable" value="1" id="2290" />
+        <Attribute name="Receives Shadows" value="0" id="2291" />
+        <Attribute name="Casts Shadows" value="0" id="2292" />
+        <Attribute name="Visibility Scale Time" value="0.000000" id="2293" />
+        <Attribute name="Visibility Fade Delay" value="0.000000" id="2294" />
+        <Attribute name="Visibility Fade Time" value="0.000000" id="2295" />
+        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2296" />
+        <Attribute name="On Pick" value="" id="2297" />
+        <Attribute name="UV" value="0.000000, 0.000000" id="2298" />
+        <Attribute name="Debug Scale" value="8.000000, 8.000000" id="2299" />
+        <Attribute name="Debug Texture Type" value="0" id="2300" />
+        <Attribute name="Linked Vertices" value="" id="2301" />
+    </CSceneNodeVertex>
+    <CAttributeSplitterVector3 name="Rotation" id="2302" parent_id="0">
+        <Attribute name="Name" value="Rotation" id="2303" />
+        <Attribute name="Script" value="" id="2304" />
+        <Attribute name="Generate Script" value="" id="2305" />
+        <Attribute name="Source Attribute" value="2285" id="2306" />
+        <Attribute name="X" value="0.000000" id="2307" />
+        <Attribute name="Y" value="0.000000" id="2308" />
+        <Attribute name="Z" value="0.000000" id="2309" />
+    </CAttributeSplitterVector3>
+    <CAttributeModifierBlendOverTimeFloat name="Avatar-&gt;Rotation-&gt;Y Blend Over Time (Float)" id="2310" parent_id="0">
+        <Attribute name="Name" value="Avatar-&gt;Rotation-&gt;Y Blend Over Time (Float)" id="2311" />
+        <Attribute name="Script" value="" id="2312" />
+        <Attribute name="Generate Script" value="" id="2313" />
+        <Attribute name="Attributes" value="" id="2314" />
+        <Attribute name="Enable Updates" value="1" id="2315" />
+        <Attribute name="Start" value="0.000000" id="2316" />
+        <Attribute name="Middle" value="45.000000" id="2317" />
+        <Attribute name="End" value="90.000000" id="2318" />
+        <Attribute name="Lifetime" value="1.000000" id="2319" />
+        <Attribute name="Middle Percentage" value="0.674680" id="2320" />
+    </CAttributeModifierBlendOverTimeFloat>
+    <CAttributeModifierBlendFloat name="Rotation-&gt;Y Blend (Float)" id="2329" parent_id="0">
+        <Attribute name="Name" value="Rotation-&gt;Y Blend (Float)" id="2330" />
+        <Attribute name="Script" value="" id="2331" />
+        <Attribute name="Generate Script" value="" id="2332" />
+        <Attribute name="Attributes" value="" id="2333" />
+        <Attribute name="Enable Updates" value="1" id="2334" />
+        <Attribute name="Balance" value="1.000000" id="2335" />
+        <Attribute name="Value1" value="0.000000" id="2336" />
+        <Attribute name="Value2" value="90.000000" id="2337" />
+    </CAttributeModifierBlendFloat>
+    <CAttributeSplitterVector3 name="Rotation" id="2354" parent_id="0">
+        <Attribute name="Name" value="Rotation" id="2355" />
+        <Attribute name="Script" value="" id="2356" />
+        <Attribute name="Generate Script" value="" id="2357" />
+        <Attribute name="Source Attribute" value="614" id="2358" />
+        <Attribute name="X" value="0.000000" id="2359" />
+        <Attribute name="Y" value="0.000000" id="2360" />
+        <Attribute name="Z" value="0.000000" id="2361" />
+    </CAttributeSplitterVector3>
+    <CAttributeModifierAttractFloat name="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2362" parent_id="0">
+        <Attribute name="Name" value="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2363" />
+        <Attribute name="Script" value="" id="2364" />
+        <Attribute name="Generate Script" value="" id="2365" />
+        <Attribute name="Attributes" value="" id="2366" />
+        <Attribute name="Enable Updates" value="1" id="2367" />
+        <Attribute name="Linked Attribute" value="0" id="2368" />
+        <Attribute name="Mass" value="1.000000" id="2369" />
+        <Attribute name="Damping" value="0.100000" id="2370" />
+        <Attribute name="Magnitude" value="1.000000" id="2371" />
+        <Attribute name="Power" value="1.000000" id="2372" />
+        <Attribute name="Drag Force" value="0.000000" id="2373" />
+        <Attribute name="Speed Limit" value="1000.000000" id="2374" />
+        <Attribute name="Handle Rotation" value="0" id="2375" />
+    </CAttributeModifierAttractFloat>
+    <CAttributeModifierStepGridVector3 name="Avatar-&gt;Rotation Grid Step (Vector3)" id="2376" parent_id="0">
+        <Attribute name="Name" value="Avatar-&gt;Rotation Grid Step (Vector3)" id="2377" />
+        <Attribute name="Script" value="" id="2378" />
+        <Attribute name="Generate Script" value="" id="2379" />
+        <Attribute name="Attributes" value="" id="2380" />
+        <Attribute name="Enable Updates" value="1" id="2381" />
+        <Attribute name="Min" value="-1.000000, -1.000000, 0.000000" id="2382" />
+        <Attribute name="Max" value="1.000000, 1.000000, 0.000000" id="2383" />
+        <Attribute name="Offset" value="0.000000, 0.000000, 0.000000" id="2384" />
+        <Attribute name="Steps" value="4.000000, 4.000000, 0.000000" id="2385" />
+        <Attribute name="Speed" value="1.000000" id="2386" />
+        <Attribute name="Play On Load" value="0" id="2387" />
+        <Attribute name="Play On Load Delay" value="5.000000" id="2388" />
+        <Attribute name="Play Mode" value="0" id="2389" />
+        <Attribute name="Play" value="" id="2390" />
+    </CAttributeModifierStepGridVector3>
+    <CAttributeModifierAttractVector3 name="Avatar-&gt;Position Attract (Vector3)" id="2391" parent_id="0">
+        <Attribute name="Name" value="Avatar-&gt;Position Attract (Vector3)" id="2392" />
+        <Attribute name="Script" value="" id="2393" />
+        <Attribute name="Generate Script" value="" id="2394" />
+        <Attribute name="Attributes" value="" id="2395" />
+        <Attribute name="Enable Updates" value="1" id="2396" />
+        <Attribute name="Linked Attribute" value="2284" id="2397" />
+        <Attribute name="Mass" value="1.000000" id="2398" />
+        <Attribute name="Damping" value="2.000000" id="2399" />
+        <Attribute name="Magnitude" value="2.000000" id="2400" />
+        <Attribute name="Power" value="-1.000000" id="2401" />
+        <Attribute name="Drag Force" value="2.000000" id="2402" />
+        <Attribute name="Speed Limit" value="100.000000" id="2403" />
+        <Attribute name="Handle Rotation" value="0" id="2404" />
+    </CAttributeModifierAttractVector3>
+    <CPostEffectFeedbackBlur name="Post Feedback Blur 1" id="2405" parent_id="0">
+        <Attribute name="Name" value="Post Feedback Blur 1" id="2406" />
+        <Attribute name="Script" value="" id="2407" />
+        <Attribute name="Generate Script" value="" id="2408" />
+        <Attribute name="MD5" value="" id="2409" />
+        <Attribute name="Is Visible" value="1" id="2410" />
+        <Attribute name="Visibility Fade Time" value="1.000000" id="2411" />
+        <Attribute name="Intensity" value="1.000000" id="2412" />
+        <Attribute name="Style" value="0" id="2413" />
+        <Attribute name="Amount" value="0.400000" id="2414" />
+        <Attribute name="Clear" value="0.000000" id="2415" />
+        <Attribute name="Fade Out Threshold" value="0.050000" id="2416" />
+    </CPostEffectFeedbackBlur>
 </Project2>
