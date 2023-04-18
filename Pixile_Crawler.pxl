@@ -24,7 +24,7 @@
         <Attribute name="Script" value="" id="124" />
         <Attribute name="Generate Script" value="" id="125" />
         <Attribute name="Parent" value="608" id="126" />
-        <Attribute name="Position" value="0.000000, 1.800000, -0.500000" id="127" />
+        <Attribute name="Position" value="0.000000, 1.800000, 0.000000" id="127" />
         <Attribute name="Rotation" value="-0.000000, 0.000000, 0.000000" id="128" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="129" />
         <Attribute name="Is Visible" value="1" id="130" />
@@ -41,7 +41,7 @@
         <Attribute name="Clip Near" value="0.100000" id="141" />
         <Attribute name="Clip Far" value="30.000000" id="142" />
         <Attribute name="Is Enabled" value="1" id="143" />
-        <Attribute name="Clear Colour" value="0.576471, 0.901961, 1.000000, 1.000000" id="144" />
+        <Attribute name="Clear Colour" value="0.000000, 0.058824, 0.058824, 1.000000" id="144" />
         <Attribute name="Debug Rendering Mode" value="" id="145" />
         <Attribute name="Clear Frame" value="1" id="146" />
         <Attribute name="Fog Colour" value="0.000000, 0.000000, 0.000000, 1.000000" id="147" />
@@ -53,7 +53,7 @@
         <Attribute name="Camera Mode" value="0" id="153" />
         <Attribute name="LookAt" value="0.000000, 0.000000, 0.000000" id="154" />
         <Attribute name="UpVector" value="0.000000, 1.000000, 0.000000" id="155" />
-        <Attribute name="CameraOffset" value="0.000000, 1.800000, -0.500000" id="156" />
+        <Attribute name="CameraOffset" value="0.000000, 1.800000, 0.000000" id="156" />
         <Attribute name="Orthogonal" value="0" id="157" />
         <Attribute name="Ortho Width" value="1.000000" id="158" />
         <Attribute name="Ortho Height" value="1.000000" id="159" />
@@ -118,7 +118,7 @@
         <Attribute name="Save Script" value="" id="216" />
         <Attribute name="On Frame" value="" id="217" />
         <Attribute name="Import Object" value="" id="218" />
-        <Attribute name="On First Frame" value="" id="219" />
+        <Attribute name="On First Frame" value="79740" id="219" />
         <Attribute name="On Question Display OK" value="" id="220" />
         <Attribute name="On Question Display Cancel" value="" id="221" />
         <Attribute name="Updates Per Second" value="60.000000" id="222" />
@@ -290,8 +290,8 @@
         <Attribute name="Script" value="" id="478" />
         <Attribute name="Generate Script" value="" id="479" />
         <Attribute name="Parent" value="608" id="480" />
-        <Attribute name="Position" value="-0.700000, 2.600000, -0.500000" id="481" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="482" />
+        <Attribute name="Position" value="-0.700000, 26.100000, 9.800001" id="481" />
+        <Attribute name="Rotation" value="30.100000, 0.000000, 151.199997" id="482" />
         <Attribute name="Is Visible" value="0" id="483" />
         <Attribute name="Is Cullable" value="0" id="484" />
         <Attribute name="Is Locked" value="0" id="485" />
@@ -302,12 +302,12 @@
         <Attribute name="Visibility Fade Out Time" value="-1.000000" id="490" />
         <Attribute name="On Pick" value="" id="491" />
         <Attribute name="Projected Texture" value="0" id="492" />
-        <Attribute name="Range" value="113.299995" id="493" />
+        <Attribute name="Range" value="156.499985" id="493" />
         <Attribute name="Shadow Map Width" value="512" id="494" />
         <Attribute name="Shadow Map Height" value="512" id="495" />
         <Attribute name="Shadow Epsilon" value="1.000000" id="496" />
         <Attribute name="Shadow Colour" value="1.000000, 1.000000, 1.000000, 1.000000" id="497" />
-        <Attribute name="Type" value="1" id="498" />
+        <Attribute name="Type" value="0" id="498" />
         <Attribute name="Colour" value="0.482353, 0.482353, 0.482353, 0.498039" id="499" />
         <Attribute name="Inner Angle" value="105.400002" id="500" />
         <Attribute name="Outer Angle" value="90.000000" id="501" />
@@ -325,8 +325,8 @@
         <Attribute name="Script" value="" id="512" />
         <Attribute name="Generate Script" value="" id="513" />
         <Attribute name="Parent" value="548" id="514" />
-        <Attribute name="Position" value="0.000000, 40.000000, 0.000000" id="515" />
-        <Attribute name="Rotation" value="90.000000, 0.000000, 0.000000" id="516" />
+        <Attribute name="Position" value="37.900002, 98.500000, 39.000000" id="515" />
+        <Attribute name="Rotation" value="90.000000, -0.000000, 0.000000" id="516" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="517" />
         <Attribute name="Is Visible" value="1" id="518" />
         <Attribute name="Is Cullable" value="0" id="519" />
@@ -342,7 +342,7 @@
         <Attribute name="Clip Near" value="0.100000" id="529" />
         <Attribute name="Clip Far" value="1000.000000" id="530" />
         <Attribute name="Is Enabled" value="1" id="531" />
-        <Attribute name="Clear Colour" value="0.000000, 0.000000, 0.000000, 1.000000" id="532" />
+        <Attribute name="Clear Colour" value="1.000000, 0.000000, 0.000000, 1.000000" id="532" />
         <Attribute name="Debug Rendering Mode" value="" id="533" />
         <Attribute name="Clear Frame" value="1" id="534" />
         <Attribute name="Fog Colour" value="0.100000, 0.100000, 0.100000, 0.100000" id="535" />
@@ -350,11 +350,11 @@
         <Attribute name="GUI" value="0" id="537" />
         <Attribute name="Post Effects" value="" id="538" />
         <Attribute name="FOV" value="45.000000" id="539" />
-        <Attribute name="Aspect" value="1.333000" id="540" />
+        <Attribute name="Aspect" value="1.000000" id="540" />
         <Attribute name="Camera Mode" value="0" id="541" />
         <Attribute name="LookAt" value="0.000000, 0.000000, 0.000000" id="542" />
         <Attribute name="UpVector" value="0.000000, 0.000000, 1.000000" id="543" />
-        <Attribute name="CameraOffset" value="0.000000, 40.000000, 0.000000" id="544" />
+        <Attribute name="CameraOffset" value="37.900002, 98.500000, 39.000000" id="544" />
         <Attribute name="Orthogonal" value="0" id="545" />
         <Attribute name="Ortho Width" value="1.000000" id="546" />
         <Attribute name="Ortho Height" value="1.000000" id="547" />
@@ -399,7 +399,7 @@
         <Attribute name="Parent" value="231" id="583" />
         <Attribute name="Position" value="2.500000, 0.000000, 2.500000" id="584" />
         <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="585" />
-        <Attribute name="Scale" value="1.250000, 1.000000, 1.250000" id="586" />
+        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="586" />
         <Attribute name="Is Visible" value="1" id="587" />
         <Attribute name="Is Cullable" value="1" id="588" />
         <Attribute name="Is Locked" value="0" id="589" />
@@ -427,7 +427,7 @@
         <Attribute name="Script" value="" id="610" />
         <Attribute name="Generate Script" value="" id="611" />
         <Attribute name="Parent" value="548" id="612" />
-        <Attribute name="Position" value="5.000000, 0.000000, 0.000000" id="613" />
+        <Attribute name="Position" value="5.000000, 0.000000, 5.000000" id="613" />
         <Attribute name="Rotation" value="0.000000, 270.000000, 0.000000" id="614" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="615" />
         <Attribute name="Is Visible" value="1" id="616" />
@@ -635,80 +635,6 @@
         <Attribute name="Generate Normals" value="0" id="811" />
         <Attribute name="Material 0" value="2921" id="812" />
     </CSceneNodeMesh>
-    <CSceneNodeCamera name="Camera 3" id="842" parent_id="231">
-        <Attribute name="Name" value="Camera 3" id="843" />
-        <Attribute name="Script" value="" id="844" />
-        <Attribute name="Generate Script" value="" id="845" />
-        <Attribute name="Parent" value="231" id="846" />
-        <Attribute name="Position" value="0.000000, 11.700000, 0.000000" id="847" />
-        <Attribute name="Rotation" value="90.000000, -0.000000, 0.000000" id="848" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="849" />
-        <Attribute name="Is Visible" value="1" id="850" />
-        <Attribute name="Is Cullable" value="0" id="851" />
-        <Attribute name="Is Locked" value="0" id="852" />
-        <Attribute name="Is Pickable" value="1" id="853" />
-        <Attribute name="Receives Shadows" value="0" id="854" />
-        <Attribute name="Casts Shadows" value="0" id="855" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="856" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="857" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="858" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="859" />
-        <Attribute name="On Pick" value="" id="860" />
-        <Attribute name="Clip Near" value="0.100000" id="861" />
-        <Attribute name="Clip Far" value="1000.000000" id="862" />
-        <Attribute name="Is Enabled" value="1" id="863" />
-        <Attribute name="Clear Colour" value="0.000000, 0.000000, 0.000000, 1.000000" id="864" />
-        <Attribute name="Debug Rendering Mode" value="" id="865" />
-        <Attribute name="Clear Frame" value="1" id="866" />
-        <Attribute name="Fog Colour" value="0.100000, 0.100000, 0.100000, 0.100000" id="867" />
-        <Attribute name="Fog Density" value="0.050000" id="868" />
-        <Attribute name="GUI" value="0" id="869" />
-        <Attribute name="Post Effects" value="" id="870" />
-        <Attribute name="FOV" value="60.000000" id="871" />
-        <Attribute name="Aspect" value="1.333000" id="872" />
-        <Attribute name="Camera Mode" value="0" id="873" />
-        <Attribute name="LookAt" value="0.000000, 0.000000, 0.000000" id="874" />
-        <Attribute name="UpVector" value="0.000000, 0.000000, 1.000000" id="875" />
-        <Attribute name="CameraOffset" value="0.000000, 11.700000, 0.000000" id="876" />
-        <Attribute name="Orthogonal" value="0" id="877" />
-        <Attribute name="Ortho Width" value="1.000000" id="878" />
-        <Attribute name="Ortho Height" value="1.000000" id="879" />
-    </CSceneNodeCamera>
-    <CSceneNodeLight name="Light 3" id="880" parent_id="842">
-        <Attribute name="Name" value="Light 3" id="881" />
-        <Attribute name="Script" value="" id="882" />
-        <Attribute name="Generate Script" value="" id="883" />
-        <Attribute name="Parent" value="842" id="884" />
-        <Attribute name="Position" value="0.000000, 0.000000, -3.000000" id="885" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="886" />
-        <Attribute name="Is Visible" value="1" id="887" />
-        <Attribute name="Is Cullable" value="0" id="888" />
-        <Attribute name="Is Locked" value="0" id="889" />
-        <Attribute name="Is Pickable" value="1" id="890" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="891" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="892" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="893" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="894" />
-        <Attribute name="On Pick" value="" id="895" />
-        <Attribute name="Projected Texture" value="0" id="896" />
-        <Attribute name="Range" value="5.000000" id="897" />
-        <Attribute name="Shadow Map Width" value="512" id="898" />
-        <Attribute name="Shadow Map Height" value="512" id="899" />
-        <Attribute name="Shadow Epsilon" value="0.001000" id="900" />
-        <Attribute name="Shadow Colour" value="0.000000, 0.000000, 0.000000, 0.000000" id="901" />
-        <Attribute name="Type" value="0" id="902" />
-        <Attribute name="Colour" value="1.000000, 1.000000, 1.000000, 1.000000" id="903" />
-        <Attribute name="Inner Angle" value="45.000000" id="904" />
-        <Attribute name="Outer Angle" value="90.000000" id="905" />
-        <Attribute name="Falloff" value="1.000000" id="906" />
-        <Attribute name="Attenuation 0" value="1.000000" id="907" />
-        <Attribute name="Attenuation 1" value="0.000000" id="908" />
-        <Attribute name="Attenuation 2" value="0.000000" id="909" />
-        <Attribute name="Enable Shadows" value="0" id="910" />
-        <Attribute name="Shadow Ortho Width" value="10.000000" id="911" />
-        <Attribute name="Shadow Ortho Height" value="10.000000" id="912" />
-        <Attribute name="Projected Cube Texture" value="0" id="913" />
-    </CSceneNodeLight>
     <CKeyListener name="KEY_W" id="921" parent_id="0">
         <Attribute name="Name" value="KEY_W" id="922" />
         <Attribute name="Script" value="" id="923" />
@@ -757,1182 +683,6 @@
         <Attribute name="On Key Down" value="6790" id="961" />
         <Attribute name="On Key Up" value="" id="962" />
     </CKeyListener>
-    <CSceneNodeMesh name="floor_tile 1" id="1084" parent_id="1345">
-        <Attribute name="Name" value="floor_tile 1" id="1085" />
-        <Attribute name="Script" value="" id="1086" />
-        <Attribute name="Generate Script" value="" id="1087" />
-        <Attribute name="Parent" value="1345" id="1088" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="1089" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1090" />
-        <Attribute name="Scale" value="1.250000, 1.000000, 1.250000" id="1091" />
-        <Attribute name="Is Visible" value="1" id="1092" />
-        <Attribute name="Is Cullable" value="1" id="1093" />
-        <Attribute name="Is Locked" value="0" id="1094" />
-        <Attribute name="Is Pickable" value="1" id="1095" />
-        <Attribute name="Receives Shadows" value="1" id="1096" />
-        <Attribute name="Casts Shadows" value="1" id="1097" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1098" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1099" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1100" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1101" />
-        <Attribute name="On Pick" value="" id="1102" />
-        <Attribute name="Mesh" value="631" id="1103" />
-        <Attribute name="Effect" value="0" id="1104" />
-        <Attribute name="Animation" value="0" id="1105" />
-        <Attribute name="Animation Speed" value="1.000000" id="1106" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1107" />
-        <Attribute name="Show Normals" value="0" id="1108" />
-        <Attribute name="On Frame" value="" id="1109" />
-        <Attribute name="On Animation End" value="" id="1110" />
-        <Attribute name="Generate Normals" value="1" id="1111" />
-        <Attribute name="Material 0" value="2678" id="1112" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NE 1" id="1113" parent_id="1345">
-        <Attribute name="Name" value="PILLAR_NE 1" id="1114" />
-        <Attribute name="Script" value="" id="1115" />
-        <Attribute name="Generate Script" value="" id="1116" />
-        <Attribute name="Parent" value="1345" id="1117" />
-        <Attribute name="Position" value="2.500000, 0.000000, 2.500000" id="1118" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1119" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1120" />
-        <Attribute name="Is Visible" value="1" id="1121" />
-        <Attribute name="Is Cullable" value="1" id="1122" />
-        <Attribute name="Is Locked" value="0" id="1123" />
-        <Attribute name="Is Pickable" value="1" id="1124" />
-        <Attribute name="Receives Shadows" value="1" id="1125" />
-        <Attribute name="Casts Shadows" value="1" id="1126" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1127" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1128" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1129" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1130" />
-        <Attribute name="On Pick" value="" id="1131" />
-        <Attribute name="Mesh" value="571" id="1132" />
-        <Attribute name="Effect" value="0" id="1133" />
-        <Attribute name="Animation" value="0" id="1134" />
-        <Attribute name="Animation Speed" value="1.000000" id="1135" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1136" />
-        <Attribute name="Show Normals" value="0" id="1137" />
-        <Attribute name="On Frame" value="" id="1138" />
-        <Attribute name="On Animation End" value="" id="1139" />
-        <Attribute name="Generate Normals" value="0" id="1140" />
-        <Attribute name="Material 0" value="2921" id="1141" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NW 1" id="1142" parent_id="1345">
-        <Attribute name="Name" value="PILLAR_NW 1" id="1143" />
-        <Attribute name="Script" value="" id="1144" />
-        <Attribute name="Generate Script" value="" id="1145" />
-        <Attribute name="Parent" value="1345" id="1146" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 2.500000" id="1147" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1148" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1149" />
-        <Attribute name="Is Visible" value="1" id="1150" />
-        <Attribute name="Is Cullable" value="1" id="1151" />
-        <Attribute name="Is Locked" value="0" id="1152" />
-        <Attribute name="Is Pickable" value="1" id="1153" />
-        <Attribute name="Receives Shadows" value="1" id="1154" />
-        <Attribute name="Casts Shadows" value="1" id="1155" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1156" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1157" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1158" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1159" />
-        <Attribute name="On Pick" value="" id="1160" />
-        <Attribute name="Mesh" value="571" id="1161" />
-        <Attribute name="Effect" value="0" id="1162" />
-        <Attribute name="Animation" value="0" id="1163" />
-        <Attribute name="Animation Speed" value="1.000000" id="1164" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1165" />
-        <Attribute name="Show Normals" value="0" id="1166" />
-        <Attribute name="On Frame" value="" id="1167" />
-        <Attribute name="On Animation End" value="" id="1168" />
-        <Attribute name="Generate Normals" value="0" id="1169" />
-        <Attribute name="Material 0" value="2921" id="1170" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SE 1" id="1171" parent_id="1345">
-        <Attribute name="Name" value="PILLAR_SE 1" id="1172" />
-        <Attribute name="Script" value="" id="1173" />
-        <Attribute name="Generate Script" value="" id="1174" />
-        <Attribute name="Parent" value="1345" id="1175" />
-        <Attribute name="Position" value="2.500000, 0.000000, -2.500000" id="1176" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1177" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1178" />
-        <Attribute name="Is Visible" value="1" id="1179" />
-        <Attribute name="Is Cullable" value="1" id="1180" />
-        <Attribute name="Is Locked" value="0" id="1181" />
-        <Attribute name="Is Pickable" value="1" id="1182" />
-        <Attribute name="Receives Shadows" value="1" id="1183" />
-        <Attribute name="Casts Shadows" value="1" id="1184" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1185" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1186" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1187" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1188" />
-        <Attribute name="On Pick" value="" id="1189" />
-        <Attribute name="Mesh" value="571" id="1190" />
-        <Attribute name="Effect" value="0" id="1191" />
-        <Attribute name="Animation" value="0" id="1192" />
-        <Attribute name="Animation Speed" value="1.000000" id="1193" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1194" />
-        <Attribute name="Show Normals" value="0" id="1195" />
-        <Attribute name="On Frame" value="" id="1196" />
-        <Attribute name="On Animation End" value="" id="1197" />
-        <Attribute name="Generate Normals" value="0" id="1198" />
-        <Attribute name="Material 0" value="2921" id="1199" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SW 1" id="1200" parent_id="1345">
-        <Attribute name="Name" value="PILLAR_SW 1" id="1201" />
-        <Attribute name="Script" value="" id="1202" />
-        <Attribute name="Generate Script" value="" id="1203" />
-        <Attribute name="Parent" value="1345" id="1204" />
-        <Attribute name="Position" value="-2.500000, 0.000000, -2.500000" id="1205" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1206" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1207" />
-        <Attribute name="Is Visible" value="1" id="1208" />
-        <Attribute name="Is Cullable" value="1" id="1209" />
-        <Attribute name="Is Locked" value="0" id="1210" />
-        <Attribute name="Is Pickable" value="1" id="1211" />
-        <Attribute name="Receives Shadows" value="1" id="1212" />
-        <Attribute name="Casts Shadows" value="1" id="1213" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1214" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1215" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1216" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1217" />
-        <Attribute name="On Pick" value="" id="1218" />
-        <Attribute name="Mesh" value="571" id="1219" />
-        <Attribute name="Effect" value="0" id="1220" />
-        <Attribute name="Animation" value="0" id="1221" />
-        <Attribute name="Animation Speed" value="1.000000" id="1222" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1223" />
-        <Attribute name="Show Normals" value="0" id="1224" />
-        <Attribute name="On Frame" value="" id="1225" />
-        <Attribute name="On Animation End" value="" id="1226" />
-        <Attribute name="Generate Normals" value="0" id="1227" />
-        <Attribute name="Material 0" value="2921" id="1228" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_EAST 1" id="1229" parent_id="1345">
-        <Attribute name="Name" value="WALL_EAST 1" id="1230" />
-        <Attribute name="Script" value="" id="1231" />
-        <Attribute name="Generate Script" value="" id="1232" />
-        <Attribute name="Parent" value="1345" id="1233" />
-        <Attribute name="Position" value="2.500000, 0.000000, 0.000000" id="1234" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="1235" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1236" />
-        <Attribute name="Is Visible" value="0" id="1237" />
-        <Attribute name="Is Cullable" value="1" id="1238" />
-        <Attribute name="Is Locked" value="0" id="1239" />
-        <Attribute name="Is Pickable" value="1" id="1240" />
-        <Attribute name="Receives Shadows" value="1" id="1241" />
-        <Attribute name="Casts Shadows" value="1" id="1242" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1243" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1244" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1245" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1246" />
-        <Attribute name="On Pick" value="" id="1247" />
-        <Attribute name="Mesh" value="271" id="1248" />
-        <Attribute name="Effect" value="0" id="1249" />
-        <Attribute name="Animation" value="0" id="1250" />
-        <Attribute name="Animation Speed" value="1.000000" id="1251" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1252" />
-        <Attribute name="Show Normals" value="0" id="1253" />
-        <Attribute name="On Frame" value="" id="1254" />
-        <Attribute name="On Animation End" value="" id="1255" />
-        <Attribute name="Generate Normals" value="0" id="1256" />
-        <Attribute name="Material 0" value="2921" id="1257" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_NORTH 1" id="1258" parent_id="1345">
-        <Attribute name="Name" value="WALL_NORTH 1" id="1259" />
-        <Attribute name="Script" value="" id="1260" />
-        <Attribute name="Generate Script" value="" id="1261" />
-        <Attribute name="Parent" value="1345" id="1262" />
-        <Attribute name="Position" value="0.000000, 0.000000, 2.500000" id="1263" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1264" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1265" />
-        <Attribute name="Is Visible" value="0" id="1266" />
-        <Attribute name="Is Cullable" value="1" id="1267" />
-        <Attribute name="Is Locked" value="0" id="1268" />
-        <Attribute name="Is Pickable" value="1" id="1269" />
-        <Attribute name="Receives Shadows" value="1" id="1270" />
-        <Attribute name="Casts Shadows" value="1" id="1271" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1272" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1273" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1274" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1275" />
-        <Attribute name="On Pick" value="" id="1276" />
-        <Attribute name="Mesh" value="271" id="1277" />
-        <Attribute name="Effect" value="0" id="1278" />
-        <Attribute name="Animation" value="0" id="1279" />
-        <Attribute name="Animation Speed" value="1.000000" id="1280" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1281" />
-        <Attribute name="Show Normals" value="0" id="1282" />
-        <Attribute name="On Frame" value="" id="1283" />
-        <Attribute name="On Animation End" value="" id="1284" />
-        <Attribute name="Generate Normals" value="0" id="1285" />
-        <Attribute name="Material 0" value="2921" id="1286" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_SOUTH 1" id="1287" parent_id="1345">
-        <Attribute name="Name" value="WALL_SOUTH 1" id="1288" />
-        <Attribute name="Script" value="" id="1289" />
-        <Attribute name="Generate Script" value="" id="1290" />
-        <Attribute name="Parent" value="1345" id="1291" />
-        <Attribute name="Position" value="0.000000, 0.000000, -2.500000" id="1292" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1293" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1294" />
-        <Attribute name="Is Visible" value="1" id="1295" />
-        <Attribute name="Is Cullable" value="1" id="1296" />
-        <Attribute name="Is Locked" value="0" id="1297" />
-        <Attribute name="Is Pickable" value="1" id="1298" />
-        <Attribute name="Receives Shadows" value="1" id="1299" />
-        <Attribute name="Casts Shadows" value="1" id="1300" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1301" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1302" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1303" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1304" />
-        <Attribute name="On Pick" value="" id="1305" />
-        <Attribute name="Mesh" value="271" id="1306" />
-        <Attribute name="Effect" value="0" id="1307" />
-        <Attribute name="Animation" value="0" id="1308" />
-        <Attribute name="Animation Speed" value="1.000000" id="1309" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1310" />
-        <Attribute name="Show Normals" value="0" id="1311" />
-        <Attribute name="On Frame" value="" id="1312" />
-        <Attribute name="On Animation End" value="" id="1313" />
-        <Attribute name="Generate Normals" value="0" id="1314" />
-        <Attribute name="Material 0" value="2921" id="1315" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_WEST 1" id="1316" parent_id="1345">
-        <Attribute name="Name" value="WALL_WEST 1" id="1317" />
-        <Attribute name="Script" value="" id="1318" />
-        <Attribute name="Generate Script" value="" id="1319" />
-        <Attribute name="Parent" value="1345" id="1320" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 0.000000" id="1321" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="1322" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1323" />
-        <Attribute name="Is Visible" value="0" id="1324" />
-        <Attribute name="Is Cullable" value="1" id="1325" />
-        <Attribute name="Is Locked" value="0" id="1326" />
-        <Attribute name="Is Pickable" value="1" id="1327" />
-        <Attribute name="Receives Shadows" value="1" id="1328" />
-        <Attribute name="Casts Shadows" value="1" id="1329" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1330" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1331" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1332" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1333" />
-        <Attribute name="On Pick" value="" id="1334" />
-        <Attribute name="Mesh" value="271" id="1335" />
-        <Attribute name="Effect" value="0" id="1336" />
-        <Attribute name="Animation" value="0" id="1337" />
-        <Attribute name="Animation Speed" value="1.000000" id="1338" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1339" />
-        <Attribute name="Show Normals" value="0" id="1340" />
-        <Attribute name="On Frame" value="" id="1341" />
-        <Attribute name="On Animation End" value="" id="1342" />
-        <Attribute name="Generate Normals" value="0" id="1343" />
-        <Attribute name="Material 0" value="2921" id="1344" />
-    </CSceneNodeMesh>
-    <CSceneNodeVertex name="c00" id="1345" parent_id="548">
-        <Attribute name="Name" value="c00" id="1346" />
-        <Attribute name="Script" value="" id="1347" />
-        <Attribute name="Generate Script" value="" id="1348" />
-        <Attribute name="Parent" value="548" id="1349" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="1350" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1351" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1352" />
-        <Attribute name="Is Visible" value="1" id="1353" />
-        <Attribute name="Is Cullable" value="1" id="1354" />
-        <Attribute name="Is Locked" value="0" id="1355" />
-        <Attribute name="Is Pickable" value="1" id="1356" />
-        <Attribute name="Receives Shadows" value="0" id="1357" />
-        <Attribute name="Casts Shadows" value="0" id="1358" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1359" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1360" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1361" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1362" />
-        <Attribute name="On Pick" value="" id="1363" />
-        <Attribute name="UV" value="0.000000, 0.000000" id="1364" />
-        <Attribute name="Debug Scale" value="8.000000, 8.000000" id="1365" />
-        <Attribute name="Debug Texture Type" value="0" id="1366" />
-        <Attribute name="Linked Vertices" value="" id="1367" />
-    </CSceneNodeVertex>
-    <CSceneNodeVertex name="c01" id="1368" parent_id="548">
-        <Attribute name="Name" value="c01" id="1369" />
-        <Attribute name="Script" value="" id="1370" />
-        <Attribute name="Generate Script" value="" id="1371" />
-        <Attribute name="Parent" value="548" id="1372" />
-        <Attribute name="Position" value="5.000000, 0.000000, 0.000000" id="1373" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1374" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1375" />
-        <Attribute name="Is Visible" value="1" id="1376" />
-        <Attribute name="Is Cullable" value="1" id="1377" />
-        <Attribute name="Is Locked" value="0" id="1378" />
-        <Attribute name="Is Pickable" value="1" id="1379" />
-        <Attribute name="Receives Shadows" value="0" id="1380" />
-        <Attribute name="Casts Shadows" value="0" id="1381" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1382" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1383" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1384" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1385" />
-        <Attribute name="On Pick" value="" id="1386" />
-        <Attribute name="UV" value="0.000000, 0.000000" id="1387" />
-        <Attribute name="Debug Scale" value="8.000000, 8.000000" id="1388" />
-        <Attribute name="Debug Texture Type" value="0" id="1389" />
-        <Attribute name="Linked Vertices" value="" id="1390" />
-    </CSceneNodeVertex>
-    <CSceneNodeMesh name="floor_tile 2" id="1391" parent_id="1368">
-        <Attribute name="Name" value="floor_tile 2" id="1392" />
-        <Attribute name="Script" value="" id="1393" />
-        <Attribute name="Generate Script" value="" id="1394" />
-        <Attribute name="Parent" value="1368" id="1395" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="1396" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1397" />
-        <Attribute name="Scale" value="1.250000, 1.000000, 1.250000" id="1398" />
-        <Attribute name="Is Visible" value="1" id="1399" />
-        <Attribute name="Is Cullable" value="1" id="1400" />
-        <Attribute name="Is Locked" value="0" id="1401" />
-        <Attribute name="Is Pickable" value="1" id="1402" />
-        <Attribute name="Receives Shadows" value="1" id="1403" />
-        <Attribute name="Casts Shadows" value="1" id="1404" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1405" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1406" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1407" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1408" />
-        <Attribute name="On Pick" value="" id="1409" />
-        <Attribute name="Mesh" value="631" id="1410" />
-        <Attribute name="Effect" value="0" id="1411" />
-        <Attribute name="Animation" value="0" id="1412" />
-        <Attribute name="Animation Speed" value="1.000000" id="1413" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1414" />
-        <Attribute name="Show Normals" value="0" id="1415" />
-        <Attribute name="On Frame" value="" id="1416" />
-        <Attribute name="On Animation End" value="" id="1417" />
-        <Attribute name="Generate Normals" value="1" id="1418" />
-        <Attribute name="Material 0" value="2678" id="1419" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NE 2" id="1420" parent_id="1368">
-        <Attribute name="Name" value="PILLAR_NE 2" id="1421" />
-        <Attribute name="Script" value="" id="1422" />
-        <Attribute name="Generate Script" value="" id="1423" />
-        <Attribute name="Parent" value="1368" id="1424" />
-        <Attribute name="Position" value="2.500000, 0.000000, 2.500000" id="1425" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1426" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1427" />
-        <Attribute name="Is Visible" value="1" id="1428" />
-        <Attribute name="Is Cullable" value="1" id="1429" />
-        <Attribute name="Is Locked" value="0" id="1430" />
-        <Attribute name="Is Pickable" value="1" id="1431" />
-        <Attribute name="Receives Shadows" value="1" id="1432" />
-        <Attribute name="Casts Shadows" value="1" id="1433" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1434" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1435" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1436" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1437" />
-        <Attribute name="On Pick" value="" id="1438" />
-        <Attribute name="Mesh" value="571" id="1439" />
-        <Attribute name="Effect" value="0" id="1440" />
-        <Attribute name="Animation" value="0" id="1441" />
-        <Attribute name="Animation Speed" value="1.000000" id="1442" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1443" />
-        <Attribute name="Show Normals" value="0" id="1444" />
-        <Attribute name="On Frame" value="" id="1445" />
-        <Attribute name="On Animation End" value="" id="1446" />
-        <Attribute name="Generate Normals" value="0" id="1447" />
-        <Attribute name="Material 0" value="2921" id="1448" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NW 2" id="1449" parent_id="1368">
-        <Attribute name="Name" value="PILLAR_NW 2" id="1450" />
-        <Attribute name="Script" value="" id="1451" />
-        <Attribute name="Generate Script" value="" id="1452" />
-        <Attribute name="Parent" value="1368" id="1453" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 2.500000" id="1454" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1455" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1456" />
-        <Attribute name="Is Visible" value="1" id="1457" />
-        <Attribute name="Is Cullable" value="1" id="1458" />
-        <Attribute name="Is Locked" value="0" id="1459" />
-        <Attribute name="Is Pickable" value="1" id="1460" />
-        <Attribute name="Receives Shadows" value="1" id="1461" />
-        <Attribute name="Casts Shadows" value="1" id="1462" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1463" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1464" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1465" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1466" />
-        <Attribute name="On Pick" value="" id="1467" />
-        <Attribute name="Mesh" value="571" id="1468" />
-        <Attribute name="Effect" value="0" id="1469" />
-        <Attribute name="Animation" value="0" id="1470" />
-        <Attribute name="Animation Speed" value="1.000000" id="1471" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1472" />
-        <Attribute name="Show Normals" value="0" id="1473" />
-        <Attribute name="On Frame" value="" id="1474" />
-        <Attribute name="On Animation End" value="" id="1475" />
-        <Attribute name="Generate Normals" value="0" id="1476" />
-        <Attribute name="Material 0" value="2921" id="1477" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SE 2" id="1478" parent_id="1368">
-        <Attribute name="Name" value="PILLAR_SE 2" id="1479" />
-        <Attribute name="Script" value="" id="1480" />
-        <Attribute name="Generate Script" value="" id="1481" />
-        <Attribute name="Parent" value="1368" id="1482" />
-        <Attribute name="Position" value="2.500000, 0.000000, -2.500000" id="1483" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1484" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1485" />
-        <Attribute name="Is Visible" value="1" id="1486" />
-        <Attribute name="Is Cullable" value="1" id="1487" />
-        <Attribute name="Is Locked" value="0" id="1488" />
-        <Attribute name="Is Pickable" value="1" id="1489" />
-        <Attribute name="Receives Shadows" value="1" id="1490" />
-        <Attribute name="Casts Shadows" value="1" id="1491" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1492" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1493" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1494" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1495" />
-        <Attribute name="On Pick" value="" id="1496" />
-        <Attribute name="Mesh" value="571" id="1497" />
-        <Attribute name="Effect" value="0" id="1498" />
-        <Attribute name="Animation" value="0" id="1499" />
-        <Attribute name="Animation Speed" value="1.000000" id="1500" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1501" />
-        <Attribute name="Show Normals" value="0" id="1502" />
-        <Attribute name="On Frame" value="" id="1503" />
-        <Attribute name="On Animation End" value="" id="1504" />
-        <Attribute name="Generate Normals" value="0" id="1505" />
-        <Attribute name="Material 0" value="2921" id="1506" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SW 2" id="1507" parent_id="1368">
-        <Attribute name="Name" value="PILLAR_SW 2" id="1508" />
-        <Attribute name="Script" value="" id="1509" />
-        <Attribute name="Generate Script" value="" id="1510" />
-        <Attribute name="Parent" value="1368" id="1511" />
-        <Attribute name="Position" value="-2.500000, 0.000000, -2.500000" id="1512" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1513" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1514" />
-        <Attribute name="Is Visible" value="1" id="1515" />
-        <Attribute name="Is Cullable" value="1" id="1516" />
-        <Attribute name="Is Locked" value="0" id="1517" />
-        <Attribute name="Is Pickable" value="1" id="1518" />
-        <Attribute name="Receives Shadows" value="1" id="1519" />
-        <Attribute name="Casts Shadows" value="1" id="1520" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1521" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1522" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1523" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1524" />
-        <Attribute name="On Pick" value="" id="1525" />
-        <Attribute name="Mesh" value="571" id="1526" />
-        <Attribute name="Effect" value="0" id="1527" />
-        <Attribute name="Animation" value="0" id="1528" />
-        <Attribute name="Animation Speed" value="1.000000" id="1529" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1530" />
-        <Attribute name="Show Normals" value="0" id="1531" />
-        <Attribute name="On Frame" value="" id="1532" />
-        <Attribute name="On Animation End" value="" id="1533" />
-        <Attribute name="Generate Normals" value="0" id="1534" />
-        <Attribute name="Material 0" value="2921" id="1535" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_EAST 2" id="1536" parent_id="1368">
-        <Attribute name="Name" value="WALL_EAST 2" id="1537" />
-        <Attribute name="Script" value="" id="1538" />
-        <Attribute name="Generate Script" value="" id="1539" />
-        <Attribute name="Parent" value="1368" id="1540" />
-        <Attribute name="Position" value="2.500000, 0.000000, 0.000000" id="1541" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="1542" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1543" />
-        <Attribute name="Is Visible" value="1" id="1544" />
-        <Attribute name="Is Cullable" value="1" id="1545" />
-        <Attribute name="Is Locked" value="0" id="1546" />
-        <Attribute name="Is Pickable" value="1" id="1547" />
-        <Attribute name="Receives Shadows" value="1" id="1548" />
-        <Attribute name="Casts Shadows" value="1" id="1549" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1550" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1551" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1552" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1553" />
-        <Attribute name="On Pick" value="" id="1554" />
-        <Attribute name="Mesh" value="271" id="1555" />
-        <Attribute name="Effect" value="0" id="1556" />
-        <Attribute name="Animation" value="0" id="1557" />
-        <Attribute name="Animation Speed" value="1.000000" id="1558" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1559" />
-        <Attribute name="Show Normals" value="0" id="1560" />
-        <Attribute name="On Frame" value="" id="1561" />
-        <Attribute name="On Animation End" value="" id="1562" />
-        <Attribute name="Generate Normals" value="0" id="1563" />
-        <Attribute name="Material 0" value="2921" id="1564" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_NORTH 2" id="1565" parent_id="1368">
-        <Attribute name="Name" value="WALL_NORTH 2" id="1566" />
-        <Attribute name="Script" value="" id="1567" />
-        <Attribute name="Generate Script" value="" id="1568" />
-        <Attribute name="Parent" value="1368" id="1569" />
-        <Attribute name="Position" value="0.000000, 0.000000, 2.500000" id="1570" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1571" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1572" />
-        <Attribute name="Is Visible" value="1" id="1573" />
-        <Attribute name="Is Cullable" value="1" id="1574" />
-        <Attribute name="Is Locked" value="0" id="1575" />
-        <Attribute name="Is Pickable" value="1" id="1576" />
-        <Attribute name="Receives Shadows" value="1" id="1577" />
-        <Attribute name="Casts Shadows" value="1" id="1578" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1579" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1580" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1581" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1582" />
-        <Attribute name="On Pick" value="" id="1583" />
-        <Attribute name="Mesh" value="6552" id="1584" />
-        <Attribute name="Effect" value="0" id="1585" />
-        <Attribute name="Animation" value="0" id="1586" />
-        <Attribute name="Animation Speed" value="1.000000" id="1587" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1588" />
-        <Attribute name="Show Normals" value="0" id="1589" />
-        <Attribute name="On Frame" value="" id="1590" />
-        <Attribute name="On Animation End" value="" id="1591" />
-        <Attribute name="Generate Normals" value="0" id="1592" />
-        <Attribute name="Material 0" value="2921" id="1593" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_SOUTH 2" id="1594" parent_id="1368">
-        <Attribute name="Name" value="WALL_SOUTH 2" id="1595" />
-        <Attribute name="Script" value="" id="1596" />
-        <Attribute name="Generate Script" value="" id="1597" />
-        <Attribute name="Parent" value="1368" id="1598" />
-        <Attribute name="Position" value="0.000000, 0.000000, -2.500000" id="1599" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1600" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1601" />
-        <Attribute name="Is Visible" value="1" id="1602" />
-        <Attribute name="Is Cullable" value="1" id="1603" />
-        <Attribute name="Is Locked" value="0" id="1604" />
-        <Attribute name="Is Pickable" value="1" id="1605" />
-        <Attribute name="Receives Shadows" value="1" id="1606" />
-        <Attribute name="Casts Shadows" value="1" id="1607" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1608" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1609" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1610" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1611" />
-        <Attribute name="On Pick" value="" id="1612" />
-        <Attribute name="Mesh" value="271" id="1613" />
-        <Attribute name="Effect" value="0" id="1614" />
-        <Attribute name="Animation" value="0" id="1615" />
-        <Attribute name="Animation Speed" value="1.000000" id="1616" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1617" />
-        <Attribute name="Show Normals" value="0" id="1618" />
-        <Attribute name="On Frame" value="" id="1619" />
-        <Attribute name="On Animation End" value="" id="1620" />
-        <Attribute name="Generate Normals" value="0" id="1621" />
-        <Attribute name="Material 0" value="2921" id="1622" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_WEST 2" id="1623" parent_id="1368">
-        <Attribute name="Name" value="WALL_WEST 2" id="1624" />
-        <Attribute name="Script" value="" id="1625" />
-        <Attribute name="Generate Script" value="" id="1626" />
-        <Attribute name="Parent" value="1368" id="1627" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 0.000000" id="1628" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="1629" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1630" />
-        <Attribute name="Is Visible" value="0" id="1631" />
-        <Attribute name="Is Cullable" value="1" id="1632" />
-        <Attribute name="Is Locked" value="0" id="1633" />
-        <Attribute name="Is Pickable" value="1" id="1634" />
-        <Attribute name="Receives Shadows" value="1" id="1635" />
-        <Attribute name="Casts Shadows" value="1" id="1636" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1637" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1638" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1639" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1640" />
-        <Attribute name="On Pick" value="" id="1641" />
-        <Attribute name="Mesh" value="271" id="1642" />
-        <Attribute name="Effect" value="0" id="1643" />
-        <Attribute name="Animation" value="0" id="1644" />
-        <Attribute name="Animation Speed" value="1.000000" id="1645" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1646" />
-        <Attribute name="Show Normals" value="0" id="1647" />
-        <Attribute name="On Frame" value="" id="1648" />
-        <Attribute name="On Animation End" value="" id="1649" />
-        <Attribute name="Generate Normals" value="0" id="1650" />
-        <Attribute name="Material 0" value="2921" id="1651" />
-    </CSceneNodeMesh>
-    <CSceneNodeVertex name="c02" id="1652" parent_id="548">
-        <Attribute name="Name" value="c02" id="1653" />
-        <Attribute name="Script" value="" id="1654" />
-        <Attribute name="Generate Script" value="" id="1655" />
-        <Attribute name="Parent" value="548" id="1656" />
-        <Attribute name="Position" value="0.000000, 0.000000, 5.000000" id="1657" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1658" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1659" />
-        <Attribute name="Is Visible" value="1" id="1660" />
-        <Attribute name="Is Cullable" value="1" id="1661" />
-        <Attribute name="Is Locked" value="0" id="1662" />
-        <Attribute name="Is Pickable" value="1" id="1663" />
-        <Attribute name="Receives Shadows" value="0" id="1664" />
-        <Attribute name="Casts Shadows" value="0" id="1665" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1666" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1667" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1668" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1669" />
-        <Attribute name="On Pick" value="" id="1670" />
-        <Attribute name="UV" value="0.000000, 0.000000" id="1671" />
-        <Attribute name="Debug Scale" value="8.000000, 8.000000" id="1672" />
-        <Attribute name="Debug Texture Type" value="0" id="1673" />
-        <Attribute name="Linked Vertices" value="" id="1674" />
-    </CSceneNodeVertex>
-    <CSceneNodeMesh name="floor_tile 3" id="1675" parent_id="1652">
-        <Attribute name="Name" value="floor_tile 3" id="1676" />
-        <Attribute name="Script" value="" id="1677" />
-        <Attribute name="Generate Script" value="" id="1678" />
-        <Attribute name="Parent" value="1652" id="1679" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="1680" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1681" />
-        <Attribute name="Scale" value="1.250000, 1.000000, 1.250000" id="1682" />
-        <Attribute name="Is Visible" value="1" id="1683" />
-        <Attribute name="Is Cullable" value="1" id="1684" />
-        <Attribute name="Is Locked" value="0" id="1685" />
-        <Attribute name="Is Pickable" value="1" id="1686" />
-        <Attribute name="Receives Shadows" value="1" id="1687" />
-        <Attribute name="Casts Shadows" value="1" id="1688" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1689" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1690" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1691" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1692" />
-        <Attribute name="On Pick" value="" id="1693" />
-        <Attribute name="Mesh" value="631" id="1694" />
-        <Attribute name="Effect" value="0" id="1695" />
-        <Attribute name="Animation" value="0" id="1696" />
-        <Attribute name="Animation Speed" value="1.000000" id="1697" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1698" />
-        <Attribute name="Show Normals" value="0" id="1699" />
-        <Attribute name="On Frame" value="" id="1700" />
-        <Attribute name="On Animation End" value="" id="1701" />
-        <Attribute name="Generate Normals" value="1" id="1702" />
-        <Attribute name="Material 0" value="2678" id="1703" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NE 3" id="1704" parent_id="1652">
-        <Attribute name="Name" value="PILLAR_NE 3" id="1705" />
-        <Attribute name="Script" value="" id="1706" />
-        <Attribute name="Generate Script" value="" id="1707" />
-        <Attribute name="Parent" value="1652" id="1708" />
-        <Attribute name="Position" value="2.500000, 0.000000, 2.500000" id="1709" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1710" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1711" />
-        <Attribute name="Is Visible" value="1" id="1712" />
-        <Attribute name="Is Cullable" value="1" id="1713" />
-        <Attribute name="Is Locked" value="0" id="1714" />
-        <Attribute name="Is Pickable" value="1" id="1715" />
-        <Attribute name="Receives Shadows" value="1" id="1716" />
-        <Attribute name="Casts Shadows" value="1" id="1717" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1718" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1719" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1720" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1721" />
-        <Attribute name="On Pick" value="" id="1722" />
-        <Attribute name="Mesh" value="571" id="1723" />
-        <Attribute name="Effect" value="0" id="1724" />
-        <Attribute name="Animation" value="0" id="1725" />
-        <Attribute name="Animation Speed" value="1.000000" id="1726" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1727" />
-        <Attribute name="Show Normals" value="0" id="1728" />
-        <Attribute name="On Frame" value="" id="1729" />
-        <Attribute name="On Animation End" value="" id="1730" />
-        <Attribute name="Generate Normals" value="0" id="1731" />
-        <Attribute name="Material 0" value="2921" id="1732" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NW 3" id="1733" parent_id="1652">
-        <Attribute name="Name" value="PILLAR_NW 3" id="1734" />
-        <Attribute name="Script" value="" id="1735" />
-        <Attribute name="Generate Script" value="" id="1736" />
-        <Attribute name="Parent" value="1652" id="1737" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 2.500000" id="1738" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1739" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1740" />
-        <Attribute name="Is Visible" value="1" id="1741" />
-        <Attribute name="Is Cullable" value="1" id="1742" />
-        <Attribute name="Is Locked" value="0" id="1743" />
-        <Attribute name="Is Pickable" value="1" id="1744" />
-        <Attribute name="Receives Shadows" value="1" id="1745" />
-        <Attribute name="Casts Shadows" value="1" id="1746" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1747" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1748" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1749" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1750" />
-        <Attribute name="On Pick" value="" id="1751" />
-        <Attribute name="Mesh" value="571" id="1752" />
-        <Attribute name="Effect" value="0" id="1753" />
-        <Attribute name="Animation" value="0" id="1754" />
-        <Attribute name="Animation Speed" value="1.000000" id="1755" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1756" />
-        <Attribute name="Show Normals" value="0" id="1757" />
-        <Attribute name="On Frame" value="" id="1758" />
-        <Attribute name="On Animation End" value="" id="1759" />
-        <Attribute name="Generate Normals" value="0" id="1760" />
-        <Attribute name="Material 0" value="2921" id="1761" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SE 3" id="1762" parent_id="1652">
-        <Attribute name="Name" value="PILLAR_SE 3" id="1763" />
-        <Attribute name="Script" value="" id="1764" />
-        <Attribute name="Generate Script" value="" id="1765" />
-        <Attribute name="Parent" value="1652" id="1766" />
-        <Attribute name="Position" value="2.500000, 0.000000, -2.500000" id="1767" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1768" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1769" />
-        <Attribute name="Is Visible" value="1" id="1770" />
-        <Attribute name="Is Cullable" value="1" id="1771" />
-        <Attribute name="Is Locked" value="0" id="1772" />
-        <Attribute name="Is Pickable" value="1" id="1773" />
-        <Attribute name="Receives Shadows" value="1" id="1774" />
-        <Attribute name="Casts Shadows" value="1" id="1775" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1776" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1777" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1778" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1779" />
-        <Attribute name="On Pick" value="" id="1780" />
-        <Attribute name="Mesh" value="571" id="1781" />
-        <Attribute name="Effect" value="0" id="1782" />
-        <Attribute name="Animation" value="0" id="1783" />
-        <Attribute name="Animation Speed" value="1.000000" id="1784" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1785" />
-        <Attribute name="Show Normals" value="0" id="1786" />
-        <Attribute name="On Frame" value="" id="1787" />
-        <Attribute name="On Animation End" value="" id="1788" />
-        <Attribute name="Generate Normals" value="0" id="1789" />
-        <Attribute name="Material 0" value="2921" id="1790" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SW 3" id="1791" parent_id="1652">
-        <Attribute name="Name" value="PILLAR_SW 3" id="1792" />
-        <Attribute name="Script" value="" id="1793" />
-        <Attribute name="Generate Script" value="" id="1794" />
-        <Attribute name="Parent" value="1652" id="1795" />
-        <Attribute name="Position" value="-2.500000, 0.000000, -2.500000" id="1796" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1797" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1798" />
-        <Attribute name="Is Visible" value="1" id="1799" />
-        <Attribute name="Is Cullable" value="1" id="1800" />
-        <Attribute name="Is Locked" value="0" id="1801" />
-        <Attribute name="Is Pickable" value="1" id="1802" />
-        <Attribute name="Receives Shadows" value="1" id="1803" />
-        <Attribute name="Casts Shadows" value="1" id="1804" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1805" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1806" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1807" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1808" />
-        <Attribute name="On Pick" value="" id="1809" />
-        <Attribute name="Mesh" value="571" id="1810" />
-        <Attribute name="Effect" value="0" id="1811" />
-        <Attribute name="Animation" value="0" id="1812" />
-        <Attribute name="Animation Speed" value="1.000000" id="1813" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1814" />
-        <Attribute name="Show Normals" value="0" id="1815" />
-        <Attribute name="On Frame" value="" id="1816" />
-        <Attribute name="On Animation End" value="" id="1817" />
-        <Attribute name="Generate Normals" value="0" id="1818" />
-        <Attribute name="Material 0" value="2921" id="1819" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_EAST 3" id="1820" parent_id="1652">
-        <Attribute name="Name" value="WALL_EAST 3" id="1821" />
-        <Attribute name="Script" value="" id="1822" />
-        <Attribute name="Generate Script" value="" id="1823" />
-        <Attribute name="Parent" value="1652" id="1824" />
-        <Attribute name="Position" value="2.500000, 0.000000, 0.000000" id="1825" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="1826" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1827" />
-        <Attribute name="Is Visible" value="1" id="1828" />
-        <Attribute name="Is Cullable" value="1" id="1829" />
-        <Attribute name="Is Locked" value="0" id="1830" />
-        <Attribute name="Is Pickable" value="1" id="1831" />
-        <Attribute name="Receives Shadows" value="1" id="1832" />
-        <Attribute name="Casts Shadows" value="1" id="1833" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1834" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1835" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1836" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1837" />
-        <Attribute name="On Pick" value="" id="1838" />
-        <Attribute name="Mesh" value="271" id="1839" />
-        <Attribute name="Effect" value="0" id="1840" />
-        <Attribute name="Animation" value="0" id="1841" />
-        <Attribute name="Animation Speed" value="1.000000" id="1842" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1843" />
-        <Attribute name="Show Normals" value="0" id="1844" />
-        <Attribute name="On Frame" value="" id="1845" />
-        <Attribute name="On Animation End" value="" id="1846" />
-        <Attribute name="Generate Normals" value="0" id="1847" />
-        <Attribute name="Material 0" value="2921" id="1848" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_NORTH 3" id="1849" parent_id="1652">
-        <Attribute name="Name" value="WALL_NORTH 3" id="1850" />
-        <Attribute name="Script" value="" id="1851" />
-        <Attribute name="Generate Script" value="" id="1852" />
-        <Attribute name="Parent" value="1652" id="1853" />
-        <Attribute name="Position" value="0.000000, 0.000000, 2.500000" id="1854" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1855" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1856" />
-        <Attribute name="Is Visible" value="1" id="1857" />
-        <Attribute name="Is Cullable" value="1" id="1858" />
-        <Attribute name="Is Locked" value="0" id="1859" />
-        <Attribute name="Is Pickable" value="1" id="1860" />
-        <Attribute name="Receives Shadows" value="1" id="1861" />
-        <Attribute name="Casts Shadows" value="1" id="1862" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1863" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1864" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1865" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1866" />
-        <Attribute name="On Pick" value="" id="1867" />
-        <Attribute name="Mesh" value="271" id="1868" />
-        <Attribute name="Effect" value="0" id="1869" />
-        <Attribute name="Animation" value="0" id="1870" />
-        <Attribute name="Animation Speed" value="1.000000" id="1871" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1872" />
-        <Attribute name="Show Normals" value="0" id="1873" />
-        <Attribute name="On Frame" value="" id="1874" />
-        <Attribute name="On Animation End" value="" id="1875" />
-        <Attribute name="Generate Normals" value="0" id="1876" />
-        <Attribute name="Material 0" value="2921" id="1877" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_SOUTH 3" id="1878" parent_id="1652">
-        <Attribute name="Name" value="WALL_SOUTH 3" id="1879" />
-        <Attribute name="Script" value="" id="1880" />
-        <Attribute name="Generate Script" value="" id="1881" />
-        <Attribute name="Parent" value="1652" id="1882" />
-        <Attribute name="Position" value="0.000000, 0.000000, -2.500000" id="1883" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1884" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1885" />
-        <Attribute name="Is Visible" value="0" id="1886" />
-        <Attribute name="Is Cullable" value="1" id="1887" />
-        <Attribute name="Is Locked" value="0" id="1888" />
-        <Attribute name="Is Pickable" value="1" id="1889" />
-        <Attribute name="Receives Shadows" value="1" id="1890" />
-        <Attribute name="Casts Shadows" value="1" id="1891" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1892" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1893" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1894" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1895" />
-        <Attribute name="On Pick" value="" id="1896" />
-        <Attribute name="Mesh" value="271" id="1897" />
-        <Attribute name="Effect" value="0" id="1898" />
-        <Attribute name="Animation" value="0" id="1899" />
-        <Attribute name="Animation Speed" value="1.000000" id="1900" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1901" />
-        <Attribute name="Show Normals" value="0" id="1902" />
-        <Attribute name="On Frame" value="" id="1903" />
-        <Attribute name="On Animation End" value="" id="1904" />
-        <Attribute name="Generate Normals" value="0" id="1905" />
-        <Attribute name="Material 0" value="2921" id="1906" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_WEST 3" id="1907" parent_id="1652">
-        <Attribute name="Name" value="WALL_WEST 3" id="1908" />
-        <Attribute name="Script" value="" id="1909" />
-        <Attribute name="Generate Script" value="" id="1910" />
-        <Attribute name="Parent" value="1652" id="1911" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 0.000000" id="1912" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="1913" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1914" />
-        <Attribute name="Is Visible" value="0" id="1915" />
-        <Attribute name="Is Cullable" value="1" id="1916" />
-        <Attribute name="Is Locked" value="0" id="1917" />
-        <Attribute name="Is Pickable" value="1" id="1918" />
-        <Attribute name="Receives Shadows" value="1" id="1919" />
-        <Attribute name="Casts Shadows" value="1" id="1920" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1921" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1922" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1923" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1924" />
-        <Attribute name="On Pick" value="" id="1925" />
-        <Attribute name="Mesh" value="271" id="1926" />
-        <Attribute name="Effect" value="0" id="1927" />
-        <Attribute name="Animation" value="0" id="1928" />
-        <Attribute name="Animation Speed" value="1.000000" id="1929" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1930" />
-        <Attribute name="Show Normals" value="0" id="1931" />
-        <Attribute name="On Frame" value="" id="1932" />
-        <Attribute name="On Animation End" value="" id="1933" />
-        <Attribute name="Generate Normals" value="0" id="1934" />
-        <Attribute name="Material 0" value="2921" id="1935" />
-    </CSceneNodeMesh>
-    <CSceneNodeVertex name="c03" id="1936" parent_id="548">
-        <Attribute name="Name" value="c03" id="1937" />
-        <Attribute name="Script" value="" id="1938" />
-        <Attribute name="Generate Script" value="" id="1939" />
-        <Attribute name="Parent" value="548" id="1940" />
-        <Attribute name="Position" value="-5.000000, 0.000000, 0.000000" id="1941" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1942" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1943" />
-        <Attribute name="Is Visible" value="1" id="1944" />
-        <Attribute name="Is Cullable" value="1" id="1945" />
-        <Attribute name="Is Locked" value="0" id="1946" />
-        <Attribute name="Is Pickable" value="1" id="1947" />
-        <Attribute name="Receives Shadows" value="0" id="1948" />
-        <Attribute name="Casts Shadows" value="0" id="1949" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1950" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1951" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1952" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1953" />
-        <Attribute name="On Pick" value="" id="1954" />
-        <Attribute name="UV" value="0.000000, 0.000000" id="1955" />
-        <Attribute name="Debug Scale" value="8.000000, 8.000000" id="1956" />
-        <Attribute name="Debug Texture Type" value="0" id="1957" />
-        <Attribute name="Linked Vertices" value="" id="1958" />
-    </CSceneNodeVertex>
-    <CSceneNodeMesh name="floor_tile 4" id="1959" parent_id="1936">
-        <Attribute name="Name" value="floor_tile 4" id="1960" />
-        <Attribute name="Script" value="" id="1961" />
-        <Attribute name="Generate Script" value="" id="1962" />
-        <Attribute name="Parent" value="1936" id="1963" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="1964" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1965" />
-        <Attribute name="Scale" value="1.250000, 1.000000, 1.250000" id="1966" />
-        <Attribute name="Is Visible" value="1" id="1967" />
-        <Attribute name="Is Cullable" value="1" id="1968" />
-        <Attribute name="Is Locked" value="0" id="1969" />
-        <Attribute name="Is Pickable" value="1" id="1970" />
-        <Attribute name="Receives Shadows" value="1" id="1971" />
-        <Attribute name="Casts Shadows" value="1" id="1972" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="1973" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="1974" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="1975" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="1976" />
-        <Attribute name="On Pick" value="" id="1977" />
-        <Attribute name="Mesh" value="631" id="1978" />
-        <Attribute name="Effect" value="0" id="1979" />
-        <Attribute name="Animation" value="0" id="1980" />
-        <Attribute name="Animation Speed" value="1.000000" id="1981" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="1982" />
-        <Attribute name="Show Normals" value="0" id="1983" />
-        <Attribute name="On Frame" value="" id="1984" />
-        <Attribute name="On Animation End" value="" id="1985" />
-        <Attribute name="Generate Normals" value="1" id="1986" />
-        <Attribute name="Material 0" value="2678" id="1987" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NE 4" id="1988" parent_id="1936">
-        <Attribute name="Name" value="PILLAR_NE 4" id="1989" />
-        <Attribute name="Script" value="" id="1990" />
-        <Attribute name="Generate Script" value="" id="1991" />
-        <Attribute name="Parent" value="1936" id="1992" />
-        <Attribute name="Position" value="2.500000, 0.000000, 2.500000" id="1993" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="1994" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="1995" />
-        <Attribute name="Is Visible" value="1" id="1996" />
-        <Attribute name="Is Cullable" value="1" id="1997" />
-        <Attribute name="Is Locked" value="0" id="1998" />
-        <Attribute name="Is Pickable" value="1" id="1999" />
-        <Attribute name="Receives Shadows" value="1" id="2000" />
-        <Attribute name="Casts Shadows" value="1" id="2001" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2002" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2003" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2004" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2005" />
-        <Attribute name="On Pick" value="" id="2006" />
-        <Attribute name="Mesh" value="571" id="2007" />
-        <Attribute name="Effect" value="0" id="2008" />
-        <Attribute name="Animation" value="0" id="2009" />
-        <Attribute name="Animation Speed" value="1.000000" id="2010" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2011" />
-        <Attribute name="Show Normals" value="0" id="2012" />
-        <Attribute name="On Frame" value="" id="2013" />
-        <Attribute name="On Animation End" value="" id="2014" />
-        <Attribute name="Generate Normals" value="0" id="2015" />
-        <Attribute name="Material 0" value="2921" id="2016" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_NW 4" id="2017" parent_id="1936">
-        <Attribute name="Name" value="PILLAR_NW 4" id="2018" />
-        <Attribute name="Script" value="" id="2019" />
-        <Attribute name="Generate Script" value="" id="2020" />
-        <Attribute name="Parent" value="1936" id="2021" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 2.500000" id="2022" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="2023" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2024" />
-        <Attribute name="Is Visible" value="1" id="2025" />
-        <Attribute name="Is Cullable" value="1" id="2026" />
-        <Attribute name="Is Locked" value="0" id="2027" />
-        <Attribute name="Is Pickable" value="1" id="2028" />
-        <Attribute name="Receives Shadows" value="1" id="2029" />
-        <Attribute name="Casts Shadows" value="1" id="2030" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2031" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2032" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2033" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2034" />
-        <Attribute name="On Pick" value="" id="2035" />
-        <Attribute name="Mesh" value="571" id="2036" />
-        <Attribute name="Effect" value="0" id="2037" />
-        <Attribute name="Animation" value="0" id="2038" />
-        <Attribute name="Animation Speed" value="1.000000" id="2039" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2040" />
-        <Attribute name="Show Normals" value="0" id="2041" />
-        <Attribute name="On Frame" value="" id="2042" />
-        <Attribute name="On Animation End" value="" id="2043" />
-        <Attribute name="Generate Normals" value="0" id="2044" />
-        <Attribute name="Material 0" value="2921" id="2045" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SE 4" id="2046" parent_id="1936">
-        <Attribute name="Name" value="PILLAR_SE 4" id="2047" />
-        <Attribute name="Script" value="" id="2048" />
-        <Attribute name="Generate Script" value="" id="2049" />
-        <Attribute name="Parent" value="1936" id="2050" />
-        <Attribute name="Position" value="2.500000, 0.000000, -2.500000" id="2051" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="2052" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2053" />
-        <Attribute name="Is Visible" value="1" id="2054" />
-        <Attribute name="Is Cullable" value="1" id="2055" />
-        <Attribute name="Is Locked" value="0" id="2056" />
-        <Attribute name="Is Pickable" value="1" id="2057" />
-        <Attribute name="Receives Shadows" value="1" id="2058" />
-        <Attribute name="Casts Shadows" value="1" id="2059" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2060" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2061" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2062" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2063" />
-        <Attribute name="On Pick" value="" id="2064" />
-        <Attribute name="Mesh" value="571" id="2065" />
-        <Attribute name="Effect" value="0" id="2066" />
-        <Attribute name="Animation" value="0" id="2067" />
-        <Attribute name="Animation Speed" value="1.000000" id="2068" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2069" />
-        <Attribute name="Show Normals" value="0" id="2070" />
-        <Attribute name="On Frame" value="" id="2071" />
-        <Attribute name="On Animation End" value="" id="2072" />
-        <Attribute name="Generate Normals" value="0" id="2073" />
-        <Attribute name="Material 0" value="2921" id="2074" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="PILLAR_SW 4" id="2075" parent_id="1936">
-        <Attribute name="Name" value="PILLAR_SW 4" id="2076" />
-        <Attribute name="Script" value="" id="2077" />
-        <Attribute name="Generate Script" value="" id="2078" />
-        <Attribute name="Parent" value="1936" id="2079" />
-        <Attribute name="Position" value="-2.500000, 0.000000, -2.500000" id="2080" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="2081" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2082" />
-        <Attribute name="Is Visible" value="1" id="2083" />
-        <Attribute name="Is Cullable" value="1" id="2084" />
-        <Attribute name="Is Locked" value="0" id="2085" />
-        <Attribute name="Is Pickable" value="1" id="2086" />
-        <Attribute name="Receives Shadows" value="1" id="2087" />
-        <Attribute name="Casts Shadows" value="1" id="2088" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2089" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2090" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2091" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2092" />
-        <Attribute name="On Pick" value="" id="2093" />
-        <Attribute name="Mesh" value="571" id="2094" />
-        <Attribute name="Effect" value="0" id="2095" />
-        <Attribute name="Animation" value="0" id="2096" />
-        <Attribute name="Animation Speed" value="1.000000" id="2097" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2098" />
-        <Attribute name="Show Normals" value="0" id="2099" />
-        <Attribute name="On Frame" value="" id="2100" />
-        <Attribute name="On Animation End" value="" id="2101" />
-        <Attribute name="Generate Normals" value="0" id="2102" />
-        <Attribute name="Material 0" value="2921" id="2103" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_EAST 4" id="2104" parent_id="1936">
-        <Attribute name="Name" value="WALL_EAST 4" id="2105" />
-        <Attribute name="Script" value="" id="2106" />
-        <Attribute name="Generate Script" value="" id="2107" />
-        <Attribute name="Parent" value="1936" id="2108" />
-        <Attribute name="Position" value="2.500000, 0.000000, 0.000000" id="2109" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="2110" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2111" />
-        <Attribute name="Is Visible" value="0" id="2112" />
-        <Attribute name="Is Cullable" value="1" id="2113" />
-        <Attribute name="Is Locked" value="0" id="2114" />
-        <Attribute name="Is Pickable" value="1" id="2115" />
-        <Attribute name="Receives Shadows" value="1" id="2116" />
-        <Attribute name="Casts Shadows" value="1" id="2117" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2118" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2119" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2120" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2121" />
-        <Attribute name="On Pick" value="" id="2122" />
-        <Attribute name="Mesh" value="271" id="2123" />
-        <Attribute name="Effect" value="0" id="2124" />
-        <Attribute name="Animation" value="0" id="2125" />
-        <Attribute name="Animation Speed" value="1.000000" id="2126" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2127" />
-        <Attribute name="Show Normals" value="0" id="2128" />
-        <Attribute name="On Frame" value="" id="2129" />
-        <Attribute name="On Animation End" value="" id="2130" />
-        <Attribute name="Generate Normals" value="0" id="2131" />
-        <Attribute name="Material 0" value="2921" id="2132" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_NORTH 4" id="2133" parent_id="1936">
-        <Attribute name="Name" value="WALL_NORTH 4" id="2134" />
-        <Attribute name="Script" value="" id="2135" />
-        <Attribute name="Generate Script" value="" id="2136" />
-        <Attribute name="Parent" value="1936" id="2137" />
-        <Attribute name="Position" value="0.000000, 0.000000, 2.500000" id="2138" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="2139" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2140" />
-        <Attribute name="Is Visible" value="1" id="2141" />
-        <Attribute name="Is Cullable" value="1" id="2142" />
-        <Attribute name="Is Locked" value="0" id="2143" />
-        <Attribute name="Is Pickable" value="1" id="2144" />
-        <Attribute name="Receives Shadows" value="1" id="2145" />
-        <Attribute name="Casts Shadows" value="1" id="2146" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2147" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2148" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2149" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2150" />
-        <Attribute name="On Pick" value="" id="2151" />
-        <Attribute name="Mesh" value="271" id="2152" />
-        <Attribute name="Effect" value="0" id="2153" />
-        <Attribute name="Animation" value="0" id="2154" />
-        <Attribute name="Animation Speed" value="1.000000" id="2155" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2156" />
-        <Attribute name="Show Normals" value="0" id="2157" />
-        <Attribute name="On Frame" value="" id="2158" />
-        <Attribute name="On Animation End" value="" id="2159" />
-        <Attribute name="Generate Normals" value="0" id="2160" />
-        <Attribute name="Material 0" value="2921" id="2161" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_SOUTH 4" id="2162" parent_id="1936">
-        <Attribute name="Name" value="WALL_SOUTH 4" id="2163" />
-        <Attribute name="Script" value="" id="2164" />
-        <Attribute name="Generate Script" value="" id="2165" />
-        <Attribute name="Parent" value="1936" id="2166" />
-        <Attribute name="Position" value="0.000000, 0.000000, -2.500000" id="2167" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="2168" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2169" />
-        <Attribute name="Is Visible" value="1" id="2170" />
-        <Attribute name="Is Cullable" value="1" id="2171" />
-        <Attribute name="Is Locked" value="0" id="2172" />
-        <Attribute name="Is Pickable" value="1" id="2173" />
-        <Attribute name="Receives Shadows" value="1" id="2174" />
-        <Attribute name="Casts Shadows" value="1" id="2175" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2176" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2177" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2178" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2179" />
-        <Attribute name="On Pick" value="" id="2180" />
-        <Attribute name="Mesh" value="271" id="2181" />
-        <Attribute name="Effect" value="0" id="2182" />
-        <Attribute name="Animation" value="0" id="2183" />
-        <Attribute name="Animation Speed" value="1.000000" id="2184" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2185" />
-        <Attribute name="Show Normals" value="0" id="2186" />
-        <Attribute name="On Frame" value="" id="2187" />
-        <Attribute name="On Animation End" value="" id="2188" />
-        <Attribute name="Generate Normals" value="0" id="2189" />
-        <Attribute name="Material 0" value="2921" id="2190" />
-    </CSceneNodeMesh>
-    <CSceneNodeMesh name="WALL_WEST 4" id="2191" parent_id="1936">
-        <Attribute name="Name" value="WALL_WEST 4" id="2192" />
-        <Attribute name="Script" value="" id="2193" />
-        <Attribute name="Generate Script" value="" id="2194" />
-        <Attribute name="Parent" value="1936" id="2195" />
-        <Attribute name="Position" value="-2.500000, 0.000000, 0.000000" id="2196" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="2197" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2198" />
-        <Attribute name="Is Visible" value="1" id="2199" />
-        <Attribute name="Is Cullable" value="1" id="2200" />
-        <Attribute name="Is Locked" value="0" id="2201" />
-        <Attribute name="Is Pickable" value="1" id="2202" />
-        <Attribute name="Receives Shadows" value="1" id="2203" />
-        <Attribute name="Casts Shadows" value="1" id="2204" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2205" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2206" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2207" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2208" />
-        <Attribute name="On Pick" value="" id="2209" />
-        <Attribute name="Mesh" value="271" id="2210" />
-        <Attribute name="Effect" value="0" id="2211" />
-        <Attribute name="Animation" value="0" id="2212" />
-        <Attribute name="Animation Speed" value="1.000000" id="2213" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2214" />
-        <Attribute name="Show Normals" value="0" id="2215" />
-        <Attribute name="On Frame" value="" id="2216" />
-        <Attribute name="On Animation End" value="" id="2217" />
-        <Attribute name="Generate Normals" value="0" id="2218" />
-        <Attribute name="Material 0" value="2921" id="2219" />
-    </CSceneNodeMesh>
     <CMesh name="floor_tile_small" id="2220" parent_id="0">
         <Attribute name="Name" value="floor_tile_small" id="2221" />
         <Attribute name="Script" value="" id="2222" />
@@ -2183,36 +933,6 @@
         <Attribute name="Animations" value="" id="2635" />
         <Attribute name="Baking Timestep" value="0.100000" id="2636" />
     </CMesh>
-    <CSceneNodeMesh name="KayKit Animated Character_v1.2 Mesh" id="2637" parent_id="548">
-        <Attribute name="Name" value="KayKit Animated Character_v1.2 Mesh" id="2638" />
-        <Attribute name="Script" value="" id="2639" />
-        <Attribute name="Generate Script" value="" id="2640" />
-        <Attribute name="Parent" value="548" id="2641" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="2642" />
-        <Attribute name="Rotation" value="0.000000, -180.000000, 0.000000" id="2643" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="2644" />
-        <Attribute name="Is Visible" value="1" id="2645" />
-        <Attribute name="Is Cullable" value="1" id="2646" />
-        <Attribute name="Is Locked" value="0" id="2647" />
-        <Attribute name="Is Pickable" value="1" id="2648" />
-        <Attribute name="Receives Shadows" value="1" id="2649" />
-        <Attribute name="Casts Shadows" value="1" id="2650" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="2651" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="2652" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="2653" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2654" />
-        <Attribute name="On Pick" value="" id="2655" />
-        <Attribute name="Mesh" value="2629" id="2656" />
-        <Attribute name="Effect" value="0" id="2657" />
-        <Attribute name="Animation" value="2666" id="2658" />
-        <Attribute name="Animation Speed" value="1.000000" id="2659" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="2660" />
-        <Attribute name="Show Normals" value="0" id="2661" />
-        <Attribute name="On Frame" value="" id="2662" />
-        <Attribute name="On Animation End" value="" id="2663" />
-        <Attribute name="Generate Normals" value="1" id="2664" />
-        <Attribute name="Material 0" value="2887" id="2665" />
-    </CSceneNodeMesh>
     <CMeshAnimation name="Mesh Animation 1" id="2666" parent_id="0">
         <Attribute name="Name" value="Mesh Animation 1" id="2667" />
         <Attribute name="Script" value="" id="2668" />
@@ -2278,9 +998,9 @@
         <Attribute name="Visibility Fade Out Time" value="-1.000000" id="2726" />
         <Attribute name="On Pick" value="" id="2727" />
         <Attribute name="Projected Texture" value="0" id="2728" />
-        <Attribute name="Range" value="9.000000" id="2729" />
-        <Attribute name="Shadow Map Width" value="512" id="2730" />
-        <Attribute name="Shadow Map Height" value="512" id="2731" />
+        <Attribute name="Range" value="20.000000" id="2729" />
+        <Attribute name="Shadow Map Width" value="2048" id="2730" />
+        <Attribute name="Shadow Map Height" value="2048" id="2731" />
         <Attribute name="Shadow Epsilon" value="0.001000" id="2732" />
         <Attribute name="Shadow Colour" value="0.000000, 0.125490, 0.125490, 1.000000" id="2733" />
         <Attribute name="Type" value="1" id="2734" />
@@ -2387,41 +1107,6 @@
         <Attribute name="Normal Effect" value="0" id="2953" />
         <Attribute name="UV Effect" value="0" id="2954" />
     </CMaterial>
-    <CSceneNodeLight name="Light 6" id="3076" parent_id="1652">
-        <Attribute name="Name" value="Light 6" id="3077" />
-        <Attribute name="Script" value="" id="3078" />
-        <Attribute name="Generate Script" value="" id="3079" />
-        <Attribute name="Parent" value="1652" id="3080" />
-        <Attribute name="Position" value="-0.110284, -0.110284, -5.700000" id="3081" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="3082" />
-        <Attribute name="Is Visible" value="1" id="3083" />
-        <Attribute name="Is Cullable" value="0" id="3084" />
-        <Attribute name="Is Locked" value="0" id="3085" />
-        <Attribute name="Is Pickable" value="1" id="3086" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="3087" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="3088" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="3089" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="3090" />
-        <Attribute name="On Pick" value="" id="3091" />
-        <Attribute name="Projected Texture" value="0" id="3092" />
-        <Attribute name="Range" value="5.000000" id="3093" />
-        <Attribute name="Shadow Map Width" value="512" id="3094" />
-        <Attribute name="Shadow Map Height" value="512" id="3095" />
-        <Attribute name="Shadow Epsilon" value="0.001000" id="3096" />
-        <Attribute name="Shadow Colour" value="0.000000, 0.000000, 0.000000, 0.000000" id="3097" />
-        <Attribute name="Type" value="1" id="3098" />
-        <Attribute name="Colour" value="1.000000, 0.486275, 0.090196, 1.000000" id="3099" />
-        <Attribute name="Inner Angle" value="45.000000" id="3100" />
-        <Attribute name="Outer Angle" value="90.000000" id="3101" />
-        <Attribute name="Falloff" value="1.000000" id="3102" />
-        <Attribute name="Attenuation 0" value="1.000000" id="3103" />
-        <Attribute name="Attenuation 1" value="0.000000" id="3104" />
-        <Attribute name="Attenuation 2" value="0.000000" id="3105" />
-        <Attribute name="Enable Shadows" value="1" id="3106" />
-        <Attribute name="Shadow Ortho Width" value="10.000000" id="3107" />
-        <Attribute name="Shadow Ortho Height" value="10.000000" id="3108" />
-        <Attribute name="Projected Cube Texture" value="0" id="3109" />
-    </CSceneNodeLight>
     <CMesh name="shelves" id="3110" parent_id="0">
         <Attribute name="Name" value="shelves" id="3111" />
         <Attribute name="Script" value="" id="3112" />
@@ -2431,56 +1116,17 @@
         <Attribute name="Animations" value="" id="3116" />
         <Attribute name="Baking Timestep" value="0.100000" id="3117" />
     </CMesh>
-    <CSceneNodeMesh name="shelves Mesh" id="3118" parent_id="1345">
-        <Attribute name="Name" value="shelves Mesh" id="3119" />
-        <Attribute name="Script" value="" id="3120" />
-        <Attribute name="Generate Script" value="" id="3121" />
-        <Attribute name="Parent" value="1345" id="3122" />
-        <Attribute name="Position" value="0.000000, 0.000000, -2.500000" id="3123" />
-        <Attribute name="Rotation" value="0.000000, 180.000000, 0.000000" id="3124" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="3125" />
-        <Attribute name="Is Visible" value="1" id="3126" />
-        <Attribute name="Is Cullable" value="1" id="3127" />
-        <Attribute name="Is Locked" value="0" id="3128" />
-        <Attribute name="Is Pickable" value="1" id="3129" />
-        <Attribute name="Receives Shadows" value="0" id="3130" />
-        <Attribute name="Casts Shadows" value="0" id="3131" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="3132" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="3133" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="3134" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="3135" />
-        <Attribute name="On Pick" value="" id="3136" />
-        <Attribute name="Mesh" value="3110" id="3137" />
-        <Attribute name="Effect" value="0" id="3138" />
-        <Attribute name="Animation" value="0" id="3139" />
-        <Attribute name="Animation Speed" value="1.000000" id="3140" />
-        <Attribute name="Animation Blend Time" value="1.000000" id="3141" />
-        <Attribute name="Show Normals" value="0" id="3142" />
-        <Attribute name="On Frame" value="" id="3143" />
-        <Attribute name="On Animation End" value="" id="3144" />
-        <Attribute name="Generate Normals" value="0" id="3145" />
-        <Attribute name="Material 0" value="2921" id="3146" />
-    </CSceneNodeMesh>
     <CAttributeModifierOscillateFloat name="Position-&gt;Y Oscillate (Float)" id="3147" parent_id="0">
         <Attribute name="Name" value="Position-&gt;Y Oscillate (Float)" id="3148" />
         <Attribute name="Script" value="" id="3149" />
         <Attribute name="Generate Script" value="" id="3150" />
-        <Attribute name="Attributes" value="3163,3162" id="3151" />
+        <Attribute name="Attributes" value="" id="3151" />
         <Attribute name="Enable Updates" value="1" id="3152" />
         <Attribute name="Min" value="-0.200000" id="3153" />
         <Attribute name="Max" value="0.000000" id="3154" />
         <Attribute name="Speed" value="0.010000" id="3155" />
         <Attribute name="Phase Shift" value="0.000000" id="3156" />
     </CAttributeModifierOscillateFloat>
-    <CAttributeSplitterVector3 name="Position" id="3157" parent_id="0">
-        <Attribute name="Name" value="Position" id="3158" />
-        <Attribute name="Script" value="" id="3159" />
-        <Attribute name="Generate Script" value="" id="3160" />
-        <Attribute name="Source Attribute" value="3081" id="3161" />
-        <Attribute name="X" value="-0.110284" id="3162" />
-        <Attribute name="Y" value="-0.110284" id="3163" />
-        <Attribute name="Z" value="-5.700000" id="3164" />
-    </CAttributeSplitterVector3>
     <CMesh name="wall_tsplit_sloped" id="3368" parent_id="0">
         <Attribute name="Name" value="wall_tsplit_sloped" id="3369" />
         <Attribute name="Script" value="" id="3370" />
@@ -6171,8 +4817,8 @@
         <Attribute name="Colour Component Blue" value="2" id="6648" />
         <Attribute name="Pixel Type" value="9" id="6649" />
     </CAllPixelController>
-    <CMachine name="Machine 1" id="6650" parent_id="0">
-        <Attribute name="Name" value="Machine 1" id="6651" />
+    <CMachine name="Movement" id="6650" parent_id="0">
+        <Attribute name="Name" value="Movement" id="6651" />
         <Attribute name="Script" value="" id="6652" />
         <Attribute name="Generate Script" value="" id="6653" />
         <Attribute name="Components" value="6710,6736,6748,6760,6778,6790,6821,6840,6860,6875,6894,7109,7146,7164,7182,7200,7219,7238,7257,7292,7307,7338,7357,7376,7394" id="6654" />
@@ -6193,10 +4839,10 @@
         <Attribute name="Run from Flow In" value="" id="6669" />
         <Attribute name="Attribute Positions" value="6812|6881983,6819|4269015724,6820|20447468,6859|42468282,7291|4281992744,7322|7145039" id="6670" />
         <Attribute name="Player_X" value="1" id="6812" />
-        <Attribute name="Player_Y" value="0" id="6819" />
+        <Attribute name="Player_Y" value="1" id="6819" />
         <Attribute name="Facing" value="3" id="6820" />
         <Attribute name="Avatar-&gt;Rotation-&gt;Y" value="270.000000" id="6859" />
-        <Attribute name="Avatar-&gt;Position-&gt;Z" value="0.000000" id="7291" />
+        <Attribute name="Avatar-&gt;Position-&gt;Z" value="5.000000" id="7291" />
         <Attribute name="Avatar-&gt;Position-&gt;X" value="5.000000" id="7322" />
     </CMachine>
     <CMachineOperatorTrigger name="KEY_W-&gt;On Key Down" id="6710" parent_id="0">
@@ -6288,10 +4934,10 @@
         <Attribute name="Output Mappings" value="6839|6835" id="6829" />
         <Attribute name="In" value="0" id="6830" />
         <Attribute name="Out" value="6903" id="6831" />
-        <Attribute name="A" value="1" id="6832" />
+        <Attribute name="A" value="3" id="6832" />
         <Attribute name="Operator" value="0" id="6833" />
         <Attribute name="B" value="1" id="6834" />
-        <Attribute name="Result" value="2" id="6835" />
+        <Attribute name="Result" value="4" id="6835" />
         <Attribute name="A Input" value="6820" id="6836" />
         <Attribute name="Operator Input" value="" id="6837" />
         <Attribute name="B Input" value="" id="6838" />
@@ -6423,7 +5069,7 @@
         <Attribute name="In" value="0" id="7173" />
         <Attribute name="OptionCount" value="4" id="7174" />
         <Attribute name="FlowOutputOptions" value="7178,7179,7180,7181" id="7175" />
-        <Attribute name="Value" value="3" id="7176" />
+        <Attribute name="Value" value="0" id="7176" />
         <Attribute name="0" value="7266" id="7178" />
         <Attribute name="1" value="7209" id="7179" />
         <Attribute name="2" value="7247" id="7180" />
@@ -6442,7 +5088,7 @@
         <Attribute name="In" value="0" id="7191" />
         <Attribute name="OptionCount" value="4" id="7192" />
         <Attribute name="FlowOutputOptions" value="7196,7197,7198,7199" id="7193" />
-        <Attribute name="Value" value="1" id="7194" />
+        <Attribute name="Value" value="0" id="7194" />
         <Attribute name="0" value="7247" id="7196" />
         <Attribute name="1" value="7228" id="7197" />
         <Attribute name="2" value="7266" id="7198" />
@@ -6536,7 +5182,7 @@
         <Attribute name="Source Attribute" value="613" id="7280" />
         <Attribute name="X" value="5.000000" id="7281" />
         <Attribute name="Y" value="0.000000" id="7282" />
-        <Attribute name="Z" value="0.000000" id="7283" />
+        <Attribute name="Z" value="5.000000" id="7283" />
     </CAttributeSplitterVector3>
     <CMachineOperatorConvertIntToFloat name="Convert Int To Float 2" id="7292" parent_id="0">
         <Attribute name="Name" value="Convert Int To Float 2" id="7293" />
@@ -6549,8 +5195,8 @@
         <Attribute name="Output Mappings" value="7306|7304" id="7300" />
         <Attribute name="In" value="0" id="7301" />
         <Attribute name="Out" value="7347" id="7302" />
-        <Attribute name="Input" value="0" id="7303" />
-        <Attribute name="Output" value="0.000000" id="7304" />
+        <Attribute name="Input" value="1" id="7303" />
+        <Attribute name="Output" value="1.000000" id="7304" />
         <Attribute name="Input Input" value="6819" id="7305" />
         <Attribute name="Output Output" value="" id="7306" />
     </CMachineOperatorConvertIntToFloat>
@@ -6581,10 +5227,10 @@
         <Attribute name="Output Mappings" value="7356|7352" id="7346" />
         <Attribute name="In" value="0" id="7347" />
         <Attribute name="Out" value="0" id="7348" />
-        <Attribute name="A" value="0.000000" id="7349" />
+        <Attribute name="A" value="1.000000" id="7349" />
         <Attribute name="Operator" value="2" id="7350" />
         <Attribute name="B" value="5.000000" id="7351" />
-        <Attribute name="Result" value="0.000000" id="7352" />
+        <Attribute name="Result" value="5.000000" id="7352" />
         <Attribute name="A Input" value="7304" id="7353" />
         <Attribute name="Operator Input" value="" id="7354" />
         <Attribute name="B Input" value="" id="7355" />
@@ -6649,163 +5295,6 @@
         <Attribute name="B Input" value="" id="7411" />
         <Attribute name="Result Output" value="6820" id="7412" />
     </CMachineOperatorMathematicalInt>
-    <CSceneNodeParticleSystem name="Particle System 1" id="7413" parent_id="1345">
-        <Attribute name="Name" value="Particle System 1" id="7414" />
-        <Attribute name="Script" value="" id="7415" />
-        <Attribute name="Generate Script" value="" id="7416" />
-        <Attribute name="Parent" value="1345" id="7417" />
-        <Attribute name="Position" value="0.200000, 2.000000, 4.300000" id="7418" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="7419" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="7420" />
-        <Attribute name="Is Visible" value="1" id="7421" />
-        <Attribute name="Is Cullable" value="0" id="7422" />
-        <Attribute name="Is Locked" value="0" id="7423" />
-        <Attribute name="Is Pickable" value="1" id="7424" />
-        <Attribute name="Receives Shadows" value="0" id="7425" />
-        <Attribute name="Casts Shadows" value="0" id="7426" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="7427" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="7428" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="7429" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="7430" />
-        <Attribute name="On Pick" value="" id="7431" />
-        <Attribute name="Count X" value="64" id="7432" />
-        <Attribute name="Count Y" value="64" id="7433" />
-        <Attribute name="Emitters" value="7547" id="7434" />
-        <Attribute name="Emitter Shape" value="4" id="7435" />
-        <Attribute name="Particle Mesh" value="" id="7436" />
-        <Attribute name="Material" value="2678" id="7437" />
-        <Attribute name="Emitter Texture" value="0" id="7438" />
-        <Attribute name="Emitter Particle System" value="0" id="7439" />
-        <Attribute name="Emitter Particle System Mid Percent" value="0.000000" id="7440" />
-        <Attribute name="Emitter Speed Min" value="1.000000" id="7441" />
-        <Attribute name="Emitter Speed Max" value="1.000000" id="7442" />
-        <Attribute name="Emitter Image Threshold Min" value="0.000000" id="7443" />
-        <Attribute name="Emitter Image Threshold Max" value="1.000000" id="7444" />
-        <Attribute name="Emitter Image Ignore Position" value="0.000000, 0.000000, 0.000000" id="7445" />
-        <Attribute name="Line Emitter Points" value="" id="7446" />
-        <Attribute name="Lines Emitter Max Distance" value="0.000000" id="7447" />
-        <Attribute name="Nozzle Type" value="1" id="7448" />
-        <Attribute name="Fountain Angle Min" value="45.000000" id="7449" />
-        <Attribute name="Fountain Angle Max" value="90.000000" id="7450" />
-        <Attribute name="Enable Emission" value="1" id="7451" />
-        <Attribute name="Attraction Mode" value="0" id="7452" />
-        <Attribute name="Point Attractors" value="" id="7453" />
-        <Attribute name="Image Attractor" value="0" id="7454" />
-        <Attribute name="Force Field" value="0" id="7455" />
-        <Attribute name="Collision Planes" value="" id="7456" />
-        <Attribute name="Collision Height Map" value="0" id="7457" />
-        <Attribute name="Collision Spheres" value="" id="7458" />
-        <Attribute name="Collision Sphere Bounce" value="1.000000" id="7459" />
-        <Attribute name="Rate" value="300.000000" id="7460" />
-        <Attribute name="Mass" value="1.000000" id="7461" />
-        <Attribute name="Time Scale" value="1.000000" id="7462" />
-        <Attribute name="Gravity" value="0.000000, -1.000000, 0.000000" id="7463" />
-        <Attribute name="Is Gravity World Space" value="0" id="7464" />
-        <Attribute name="Damping" value="0.000000" id="7465" />
-        <Attribute name="Drag Force" value="0.000000" id="7466" />
-        <Attribute name="Lifetime Min" value="1.000000" id="7467" />
-        <Attribute name="Lifetime Max" value="2.000000" id="7468" />
-        <Attribute name="Size Start" value="0.100000" id="7469" />
-        <Attribute name="Size Middle" value="0.100000" id="7470" />
-        <Attribute name="Size End" value="0.100000" id="7471" />
-        <Attribute name="Size Mid Percent Range" value="0.500000, 0.500000" id="7472" />
-        <Attribute name="Random Size Min" value="0.000000" id="7473" />
-        <Attribute name="Random Size Max" value="0.000000" id="7474" />
-        <Attribute name="Mesh Scale" value="1.000000, 1.000000, 1.000000" id="7475" />
-        <Attribute name="Mesh Rotation" value="0.000000, 0.000000, 0.000000" id="7476" />
-        <Attribute name="Enable Tiles" value="0" id="7477" />
-        <Attribute name="Tile Count X" value="4" id="7478" />
-        <Attribute name="Tile Count Y" value="4" id="7479" />
-        <Attribute name="Tile Animation Type" value="0" id="7480" />
-        <Attribute name="Tile Animation Frame Rate" value="25.000000" id="7481" />
-        <Attribute name="Starting Tile Mode" value="0" id="7482" />
-        <Attribute name="Start Tile" value="0" id="7483" />
-        <Attribute name="Finish Tile" value="0" id="7484" />
-        <Attribute name="Play Tile Animation On Collision" value="0" id="7485" />
-        <Attribute name="Tile Scrub" value="0" id="7486" />
-        <Attribute name="Scrubbing Timeout" value="1.000000" id="7487" />
-        <Attribute name="Colour Type" value="1" id="7488" />
-        <Attribute name="Colour Start" value="1.000000, 1.000000, 1.000000, 0.000000" id="7489" />
-        <Attribute name="Colour Middle" value="1.000000, 1.000000, 1.000000, 1.000000" id="7490" />
-        <Attribute name="Colour End" value="1.000000, 1.000000, 1.000000, 0.000000" id="7491" />
-        <Attribute name="Colour Mid Percent Range" value="0.500000, 0.500000" id="7492" />
-        <Attribute name="Colour Texture" value="0" id="7493" />
-        <Attribute name="Attraction Blend Max Distance" value="1.000000" id="7494" />
-        <Attribute name="Rotation Type" value="0" id="7495" />
-        <Attribute name="Initial Rotation" value="0.000000, 0.000000, 0.000000" id="7496" />
-        <Attribute name="Rotational Velocity" value="0.000000, 0.000000, 0.000000" id="7497" />
-        <Attribute name="Align Speed" value="1.000000" id="7498" />
-        <Attribute name="Rotation Texture" value="0" id="7499" />
-        <Attribute name="Wiggle Enable" value="0" id="7500" />
-        <Attribute name="Wiggle Interval Min" value="0.000000" id="7501" />
-        <Attribute name="Wiggle Interval Max" value="1.000000" id="7502" />
-        <Attribute name="Wiggle Strength" value="100.000000" id="7503" />
-        <Attribute name="Wiggle Angle Min" value="0.000000" id="7504" />
-        <Attribute name="Wiggle Angle Max" value="360.000000" id="7505" />
-        <Attribute name="Movement Delay" value="0.000000" id="7506" />
-        <Attribute name="Culling Sphere" value="0" id="7507" />
-        <Attribute name="Culling Sphere Radius" value="1.000000" id="7508" />
-        <Attribute name="Enable Speed Limit" value="0" id="7509" />
-        <Attribute name="Speed Limit" value="10000.000000" id="7510" />
-        <Attribute name="3D Speed Limit" value="10000.000000, 10000.000000, 10000.000000" id="7511" />
-        <Attribute name="Enable Max Attractor Distance" value="0" id="7512" />
-        <Attribute name="Max Attractor Distance" value="0.000000" id="7513" />
-        <Attribute name="Image Attractor Lock Distance" value="0.000000" id="7514" />
-        <Attribute name="Image Attractor Lock Speed" value="0.000000" id="7515" />
-        <Attribute name="Aspect Ratio Type" value="0" id="7516" />
-        <Attribute name="Custom Aspect Ratio" value="1.000000" id="7517" />
-        <Attribute name="Emission Type" value="0" id="7518" />
-        <Attribute name="Emission Structure" value="0" id="7519" />
-        <Attribute name="Emit To Grid" value="1" id="7520" />
-        <Attribute name="Reemit Alive Particles" value="0" id="7521" />
-        <Attribute name="Velocity Stretch" value="0" id="7522" />
-        <Attribute name="Velocity Stretch Amount" value="3.000000" id="7523" />
-        <Attribute name="Colour Projection Camera" value="0" id="7524" />
-        <Attribute name="Mesh Type" value="0" id="7525" />
-        <Attribute name="Mesh Animation" value="0" id="7526" />
-        <Attribute name="Ribbon Breaking Distance" value="5.000000" id="7527" />
-        <Attribute name="Ribbon Alpha Min Percent" value="0.500000" id="7528" />
-        <Attribute name="Fan Center Point" value="0.000000, 0.000000, 0.000000" id="7529" />
-        <Attribute name="Fan Point Breaking Distance" value="5.000000" id="7530" />
-        <Attribute name="Fan Center Breaking Distance" value="5.000000" id="7531" />
-        <Attribute name="Fan Outer Alpha" value="0.000000" id="7532" />
-        <Attribute name="Pivot Point" value="0.000000, 0.000000, 0.000000" id="7533" />
-        <Attribute name="Size Type" value="0" id="7534" />
-        <Attribute name="Size Interpolation" value="0" id="7535" />
-        <Attribute name="Size Texture" value="0" id="7536" />
-        <Attribute name="Attraction Scale Texture" value="0" id="7537" />
-        <Attribute name="Custom Material Data Texture" value="0" id="7538" />
-        <Attribute name="Mesh Animation Playback Speed" value="1.000000" id="7539" />
-        <Attribute name="Force Delay" value="0.000000" id="7540" />
-        <Attribute name="Double Sided Quad" value="1" id="7541" />
-        <Attribute name="Critical Change Fade Time" value="0.000000" id="7542" />
-        <Attribute name="Collision Field" value="0" id="7543" />
-        <Attribute name="Randomise Image Attraction" value="0" id="7544" />
-        <Attribute name="Distance Emitter Distance" value="0.100000" id="7545" />
-        <Attribute name="Smooth Surface Normals" value="1" id="7546" />
-    </CSceneNodeParticleSystem>
-    <CSceneNodeParticleEmitter name="Particle Emitter 1" id="7547" parent_id="7413">
-        <Attribute name="Name" value="Particle Emitter 1" id="7548" />
-        <Attribute name="Script" value="" id="7549" />
-        <Attribute name="Generate Script" value="" id="7550" />
-        <Attribute name="Parent" value="7413" id="7551" />
-        <Attribute name="Position" value="0.000000, 0.000000, 0.000000" id="7552" />
-        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="7553" />
-        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="7554" />
-        <Attribute name="Is Visible" value="1" id="7555" />
-        <Attribute name="Is Cullable" value="0" id="7556" />
-        <Attribute name="Is Locked" value="0" id="7557" />
-        <Attribute name="Is Pickable" value="1" id="7558" />
-        <Attribute name="Receives Shadows" value="0" id="7559" />
-        <Attribute name="Casts Shadows" value="0" id="7560" />
-        <Attribute name="Visibility Scale Time" value="0.000000" id="7561" />
-        <Attribute name="Visibility Fade Delay" value="0.000000" id="7562" />
-        <Attribute name="Visibility Fade Time" value="0.000000" id="7563" />
-        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="7564" />
-        <Attribute name="On Pick" value="" id="7565" />
-        <Attribute name="Is Enabled" value="1" id="7566" />
-        <Attribute name="Velocity" value="0.000000, 1.000000, 0.000000" id="7567" />
-    </CSceneNodeParticleEmitter>
     <CTexture name="dungeon_texture" id="7568" parent_id="0">
         <Attribute name="Name" value="dungeon_texture" id="7569" />
         <Attribute name="Script" value="" id="7570" />
@@ -6943,4 +5432,59 @@
         <Attribute name="Output Index" value="0" id="7819" />
         <Attribute name="Allow Feedback" value="0" id="7820" />
     </CCameraTexture>
+    <CMazeGenerator name="CMazeGenerator 1" id="7923" parent_id="0">
+        <Attribute name="Name" value="CMazeGenerator 1" id="7924" />
+        <Attribute name="Script" value="" id="7925" />
+        <Attribute name="Generate Script" value="" id="7926" />
+        <Attribute name="Maze File" value="" id="7927" />
+        <Attribute name="Generate Random Map" value="" id="7928" />
+        <Attribute name="Template Cell" value="231" id="7929" />
+        <Attribute name="Maze Root Node" value="103" id="7930" />
+        <Attribute name="Maze Width" value="8" id="7931" />
+        <Attribute name="Maze Height" value="8" id="7932" />
+    </CMazeGenerator>
+    <CTriggerMapper name="Trigger Mapper 1" id="79740" parent_id="0">
+        <Attribute name="Name" value="Trigger Mapper 1" id="79741" />
+        <Attribute name="Script" value="" id="79742" />
+        <Attribute name="Generate Script" value="" id="79743" />
+        <Attribute name="Trigger" value="219" id="79744" />
+        <Attribute name="Function Object" value="79746" id="79745" />
+    </CTriggerMapper>
+    <CFunctionObject name="On First Frame" id="79746" parent_id="0">
+        <Attribute name="Name" value="On First Frame" id="79747" />
+        <Attribute name="Script" value="" id="79748" />
+        <Attribute name="Generate Script" value="" id="79749" />
+        <Attribute name="Function" value="7928" id="79750" />
+        <Attribute name="Seed" value="0" id="79751" />
+    </CFunctionObject>
+    <CSceneNodeMesh name="KayKit Animated Character_v1.2 Mesh 1" id="95873" parent_id="548">
+        <Attribute name="Name" value="KayKit Animated Character_v1.2 Mesh 1" id="95874" />
+        <Attribute name="Script" value="" id="95875" />
+        <Attribute name="Generate Script" value="" id="95876" />
+        <Attribute name="Parent" value="548" id="95877" />
+        <Attribute name="Position" value="0.000000, 0.600000, 4.600000" id="95878" />
+        <Attribute name="Rotation" value="0.000000, -180.000000, 0.000000" id="95879" />
+        <Attribute name="Scale" value="2.000000, 2.000000, 2.000000" id="95880" />
+        <Attribute name="Is Visible" value="1" id="95881" />
+        <Attribute name="Is Cullable" value="1" id="95882" />
+        <Attribute name="Is Locked" value="0" id="95883" />
+        <Attribute name="Is Pickable" value="1" id="95884" />
+        <Attribute name="Receives Shadows" value="1" id="95885" />
+        <Attribute name="Casts Shadows" value="1" id="95886" />
+        <Attribute name="Visibility Scale Time" value="0.000000" id="95887" />
+        <Attribute name="Visibility Fade Delay" value="0.000000" id="95888" />
+        <Attribute name="Visibility Fade Time" value="0.000000" id="95889" />
+        <Attribute name="Visibility Fade Out Time" value="-1.000000" id="95890" />
+        <Attribute name="On Pick" value="" id="95891" />
+        <Attribute name="Mesh" value="2629" id="95892" />
+        <Attribute name="Effect" value="0" id="95893" />
+        <Attribute name="Animation" value="2666" id="95894" />
+        <Attribute name="Animation Speed" value="1.000000" id="95895" />
+        <Attribute name="Animation Blend Time" value="1.000000" id="95896" />
+        <Attribute name="Show Normals" value="0" id="95897" />
+        <Attribute name="On Frame" value="" id="95898" />
+        <Attribute name="On Animation End" value="" id="95899" />
+        <Attribute name="Generate Normals" value="1" id="95900" />
+        <Attribute name="Material 0" value="2887" id="95901" />
+    </CSceneNodeMesh>
 </Project2>
