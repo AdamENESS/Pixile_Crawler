@@ -1,0 +1,41 @@
+[Window][DockSpace Demo]
+Pos=0,40
+Size=3840,1939
+Collapsed=0
+
+[Window][###Properties]
+Pos=2620,40
+Size=1220,1939
+Collapsed=0
+DockId=0x00000002,0
+
+[Window][Debug##Default]
+Pos=851,272
+Size=640,640
+Collapsed=0
+
+[Window][Projects]
+Pos=0,629
+Size=2618,1350
+Collapsed=0
+DockId=0x00000006,0
+
+[Window][###CameraWindow0]
+Pos=0,40
+Size=2618,587
+Collapsed=0
+DockId=0x00000005,0
+
+[Window][Machine 1##Machine6650]
+ViewportPos=2145,534
+ViewportId=0x769D6648
+Size=1777,1745
+Collapsed=0
+
+[Docking][Data]
+DockSpace     ID=0x3BC79352 Window=0x4647B76E Pos=0,85 Size=3840,1939 Split=X
+  DockNode    ID=0x00000001 Parent=0x3BC79352 SizeRef=2618,968 Split=Y
+    DockNode  ID=0x00000005 Parent=0x00000001 SizeRef=653,587 Selected=0x107B7C1B
+    DockNode  ID=0x00000006 Parent=0x00000001 SizeRef=653,1350 CentralNode=1 Selected=0x69F018AE
+  DockNode    ID=0x00000002 Parent=0x3BC79352 SizeRef=1220,968 Selected=0xDBB8CEFA
+

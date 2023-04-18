@@ -1,13 +1,13 @@
-TimelineSettings:132;StateMachineSettings:24;StateCollectionSettings:27;WorkspaceWindowSettings:101;WorkspaceDockSettings:5257;BookmarkSettings:20;
-<TimelineSettings FrameLength="0.01666667" MouseWheelSensitivity="0.0002" MousePanSensitivity="0.3" DefaultTimelineDuration="120" /><StateMachineSettings /><StateCollectionSettings /><WorkspaceWindowSettings Maximised="True" PositionX="-8" PositionY="-8" Height="1048" Width="1936" />SaveableWindowChunk@19
-<SaveableWindows /><?xml version="1.0"?>
+TimelineSettings:132;StateMachineSettings:64;StateCollectionSettings:27;WorkspaceWindowSettings:101;WorkspaceDockSettings:13612;BookmarkSettings:20;
+<TimelineSettings FrameLength="0.01666667" MouseWheelSensitivity="0.0002" MousePanSensitivity="0.3" DefaultTimelineDuration="120" /><StateMachineSettings><ElementName6650 /></StateMachineSettings><StateCollectionSettings /><WorkspaceWindowSettings Maximised="True" PositionX="-8" PositionY="-8" Height="1048" Width="1936" />SaveableWindowChunk@79
+<SaveableWindows Data0="Borderless Viewport:122|0|0|0|1920 X 1080|1920|1080" /><?xml version="1.0"?>
 <DockPanelSerialiser xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <DockLeftPortion>0.25</DockLeftPortion>
   <DockRightPortion>0.25</DockRightPortion>
   <DockTopPortion>0.25</DockTopPortion>
   <DockBottomPortion>0.25</DockBottomPortion>
-  <ActiveDocumentPane>1</ActiveDocumentPane>
-  <ActivePane>-1</ActivePane>
+  <ActiveDocumentPane>0</ActiveDocumentPane>
+  <ActivePane>3</ActivePane>
   <DockWindows>
     <DockWindowSerialiser>
       <DockState>Document</DockState>
@@ -16,28 +16,56 @@ TimelineSettings:132;StateMachineSettings:24;StateCollectionSettings:27;Workspac
         <PaneSerialiser>
           <ID>0</ID>
           <DockState>Document</DockState>
-          <ActiveContent>0</ActiveContent>
+          <ActiveContent>6</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Right</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
               <ID>0</ID>
-              <PersistString>Viewport:122|All</PersistString>
-              <AutoHidePortion>0.25</AutoHidePortion>
-              <IsHidden>false</IsHidden>
-              <IsFloat>false</IsFloat>
-            </DockContentSerialiser>
-            <DockContentSerialiser>
-              <ID>1</ID>
               <PersistString>Viewport:842|All</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
               <IsFloat>false</IsFloat>
             </DockContentSerialiser>
             <DockContentSerialiser>
-              <ID>2</ID>
+              <ID>1</ID>
               <PersistString>All Objects:</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
+            <DockContentSerialiser>
+              <ID>2</ID>
+              <PersistString>Viewport:2538|All</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
+            <DockContentSerialiser>
+              <ID>3</ID>
+              <PersistString>Modifiers:</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
+            <DockContentSerialiser>
+              <ID>4</ID>
+              <PersistString>Resources:</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
+            <DockContentSerialiser>
+              <ID>5</ID>
+              <PersistString>Machine:6650</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
+            <DockContentSerialiser>
+              <ID>6</ID>
+              <PersistString>GUI Components:</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
               <IsFloat>false</IsFloat>
@@ -47,14 +75,31 @@ TimelineSettings:132;StateMachineSettings:24;StateCollectionSettings:27;Workspac
         <PaneSerialiser>
           <ID>1</ID>
           <DockState>Document</DockState>
-          <ActiveContent>3</ActiveContent>
+          <ActiveContent>7</ActiveContent>
           <PrevPane>0</PrevPane>
           <Alignment>Bottom</Alignment>
+          <Proportion>0.32346832814122534</Proportion>
+          <Contents>
+            <DockContentSerialiser>
+              <ID>7</ID>
+              <PersistString>Viewport:510|All</PersistString>
+              <AutoHidePortion>0.25</AutoHidePortion>
+              <IsHidden>false</IsHidden>
+              <IsFloat>false</IsFloat>
+            </DockContentSerialiser>
+          </Contents>
+        </PaneSerialiser>
+        <PaneSerialiser>
+          <ID>2</ID>
+          <DockState>Document</DockState>
+          <ActiveContent>8</ActiveContent>
+          <PrevPane>1</PrevPane>
+          <Alignment>Left</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
-              <ID>3</ID>
-              <PersistString>Viewport:510|All</PersistString>
+              <ID>8</ID>
+              <PersistString>Viewport:122|All</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
               <IsFloat>false</IsFloat>
@@ -68,15 +113,15 @@ TimelineSettings:132;StateMachineSettings:24;StateCollectionSettings:27;Workspac
       <ZOrderIndex>2</ZOrderIndex>
       <NestedPanes>
         <PaneSerialiser>
-          <ID>2</ID>
+          <ID>3</ID>
           <DockState>DockLeft</DockState>
-          <ActiveContent>4</ActiveContent>
+          <ActiveContent>9</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Bottom</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
-              <ID>4</ID>
+              <ID>9</ID>
               <PersistString>Project:</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
@@ -91,16 +136,16 @@ TimelineSettings:132;StateMachineSettings:24;StateCollectionSettings:27;Workspac
       <ZOrderIndex>3</ZOrderIndex>
       <NestedPanes>
         <PaneSerialiser>
-          <ID>3</ID>
+          <ID>4</ID>
           <DockState>DockRight</DockState>
-          <ActiveContent>5</ActiveContent>
+          <ActiveContent>10</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Bottom</Alignment>
           <Proportion>0.5</Proportion>
           <Contents>
             <DockContentSerialiser>
-              <ID>5</ID>
-              <PersistString>Properties:103-General;|194-General;|231-General;|250-General;|122-General;|160-General;|279-General;|381-General;|418-General;|447-General;|476-General;|510-General;|548-General;|4294967295-General;|579-General;|608-General;|639-General;|668-General;|697-General;|726-General;|755-General;|784-General;|813-General;|842-General;|880-General;|914-General;|921-General;|928-General;|935-General;|942-General;|949-General;|956-General;|1043-General;|1062-General;|1089-General;|987-General;|999-General;|1011-General;|1023-General;|963-General;|975-General;|1084-General;|1113-General;|1142-General;|1171-General;|1200-General;|1229-General;|1258-General;|1287-General;|1316-General;|1345-General;|1368-General;|1391-General;|1420-General;|1449-General;|1478-General;|1507-General;|1536-General;|1565-General;|1594-General;|1623-General;|1652-General;|1675-General;|1704-General;|1733-General;|1762-General;|1791-General;|1820-General;|1849-General;|1878-General;|1907-General;|1936-General;|1959-General;|1988-General;|2017-General;|2046-General;|2075-General;|2104-General;|2133-General;|2162-General;|2191-General;|2228-General;|2279-General;|</PersistString>
+              <ID>10</ID>
+              <PersistString>Properties:103-General;|194-General;|231-General;|250-General;|122-General;|160-General;|279-General;|381-General;|418-General;|447-General;|476-General;|510-General;|548-General;|4294967295-General;|579-General;|608-General;|639-General;|668-General;|697-General;|726-General;|755-General;|784-General;|813-General;|842-General;|880-General;|914-General;|921-General;|928-General;|935-General;|942-General;|949-General;|956-General;|1043-General;|1062-General;|1089-General;|987-General;|999-General;|1011-General;|1023-General;|963-General;|975-General;|1084-General;|1113-General;|1142-General;|1171-General;|1200-General;|1229-General;|1258-General;|1287-General;|1316-General;|1345-General;|1368-General;|1391-General;|1420-General;|1449-General;|1478-General;|1507-General;|1536-General;|1565-General;|1594-General;|1623-General;|1652-General;|1675-General;|1704-General;|1733-General;|1762-General;|1791-General;|1820-General;|1849-General;|1878-General;|1907-General;|1936-General;|1959-General;|1988-General;|2017-General;|2046-General;|2075-General;|2104-General;|2133-General;|2162-General;|2191-General;|2228-General;|2279-General;|2519-General;|2538-General;|2595-General;|2637-General;|2712-General;|3076-General;|3118-General;|3165-General;|3173-General;|3193-General;|3223-General;|3256-General;|3289-General;|3297-General;|3304-General;|3312-General;|3320-General;|3344-General;|3368-General;|3376-General;|3384-General;|3392-General;|3400-General;|3408-General;|3416-General;|3424-General;|3432-General;|3440-General;|3448-General;|3456-General;|3464-General;|3472-General;|3480-General;|3488-General;|3496-General;|3504-General;|3512-General;|3520-General;|3528-General;|3536-General;|3544-General;|3552-General;|3560-General;|3568-General;|3576-General;|3584-General;|3592-General;|3600-General;|3608-General;|3616-General;|3624-General;|3632-General;|3640-General;|3648-General;|3656-General;|3664-General;|3672-General;|3680-General;|3688-General;|3696-General;|3704-General;|3712-General;|3720-General;|3728-General;|3736-General;|3744-General;|3752-General;|3760-General;|3768-General;|3776-General;|3784-General;|3792-General;|3800-General;|3808-General;|3816-General;|3824-General;|3832-General;|3840-General;|3848-General;|3856-General;|3864-General;|3872-General;|3880-General;|3888-General;|3896-General;|3904-General;|3912-General;|3920-General;|3928-General;|3936-General;|3944-General;|3952-General;|3960-General;|3968-General;|3976-General;|3984-General;|3992-General;|4000-General;|4008-General;|4016-General;|4024-General;|4032-General;|4040-General;|4048-General;|4056-General;|4064-General;|4072-General;|4080-General;|4088-General;|4096-General;|4104-General;|4112-General;|4120-General;|4128-General;|4136-General;|4144-General;|4152-General;|4160-General;|4168-General;|4176-General;|4184-General;|4192-General;|4200-General;|4208-General;|4216-General;|4224-General;|4232-General;|4240-General;|4248-General;|4256-General;|4264-General;|4272-General;|4280-General;|4288-General;|4296-General;|4304-General;|4312-General;|4320-General;|4328-General;|4336-General;|4344-General;|4352-General;|4360-General;|4368-General;|4376-General;|4384-General;|4392-General;|4400-General;|4408-General;|4416-General;|4424-General;|4432-General;|4440-General;|4448-General;|4456-General;|4464-General;|4472-General;|4480-General;|4488-General;|4496-General;|4504-General;|4512-General;|4520-General;|4528-General;|4536-General;|4544-General;|4552-General;|4560-General;|4568-General;|4576-General;|4584-General;|4592-General;|4600-General;|4608-General;|4616-General;|4624-General;|4632-General;|4640-General;|4648-General;|4656-General;|4664-General;|4672-General;|4680-General;|4688-General;|4696-General;|4704-General;|4712-General;|4720-General;|4728-General;|4736-General;|4744-General;|4752-General;|4760-General;|4768-General;|4776-General;|4784-General;|4792-General;|4800-General;|4808-General;|4816-General;|4824-General;|4832-General;|4840-General;|4848-General;|4856-General;|4864-General;|4872-General;|4880-General;|4888-General;|4896-General;|4904-General;|4912-General;|4920-General;|4928-General;|4936-General;|4944-General;|4952-General;|4960-General;|4968-General;|4976-General;|4984-General;|4992-General;|5000-General;|5008-General;|5016-General;|5024-General;|5032-General;|5040-General;|5048-General;|5056-General;|5064-General;|5072-General;|5080-General;|5088-General;|5096-General;|5104-General;|5112-General;|5120-General;|5128-General;|5136-General;|5144-General;|5152-General;|5160-General;|5168-General;|5176-General;|5184-General;|5192-General;|5200-General;|5208-General;|5216-General;|5224-General;|5232-General;|5240-General;|5248-General;|5256-General;|5264-General;|5272-General;|5280-General;|5288-General;|5296-General;|5304-General;|5312-General;|5320-General;|5328-General;|5336-General;|5344-General;|5352-General;|5360-General;|5368-General;|5376-General;|5384-General;|5392-General;|5400-General;|5408-General;|5416-General;|5424-General;|5432-General;|5440-General;|5448-General;|5456-General;|5464-General;|5472-General;|5480-General;|5488-General;|5496-General;|5504-General;|5512-General;|5520-General;|5528-General;|5536-General;|5544-General;|5552-General;|5560-General;|5568-General;|5576-General;|5584-General;|5592-General;|5600-General;|5608-General;|5616-General;|5624-General;|5632-General;|5640-General;|5648-General;|5656-General;|5664-General;|5672-General;|5680-General;|5688-General;|5696-General;|5704-General;|5712-General;|5720-General;|5728-General;|5736-General;|5744-General;|5752-General;|5760-General;|5768-General;|5776-General;|5784-General;|5792-General;|5800-General;|5808-General;|5816-General;|5824-General;|5832-General;|5840-General;|5848-General;|5856-General;|5864-General;|5872-General;|5880-General;|5888-General;|5896-General;|5904-General;|5912-General;|5920-General;|5928-General;|5936-General;|5944-General;|5952-General;|5960-General;|5968-General;|5976-General;|5984-General;|5992-General;|6000-General;|6008-General;|6016-General;|6024-General;|6032-General;|6040-General;|6048-General;|6056-General;|6064-General;|6072-General;|6080-General;|6088-General;|6096-General;|6104-General;|6112-General;|6120-General;|6128-General;|6136-General;|6144-General;|6152-General;|6160-General;|6168-General;|6176-General;|6184-General;|6192-General;|6200-General;|6208-General;|6216-General;|6224-General;|6232-General;|6240-General;|6248-General;|6256-General;|6264-General;|6272-General;|6280-General;|6288-General;|6296-General;|6304-General;|6312-General;|6320-General;|6328-General;|6336-General;|6344-General;|6352-General;|6360-General;|6368-General;|6376-General;|6384-General;|6392-General;|6400-General;|6408-General;|6416-General;|6424-General;|6432-General;|6440-General;|6448-General;|6456-General;|6464-General;|6472-General;|6480-General;|6488-General;|6496-General;|6504-General;|6512-General;|6520-General;|6528-General;|6536-General;|6544-General;|6552-General;|6560-General;|6568-General;|6576-General;|6584-General;|6592-General;|6600-General;|6608-General;|6616-General;|6638-General;|6650-General;|6693-General;|6671-General;|6710-General;|6736-General;|6760-General;|6748-General;|6840-General;|6821-General;|6860-General;|6790-General;|6778-General;|6875-General;|6894-General;|7030-General;|7060-General;|7075-General;|7045-General;|7090-General;|7109-General;|7146-General;|7200-General;|7219-General;|7238-General;|7257-General;|7292-General;|7323-General;|7338-General;|7357-General;|7376-General;|7394-General;|7182-General;|7413-Emission;|7547-General;|7743-General;|7769-General;|</PersistString>
               <AutoHidePortion>0.25</AutoHidePortion>
               <IsHidden>false</IsHidden>
               <IsFloat>false</IsFloat>
