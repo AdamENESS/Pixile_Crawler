@@ -16,7 +16,7 @@ TimelineSettings:132;StateMachineSettings:64;StateCollectionSettings:27;Workspac
         <PaneSerialiser>
           <ID>0</ID>
           <DockState>Document</DockState>
-          <ActiveContent>0</ActiveContent>
+          <ActiveContent>4</ActiveContent>
           <PrevPane>-1</PrevPane>
           <Alignment>Right</Alignment>
           <Proportion>0.5</Proportion>

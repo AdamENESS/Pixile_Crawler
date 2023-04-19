@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+*.mtl
+*.gltf
+*.glb
+*.fbx
+*.dae
+*.pxm
+*.pxm
+Assets/Documentation/Godot - KayKit Animations Implementation Guide.pdf
+Assets/Documentation/Unity - KayKit Animations Implementation Guide.pdf
+Assets/Documentation/Unreal - KayKit Animations Implementation Guide.pdf
+Assets/Documentation/Video Guide - YouTube.url
+Assets/KayKit Brand Resouces/KayKit_logo.png
+Assets/KayKit Brand Resouces/KayKit_logo_black.png
+Assets/KayKit Brand Resouces/KayKit_logo_red.png
+Assets/KayKit Brand Resouces/KayKit_logo_white.png
+Assets/KayKit Brand Resouces/KayKit_logoVariation_black.png
+Assets/KayKit Brand Resouces/KayKit_logoVariation_red.png
+Assets/KayKit Brand Resouces/KayKit_logoVariation_white.png
+imgui.ini
