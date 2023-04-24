@@ -1,6 +1,7 @@
 #include "IEngine.h"
 #include "static_plugin.h"
 #include "CMazeGenerator.h"
+#include "CInstancedMazeMesh.h"
 
 #ifdef WIN32
 BOOL APIENTRY DllMain(HINSTANCE hModule,
@@ -38,6 +39,7 @@ void LoadEnessPluginPython(IEngine * pEngine
 	IReferenceCounted::SetReferenceCountedAllocationData(pReferenceCountedAllocationData);
 #endif
 	DECLARE_ATTRIBUTE_OBJECT(pEngine->GetAttributeManager(), CMazeGenerator, IAttributeObject);
+	DECLARE_ATTRIBUTE_OBJECT(pEngine->GetAttributeManager(), CInstancedMazeMesh, ISceneNode);
 #ifdef WIN32
 	return NULL;
 #endif
