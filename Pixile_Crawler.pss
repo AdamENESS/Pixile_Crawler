@@ -1,6 +1,6 @@
-TimelineSettings:132;StateMachineSettings:64;StateCollectionSettings:27;WorkspaceWindowSettings:101;WorkspaceDockSettings:13562;BookmarkSettings:20;
-<TimelineSettings FrameLength="0.01666667" MouseWheelSensitivity="0.0002" MousePanSensitivity="0.3" DefaultTimelineDuration="120" /><StateMachineSettings><ElementName6650 /></StateMachineSettings><StateCollectionSettings /><WorkspaceWindowSettings Maximised="True" PositionX="-8" PositionY="-8" Height="1048" Width="1936" />SaveableWindowChunk@82
-<SaveableWindows Data0="Borderless Viewport:895518|0|0|0|1920 X 1080|1920|1080" /><?xml version="1.0"?>
+TimelineSettings:132;StateMachineSettings:64;StateCollectionSettings:27;WorkspaceWindowSettings:101;WorkspaceDockSettings:13559;BookmarkSettings:20;
+<TimelineSettings FrameLength="0.01666667" MouseWheelSensitivity="0.0002" MousePanSensitivity="0.3" DefaultTimelineDuration="120" /><StateMachineSettings><ElementName6650 /></StateMachineSettings><StateCollectionSettings /><WorkspaceWindowSettings Maximised="True" PositionX="-8" PositionY="-8" Height="1048" Width="1936" />SaveableWindowChunk@79
+<SaveableWindows Data0="Borderless Viewport:122|0|0|0|1920 X 1080|1920|1080" /><?xml version="1.0"?>
 <DockPanelSerialiser xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <DockLeftPortion>0.25</DockLeftPortion>
   <DockRightPortion>0.25</DockRightPortion>
