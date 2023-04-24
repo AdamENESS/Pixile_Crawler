@@ -1,11 +1,11 @@
 [Window][DockSpace Demo]
 Pos=0,40
-Size=3840,1939
+Size=1894,929
 Collapsed=0
 
 [Window][###Properties]
-Pos=2620,40
-Size=1220,1939
+Pos=674,40
+Size=1220,929
 Collapsed=0
 DockId=0x00000002,0
 
@@ -16,13 +16,13 @@ Collapsed=0
 
 [Window][Projects]
 Pos=0,629
-Size=2618,1350
+Size=672,340
 Collapsed=0
 DockId=0x00000006,0
 
 [Window][###CameraWindow0]
 Pos=0,40
-Size=2618,587
+Size=672,587
 Collapsed=0
 DockId=0x00000005,0
 
@@ -33,7 +33,7 @@ Size=1777,1745
 Collapsed=0
 
 [Docking][Data]
-DockSpace     ID=0x3BC79352 Window=0x4647B76E Pos=0,85 Size=3840,1939 Split=X
+DockSpace     ID=0x3BC79352 Window=0x4647B76E Pos=13,98 Size=1894,929 Split=X
   DockNode    ID=0x00000001 Parent=0x3BC79352 SizeRef=2618,968 Split=Y
     DockNode  ID=0x00000005 Parent=0x00000001 SizeRef=653,587 Selected=0x107B7C1B
     DockNode  ID=0x00000006 Parent=0x00000001 SizeRef=653,1350 CentralNode=1 Selected=0x69F018AE

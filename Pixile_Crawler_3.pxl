@@ -99,7 +99,7 @@
         <Attribute name="Generate Script" value="" id="197" />
         <Attribute name="Show FPS" value="0" id="198" />
         <Attribute name="Time Scale" value="1.000000" id="199" />
-        <Attribute name="Default Camera" value="895518" id="200" />
+        <Attribute name="Default Camera" value="122" id="200" />
         <Attribute name="Default Player Width" value="1024" id="201" />
         <Attribute name="Default Player Height" value="768" id="202" />
         <Attribute name="Default Player Networking" value="1" id="203" />
@@ -118,7 +118,7 @@
         <Attribute name="Save Script" value="" id="216" />
         <Attribute name="On Frame" value="" id="217" />
         <Attribute name="Import Object" value="" id="218" />
-        <Attribute name="On First Frame" value="79740,895896,895908" id="219" />
+        <Attribute name="On First Frame" value="79740" id="219" />
         <Attribute name="On Question Display OK" value="" id="220" />
         <Attribute name="On Question Display Cancel" value="" id="221" />
         <Attribute name="Updates Per Second" value="60.000000" id="222" />
@@ -281,7 +281,7 @@
         <Attribute name="Script" value="" id="512" />
         <Attribute name="Generate Script" value="" id="513" />
         <Attribute name="Parent" value="608" id="514" />
-        <Attribute name="Position" value="0.000000, 63.200008, -0.000001" id="515" />
+        <Attribute name="Position" value="0.000000, 50.000000, 0.000000" id="515" />
         <Attribute name="Rotation" value="90.000000, -0.000000, 0.000000" id="516" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="517" />
         <Attribute name="Is Visible" value="1" id="518" />
@@ -310,7 +310,7 @@
         <Attribute name="Camera Mode" value="0" id="541" />
         <Attribute name="LookAt" value="0.000000, 0.000000, 0.000000" id="542" />
         <Attribute name="UpVector" value="0.000000, 0.000000, 1.000000" id="543" />
-        <Attribute name="CameraOffset" value="0.000000, 63.200008, -0.000001" id="544" />
+        <Attribute name="CameraOffset" value="0.000000, 50.000000, 0.000000" id="544" />
         <Attribute name="Orthogonal" value="0" id="545" />
         <Attribute name="Ortho Width" value="1.000000" id="546" />
         <Attribute name="Ortho Height" value="1.000000" id="547" />
@@ -402,8 +402,8 @@
         <Attribute name="Script" value="" id="610" />
         <Attribute name="Generate Script" value="" id="611" />
         <Attribute name="Parent" value="103" id="612" />
-        <Attribute name="Position" value="130.000000, 0.000000, 75.000000" id="613" />
-        <Attribute name="Rotation" value="0.000000, 180.000000, 0.000000" id="614" />
+        <Attribute name="Position" value="100.000000, 0.000000, 55.000000" id="613" />
+        <Attribute name="Rotation" value="0.000000, 270.000000, 0.000000" id="614" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="615" />
         <Attribute name="Is Visible" value="1" id="616" />
         <Attribute name="Is Cullable" value="1" id="617" />
@@ -734,7 +734,7 @@
         <Attribute name="Generate Script" value="" id="2357" />
         <Attribute name="Source Attribute" value="614" id="2358" />
         <Attribute name="X" value="0.000000" id="2359" />
-        <Attribute name="Y" value="180.000000" id="2360" />
+        <Attribute name="Y" value="270.000000" id="2360" />
         <Attribute name="Z" value="0.000000" id="2361" />
     </CAttributeSplitterVector3>
     <CAttributeModifierAttractFloat name="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2362" parent_id="0">
@@ -1103,7 +1103,7 @@
         <Attribute name="Name" value="Movement" id="6651" />
         <Attribute name="Script" value="" id="6652" />
         <Attribute name="Generate Script" value="" id="6653" />
-        <Attribute name="Components" value="6710,6736,6748,6760,6778,6790,6821,6840,6860,6875,6894,7109,7146,7164,7182,7200,7219,7238,7257,7292,7307,7338,7357,7376,7394,895896,895908" id="6654" />
+        <Attribute name="Components" value="6710,6736,6748,6760,6778,6790,6821,6840,6860,6875,6894,7109,7146,7164,7182,7200,7219,7238,7257,7292,7307,7338,7357,7376,7394" id="6654" />
         <Attribute name="Instances" value="" id="6655" />
         <Attribute name="Start Component" value="0" id="6656" />
         <Attribute name="End Components" value="" id="6657" />
@@ -1120,14 +1120,14 @@
         <Attribute name="Remove External Object" value="" id="6668" />
         <Attribute name="Run from Flow In" value="" id="6669" />
         <Attribute name="Attribute Positions" value="6859|42468282,7291|4281992744,7322|7145039,894930|4261282768,894931|4264100438,894932|16318393,895340|19924090,895341|56164756" id="6670" />
-        <Attribute name="Avatar-&gt;Rotation-&gt;Y" value="180.000000" id="6859" />
-        <Attribute name="Avatar-&gt;Position-&gt;Z" value="75.000000" id="7291" />
-        <Attribute name="Avatar-&gt;Position-&gt;X" value="130.000000" id="7322" />
-        <Attribute name="CMazeGenerator 1-&gt;Player X" value="26" id="894930" />
-        <Attribute name="CMazeGenerator 1-&gt;Player Y" value="15" id="894931" />
-        <Attribute name="CMazeGenerator 1-&gt;Player Facing" value="2" id="894932" />
-        <Attribute name="Image 2-&gt;Position-&gt;X" value="26.000000" id="895340" />
-        <Attribute name="Image 2-&gt;Position-&gt;Y" value="15.000000" id="895341" />
+        <Attribute name="Avatar-&gt;Rotation-&gt;Y" value="270.000000" id="6859" />
+        <Attribute name="Avatar-&gt;Position-&gt;Z" value="55.000000" id="7291" />
+        <Attribute name="Avatar-&gt;Position-&gt;X" value="100.000000" id="7322" />
+        <Attribute name="CMazeGenerator 1-&gt;Player X" value="20" id="894930" />
+        <Attribute name="CMazeGenerator 1-&gt;Player Y" value="11" id="894931" />
+        <Attribute name="CMazeGenerator 1-&gt;Player Facing" value="3" id="894932" />
+        <Attribute name="Image 2-&gt;Position-&gt;X" value="20.000000" id="895340" />
+        <Attribute name="Image 2-&gt;Position-&gt;Y" value="11.000000" id="895341" />
     </CMachine>
     <CMachineOperatorTrigger name="KEY_W-&gt;On Key Down" id="6710" parent_id="0">
         <Attribute name="Name" value="KEY_W-&gt;On Key Down" id="6711" />
@@ -1218,10 +1218,10 @@
         <Attribute name="Output Mappings" value="6839|6835" id="6829" />
         <Attribute name="In" value="0" id="6830" />
         <Attribute name="Out" value="6903" id="6831" />
-        <Attribute name="A" value="1" id="6832" />
+        <Attribute name="A" value="0" id="6832" />
         <Attribute name="Operator" value="0" id="6833" />
         <Attribute name="B" value="1" id="6834" />
-        <Attribute name="Result" value="2" id="6835" />
+        <Attribute name="Result" value="1" id="6835" />
         <Attribute name="A Input" value="894932" id="6836" />
         <Attribute name="Operator Input" value="" id="6837" />
         <Attribute name="B Input" value="" id="6838" />
@@ -1258,8 +1258,8 @@
         <Attribute name="Output Mappings" value="6874|6872" id="6868" />
         <Attribute name="In" value="0" id="6869" />
         <Attribute name="Out" value="6884" id="6870" />
-        <Attribute name="Input" value="2" id="6871" />
-        <Attribute name="Output" value="2.000000" id="6872" />
+        <Attribute name="Input" value="3" id="6871" />
+        <Attribute name="Output" value="3.000000" id="6872" />
         <Attribute name="Input Input" value="894932" id="6873" />
         <Attribute name="Output Output" value="" id="6874" />
     </CMachineOperatorConvertIntToFloat>
@@ -1274,10 +1274,10 @@
         <Attribute name="Output Mappings" value="6893|6889" id="6883" />
         <Attribute name="In" value="0" id="6884" />
         <Attribute name="Out" value="0" id="6885" />
-        <Attribute name="A" value="2.000000" id="6886" />
+        <Attribute name="A" value="3.000000" id="6886" />
         <Attribute name="Operator" value="2" id="6887" />
         <Attribute name="B" value="90.000000" id="6888" />
-        <Attribute name="Result" value="180.000000" id="6889" />
+        <Attribute name="Result" value="270.000000" id="6889" />
         <Attribute name="A Input" value="6872" id="6890" />
         <Attribute name="Operator Input" value="" id="6891" />
         <Attribute name="B Input" value="" id="6892" />
@@ -1294,10 +1294,10 @@
         <Attribute name="Output Mappings" value="6912|6908" id="6902" />
         <Attribute name="In" value="0" id="6903" />
         <Attribute name="Out" value="6869" id="6904" />
-        <Attribute name="A" value="2" id="6905" />
+        <Attribute name="A" value="3" id="6905" />
         <Attribute name="Operator" value="4" id="6906" />
         <Attribute name="B" value="4" id="6907" />
-        <Attribute name="Result" value="2" id="6908" />
+        <Attribute name="Result" value="3" id="6908" />
         <Attribute name="A Input" value="894932" id="6909" />
         <Attribute name="Operator Input" value="" id="6910" />
         <Attribute name="B Input" value="" id="6911" />
@@ -1334,7 +1334,7 @@
         <Attribute name="In" value="0" id="7155" />
         <Attribute name="OptionCount" value="4" id="7156" />
         <Attribute name="FlowOutputOptions" value="7160,7161,7162,7163" id="7157" />
-        <Attribute name="Value" value="2" id="7158" />
+        <Attribute name="Value" value="0" id="7158" />
         <Attribute name="0" value="7228" id="7160" />
         <Attribute name="1" value="7266" id="7161" />
         <Attribute name="2" value="7209" id="7162" />
@@ -1353,7 +1353,7 @@
         <Attribute name="In" value="0" id="7173" />
         <Attribute name="OptionCount" value="4" id="7174" />
         <Attribute name="FlowOutputOptions" value="7178,7179,7180,7181" id="7175" />
-        <Attribute name="Value" value="1" id="7176" />
+        <Attribute name="Value" value="2" id="7176" />
         <Attribute name="0" value="7266" id="7178" />
         <Attribute name="1" value="7209" id="7179" />
         <Attribute name="2" value="7247" id="7180" />
@@ -1372,7 +1372,7 @@
         <Attribute name="In" value="0" id="7191" />
         <Attribute name="OptionCount" value="4" id="7192" />
         <Attribute name="FlowOutputOptions" value="7196,7197,7198,7199" id="7193" />
-        <Attribute name="Value" value="0" id="7194" />
+        <Attribute name="Value" value="3" id="7194" />
         <Attribute name="0" value="7247" id="7196" />
         <Attribute name="1" value="7228" id="7197" />
         <Attribute name="2" value="7266" id="7198" />
@@ -1390,10 +1390,10 @@
         <Attribute name="Output Mappings" value="7218|7214" id="7208" />
         <Attribute name="In" value="0" id="7209" />
         <Attribute name="Out" value="7301" id="7210" />
-        <Attribute name="A" value="14" id="7211" />
+        <Attribute name="A" value="11" id="7211" />
         <Attribute name="Operator" value="0" id="7212" />
         <Attribute name="B" value="1" id="7213" />
-        <Attribute name="Result" value="15" id="7214" />
+        <Attribute name="Result" value="12" id="7214" />
         <Attribute name="A Input" value="894931" id="7215" />
         <Attribute name="Operator Input" value="" id="7216" />
         <Attribute name="B Input" value="" id="7217" />
@@ -1410,10 +1410,10 @@
         <Attribute name="Output Mappings" value="7237|7233" id="7227" />
         <Attribute name="In" value="0" id="7228" />
         <Attribute name="Out" value="7301" id="7229" />
-        <Attribute name="A" value="10" id="7230" />
+        <Attribute name="A" value="12" id="7230" />
         <Attribute name="Operator" value="1" id="7231" />
         <Attribute name="B" value="1" id="7232" />
-        <Attribute name="Result" value="9" id="7233" />
+        <Attribute name="Result" value="11" id="7233" />
         <Attribute name="A Input" value="894931" id="7234" />
         <Attribute name="Operator Input" value="" id="7235" />
         <Attribute name="B Input" value="" id="7236" />
@@ -1430,10 +1430,10 @@
         <Attribute name="Output Mappings" value="7256|7252" id="7246" />
         <Attribute name="In" value="0" id="7247" />
         <Attribute name="Out" value="7316" id="7248" />
-        <Attribute name="A" value="26" id="7249" />
+        <Attribute name="A" value="19" id="7249" />
         <Attribute name="Operator" value="0" id="7250" />
         <Attribute name="B" value="1" id="7251" />
-        <Attribute name="Result" value="27" id="7252" />
+        <Attribute name="Result" value="20" id="7252" />
         <Attribute name="A Input" value="894930" id="7253" />
         <Attribute name="Operator Input" value="" id="7254" />
         <Attribute name="B Input" value="" id="7255" />
@@ -1450,10 +1450,10 @@
         <Attribute name="Output Mappings" value="7275|7271" id="7265" />
         <Attribute name="In" value="0" id="7266" />
         <Attribute name="Out" value="7316" id="7267" />
-        <Attribute name="A" value="27" id="7268" />
+        <Attribute name="A" value="20" id="7268" />
         <Attribute name="Operator" value="1" id="7269" />
         <Attribute name="B" value="1" id="7270" />
-        <Attribute name="Result" value="26" id="7271" />
+        <Attribute name="Result" value="19" id="7271" />
         <Attribute name="A Input" value="894930" id="7272" />
         <Attribute name="Operator Input" value="" id="7273" />
         <Attribute name="B Input" value="" id="7274" />
@@ -1464,9 +1464,9 @@
         <Attribute name="Script" value="" id="7278" />
         <Attribute name="Generate Script" value="" id="7279" />
         <Attribute name="Source Attribute" value="613" id="7280" />
-        <Attribute name="X" value="130.000000" id="7281" />
+        <Attribute name="X" value="100.000000" id="7281" />
         <Attribute name="Y" value="0.000000" id="7282" />
-        <Attribute name="Z" value="75.000000" id="7283" />
+        <Attribute name="Z" value="55.000000" id="7283" />
     </CAttributeSplitterVector3>
     <CMachineOperatorConvertIntToFloat name="Convert Int To Float 2" id="7292" parent_id="0">
         <Attribute name="Name" value="Convert Int To Float 2" id="7293" />
@@ -1479,8 +1479,8 @@
         <Attribute name="Output Mappings" value="7306|7304" id="7300" />
         <Attribute name="In" value="0" id="7301" />
         <Attribute name="Out" value="7347" id="7302" />
-        <Attribute name="Input" value="15" id="7303" />
-        <Attribute name="Output" value="15.000000" id="7304" />
+        <Attribute name="Input" value="11" id="7303" />
+        <Attribute name="Output" value="11.000000" id="7304" />
         <Attribute name="Input Input" value="894931" id="7305" />
         <Attribute name="Output Output" value="895341" id="7306" />
     </CMachineOperatorConvertIntToFloat>
@@ -1495,8 +1495,8 @@
         <Attribute name="Output Mappings" value="7321|7319" id="7315" />
         <Attribute name="In" value="0" id="7316" />
         <Attribute name="Out" value="7366" id="7317" />
-        <Attribute name="Input" value="26" id="7318" />
-        <Attribute name="Output" value="26.000000" id="7319" />
+        <Attribute name="Input" value="20" id="7318" />
+        <Attribute name="Output" value="20.000000" id="7319" />
         <Attribute name="Input Input" value="894930" id="7320" />
         <Attribute name="Output Output" value="895340" id="7321" />
     </CMachineOperatorConvertIntToFloat>
@@ -1511,10 +1511,10 @@
         <Attribute name="Output Mappings" value="7356|7352" id="7346" />
         <Attribute name="In" value="0" id="7347" />
         <Attribute name="Out" value="0" id="7348" />
-        <Attribute name="A" value="15.000000" id="7349" />
+        <Attribute name="A" value="11.000000" id="7349" />
         <Attribute name="Operator" value="2" id="7350" />
         <Attribute name="B" value="5.000000" id="7351" />
-        <Attribute name="Result" value="75.000000" id="7352" />
+        <Attribute name="Result" value="55.000000" id="7352" />
         <Attribute name="A Input" value="7304" id="7353" />
         <Attribute name="Operator Input" value="" id="7354" />
         <Attribute name="B Input" value="" id="7355" />
@@ -1531,10 +1531,10 @@
         <Attribute name="Output Mappings" value="7375|7371" id="7365" />
         <Attribute name="In" value="0" id="7366" />
         <Attribute name="Out" value="0" id="7367" />
-        <Attribute name="A" value="26.000000" id="7368" />
+        <Attribute name="A" value="20.000000" id="7368" />
         <Attribute name="Operator" value="2" id="7369" />
         <Attribute name="B" value="5.000000" id="7370" />
-        <Attribute name="Result" value="130.000000" id="7371" />
+        <Attribute name="Result" value="100.000000" id="7371" />
         <Attribute name="A Input" value="7319" id="7372" />
         <Attribute name="Operator Input" value="" id="7373" />
         <Attribute name="B Input" value="" id="7374" />
@@ -1632,7 +1632,7 @@
         <Attribute name="Script" value="" id="7771" />
         <Attribute name="Generate Script" value="" id="7772" />
         <Attribute name="Enable Updates" value="0" id="7773" />
-        <Attribute name="Position" value="-3.200000, 0.000000" id="7774" />
+        <Attribute name="Position" value="0.000000, 0.000000" id="7774" />
         <Attribute name="Size" value="129.000000, 129.000000" id="7775" />
         <Attribute name="Scale" value="1.000000, 1.000000" id="7776" />
         <Attribute name="Parent" value="7743" id="7777" />
@@ -1691,9 +1691,9 @@
         <Attribute name="Maze Root Node" value="548" id="7930" />
         <Attribute name="Maze Width" value="129" id="7931" />
         <Attribute name="Maze Height" value="129" id="7932" />
-        <Attribute name="Player X" value="26" id="894818" />
-        <Attribute name="Player Y" value="15" id="894819" />
-        <Attribute name="Player Facing" value="2" id="894820" />
+        <Attribute name="Player X" value="20" id="894818" />
+        <Attribute name="Player Y" value="11" id="894819" />
+        <Attribute name="Player Facing" value="3" id="894820" />
         <Attribute name="Mini Map Texture" value="895159" id="895056" />
     </CMazeGenerator>
     <CTriggerMapper name="Trigger Mapper 1" id="79740" parent_id="0">
@@ -1751,10 +1751,10 @@
         <Attribute name="Overide Alpha Value" value="0.000000" id="895167" />
         <Attribute name="Enable Transform" value="1" id="895168" />
         <Attribute name="Offset" value="0.000000, 0.000000" id="895169" />
-        <Attribute name="Scale" value="1.000000, 1.000000" id="895170" />
+        <Attribute name="Scale" value="0.250000, 0.250000" id="895170" />
         <Attribute name="Rotate" value="0.000000, 0.000000" id="895171" />
         <Attribute name="Rotation Pivot" value="0.500000, 0.500000" id="895172" />
-        <Attribute name="Texture Effect" value="0" id="895173" />
+        <Attribute name="Texture Effect" value="895463" id="895173" />
         <Attribute name="Border Colour" value="0.000000, 0.000000, 0.000000, 0.000000" id="895174" />
         <Attribute name="Get Width" value="" id="895175" />
         <Attribute name="Get Height" value="" id="895176" />
@@ -1766,7 +1766,7 @@
         <Attribute name="Script" value="" id="895302" />
         <Attribute name="Generate Script" value="" id="895303" />
         <Attribute name="Enable Updates" value="0" id="895304" />
-        <Attribute name="Position" value="26.000000, 15.000000" id="895305" />
+        <Attribute name="Position" value="20.000000, 11.000000" id="895305" />
         <Attribute name="Size" value="1.000000, 1.000000" id="895306" />
         <Attribute name="Scale" value="1.000000, 1.000000" id="895307" />
         <Attribute name="Parent" value="7743" id="895308" />
@@ -1793,8 +1793,8 @@
         <Attribute name="Script" value="" id="895328" />
         <Attribute name="Generate Script" value="" id="895329" />
         <Attribute name="Source Attribute" value="895305" id="895330" />
-        <Attribute name="X" value="26.000000" id="895331" />
-        <Attribute name="Y" value="15.000000" id="895332" />
+        <Attribute name="X" value="20.000000" id="895331" />
+        <Attribute name="Y" value="11.000000" id="895332" />
     </CAttributeSplitterVector2>
     <CTextureEffectTiles name="Tile Texture Effect 1" id="895463" parent_id="0">
         <Attribute name="Name" value="Tile Texture Effect 1" id="895464" />
@@ -1918,15 +1918,15 @@
         <Attribute name="Animations" value="" id="895709" />
         <Attribute name="Baking Timestep" value="0.100000" id="895710" />
     </CMesh>
-    <CSceneNodeMesh name="stairs Mesh" id="895711" parent_id="103">
+    <CSceneNodeMesh name="stairs Mesh" id="895711" parent_id="2519">
         <Attribute name="Name" value="stairs Mesh" id="895712" />
         <Attribute name="Script" value="" id="895713" />
         <Attribute name="Generate Script" value="" id="895714" />
-        <Attribute name="Parent" value="103" id="895715" />
-        <Attribute name="Position" value="32.500000, 0.000000, 20.000000" id="895716" />
-        <Attribute name="Rotation" value="0.000000, 270.000000, 0.000000" id="895717" />
-        <Attribute name="Scale" value="1.250000, 1.000000, 1.250000" id="895718" />
-        <Attribute name="Is Visible" value="0" id="895719" />
+        <Attribute name="Parent" value="2519" id="895715" />
+        <Attribute name="Position" value="0.000000, 4.000000, 0.000000" id="895716" />
+        <Attribute name="Rotation" value="81.199997, 0.000000, 180.000000" id="895717" />
+        <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="895718" />
+        <Attribute name="Is Visible" value="1" id="895719" />
         <Attribute name="Is Cullable" value="1" id="895720" />
         <Attribute name="Is Locked" value="0" id="895721" />
         <Attribute name="Is Pickable" value="1" id="895722" />
@@ -1937,7 +1937,7 @@
         <Attribute name="Visibility Fade Time" value="0.000000" id="895727" />
         <Attribute name="Visibility Fade Out Time" value="-1.000000" id="895728" />
         <Attribute name="On Pick" value="" id="895729" />
-        <Attribute name="Mesh" value="895703" id="895730" />
+        <Attribute name="Mesh" value="895744" id="895730" />
         <Attribute name="Effect" value="0" id="895731" />
         <Attribute name="Animation" value="0" id="895732" />
         <Attribute name="Animation Speed" value="1.000000" id="895733" />
@@ -1998,30 +1998,4 @@
         <Attribute name="Saturation" value="0.800000" id="895792" />
         <Attribute name="Value" value="0.000000" id="895793" />
     </CDiffuseEffectHSVD3D11>
-    <CMachineOperatorTrigger name="Engine Settings 1-&gt;On First Frame" id="895896" parent_id="0">
-        <Attribute name="Name" value="Engine Settings 1-&gt;On First Frame" id="895897" />
-        <Attribute name="Script" value="" id="895898" />
-        <Attribute name="Generate Script" value="" id="895899" />
-        <Attribute name="_Position" value="1037.000000, -72.000000" id="895900" />
-        <Attribute name="Flow Inputs" value="895905" id="895901" />
-        <Attribute name="Flow Outputs" value="895906" id="895902" />
-        <Attribute name="Input Mappings" value="" id="895903" />
-        <Attribute name="Output Mappings" value="" id="895904" />
-        <Attribute name="In" value="0" id="895905" />
-        <Attribute name="Out" value="7301" id="895906" />
-        <Attribute name="Trigger" value="219" id="895907" />
-    </CMachineOperatorTrigger>
-    <CMachineOperatorTrigger name="Engine Settings 1-&gt;On First Frame" id="895908" parent_id="0">
-        <Attribute name="Name" value="Engine Settings 1-&gt;On First Frame" id="895909" />
-        <Attribute name="Script" value="" id="895910" />
-        <Attribute name="Generate Script" value="" id="895911" />
-        <Attribute name="_Position" value="979.000000, 176.000000" id="895912" />
-        <Attribute name="Flow Inputs" value="895917" id="895913" />
-        <Attribute name="Flow Outputs" value="895918" id="895914" />
-        <Attribute name="Input Mappings" value="" id="895915" />
-        <Attribute name="Output Mappings" value="" id="895916" />
-        <Attribute name="In" value="0" id="895917" />
-        <Attribute name="Out" value="7316" id="895918" />
-        <Attribute name="Trigger" value="219" id="895919" />
-    </CMachineOperatorTrigger>
 </Project2>
