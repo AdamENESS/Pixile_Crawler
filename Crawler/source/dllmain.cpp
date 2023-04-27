@@ -40,6 +40,7 @@ void LoadEnessPluginPython(IEngine * pEngine
 #endif
 	DECLARE_ATTRIBUTE_OBJECT(pEngine->GetAttributeManager(), CMazeGenerator, IAttributeObject);
 	DECLARE_ATTRIBUTE_OBJECT(pEngine->GetAttributeManager(), CInstancedMazeMesh, ISceneNode);
+	DECLARE_ATTRIBUTE_OBJECT(pEngine->GetAttributeManager(), CDungeonCrawlerGame, IAttributeObject);
 #ifdef WIN32
 	return NULL;
 #endif

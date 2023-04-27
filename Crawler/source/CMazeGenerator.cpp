@@ -6,23 +6,17 @@
 #include "CFunctionObject.h"
 #include "CScene.h"
 #include "ITexture.h"
-
-
 #include "CInstancedMazeMesh.h"
-//#define USE_E131
-
+#include "CEvents.h"
 
 CMazeGenerator::CMazeGenerator()
 	: m_pCellTemplate(nullptr)
 	, m_pRootNode(nullptr)
 	, m_mapDataFile(nullptr)
-	, m_iPlayerX(0)
-	, m_iPlayerY(0)
-	, m_iPlayerFacing(0)
 	, m_pMaze2DTexture(nullptr)
 {
 	SETCLASS("CMazeGenerator");
-
+	m_pPlayerData = new SPlayerData();
 }
 
 CMazeGenerator::~CMazeGenerator()
@@ -54,12 +48,8 @@ void CMazeGenerator::DeclareAttributes(IAttributeManager& atrMan)
 	AddAttribute(new CAtrReference("Template Cell", this, (IIdentifiable**)&m_pCellTemplate, atrMan.GetTypeVector("CScene")));
 	AddAttribute(new CAtrReference("Maze Root Node", this, (IIdentifiable**)&m_pRootNode, atrMan.GetTypeVector("ISceneNode")));
 
-	AddAttribute(new CAtrInt("Maze Width", this, &m_mazeData.width));
-	AddAttribute(new CAtrInt("Maze Height", this, &m_mazeData.height));
-
-	AddAttribute(new CAtrInt("Player X", this, &m_iPlayerX));
-	AddAttribute(new CAtrInt("Player Y", this, &m_iPlayerY));
-	AddAttribute(new CAtrInt("Player Facing", this, &m_iPlayerFacing));
+	AddAttribute(new CAtrInt("Maze Width", this, &m_mazeDataOriginal.width));
+	AddAttribute(new CAtrInt("Maze Height", this, &m_mazeDataOriginal.height));
 
 	AddAttribute(new CAtrReference("Mini Map Texture", this, (IIdentifiable**)&m_pMaze2DTexture, atrMan.GetTypeVector("ITexture")));
 }
@@ -89,31 +79,31 @@ void CMazeGenerator::FunctionGenerateMap(CFunctionObject* p)
 	CMazeGenerator* pMe = static_cast<CMazeGenerator*>(p->GetFunctionParent());
 	if (p)
 	{
-		if (!pMe->m_mazeData.wallData.empty())
+		if (!pMe->m_mazeDataOriginal.wallData.empty())
 		{
 			// Clear Maze.
-			for (int y = 0; y < pMe->m_mazeData.height; ++y)
+			for (int y = 0; y < pMe->m_mazeDataOriginal.height; ++y)
 			{
 
-				for (int x = 0; x < pMe->m_mazeData.width; ++x)
+				for (int x = 0; x < pMe->m_mazeDataOriginal.width; ++x)
 				{
 					for (int i = 0; i < 4; ++i)
 					{
-						if (pMe->m_mazeData.wallData[y][x].pWalls[i])
-							pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeData.wallData[y][x].pWalls[i]); SAFE_RELEASE(pMe->m_mazeData.wallData[y][x].pWalls[i]);
+						if (pMe->m_mazeDataOriginal.wallData[y][x].pWalls[i])
+							pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeDataOriginal.wallData[y][x].pWalls[i]); SAFE_RELEASE(pMe->m_mazeDataOriginal.wallData[y][x].pWalls[i]);
 
-						if (pMe->m_mazeData.wallData[y][x].pPillars[i])
-							pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeData.wallData[y][x].pPillars[i]); SAFE_RELEASE(pMe->m_mazeData.wallData[y][x].pPillars[i]);
+						if (pMe->m_mazeDataOriginal.wallData[y][x].pPillars[i])
+							pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeDataOriginal.wallData[y][x].pPillars[i]); SAFE_RELEASE(pMe->m_mazeDataOriginal.wallData[y][x].pPillars[i]);
 
 					}
-					pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeData.wallData[y][x].pFloor); SAFE_RELEASE(pMe->m_mazeData.wallData[y][x].pFloor);
-					pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeData.wallData[y][x].pNode); SAFE_RELEASE(pMe->m_mazeData.wallData[y][x].pNode);
+					pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeDataOriginal.wallData[y][x].pFloor); SAFE_RELEASE(pMe->m_mazeDataOriginal.wallData[y][x].pFloor);
+					pMe->GetAttributeManager()->RemoveAttributeObject(pMe->m_mazeDataOriginal.wallData[y][x].pNode); SAFE_RELEASE(pMe->m_mazeDataOriginal.wallData[y][x].pNode);
 
 				}
-				pMe->m_mazeData.wallData[y].clear();
+				pMe->m_mazeDataOriginal.wallData[y].clear();
 			}
 		}
-		pMe->m_mazeData.wallData.clear();
+		pMe->m_mazeDataOriginal.wallData.clear();
 
 
 		pMe->InitMaze();
@@ -127,14 +117,14 @@ void CMazeGenerator::CreateZones(int count, int cx, int cy, int walltype, int si
 {
 	for (int i = 0; i < count; i++)
 	{
-		int tx = GetRandomMinMax(0, m_mazeData.width);
-		int ty = GetRandomMinMax(0, m_mazeData.height);
+		int tx = GetRandomMinMax(0, m_mazeDataOriginal.width);
+		int ty = GetRandomMinMax(0, m_mazeDataOriginal.height);
 		int width = GetRandomMinMax(sizemin, sizemax);
 		int height = GetRandomMinMax(sizemin, sizemax);
-		while (tx + width >= m_mazeData.width)
+		while (tx + width >= m_mazeDataOriginal.width)
 			tx--;
 
-		while (ty + height >= m_mazeData.height)
+		while (ty + height >= m_mazeDataOriginal.height)
 			ty--;
 
 		if (!FindPoint(tx, ty, tx + width, ty + height, cx, cy))
@@ -143,7 +133,7 @@ void CMazeGenerator::CreateZones(int count, int cx, int cy, int walltype, int si
 			{
 				for (int x = tx; x < tx + width; ++x)
 				{
-					m_mazeData.wallData[y][x].wallType = walltype;
+					m_mazeDataOriginal.wallData[y][x].wallType = walltype;
 				}
 			}
 		}
@@ -161,13 +151,13 @@ void CMazeGenerator::DoMapGeneration()
 	// Choose a position at the top of the map.
 	int cx = GetRandomMinMax(1, 31);
 	int cy = 1;
-	m_iPlayerX = cx;
-	m_iPlayerY = cy;
+	m_pPlayerData->x = cx;
+	m_pPlayerData->y = cy;
 	int nx = cx;
 	int ny = cy;
 
-	m_mazeData.wallData[cy][cx].wallType = 0;
-	m_mazeData.wallData[cy][cx].index = 1;
+	m_mazeDataOriginal.wallData[cy][cx].wallType = 0;
+	m_mazeDataOriginal.wallData[cy][cx].index = 1;
 
 	int32_t currentId = 1;
 	// Make some Un-Editable Areas.
@@ -175,12 +165,12 @@ void CMazeGenerator::DoMapGeneration()
 	int count = 30;
 	CreateZones(count, cx, cy, walltype, 3, 9);
 	CreateZones(60, cx, cy, eWallTypes_None, 3, 5);
-	for (int i = 0; i < m_mazeData.height; i++)
+	for (int i = 0; i < m_mazeDataOriginal.height; i++)
 	{
-		for (int j = 0; j < m_mazeData.width; j++)
+		for (int j = 0; j < m_mazeDataOriginal.width; j++)
 		{
 			if (i % 32 == 0 || j % 32 == 0)
-				m_mazeData.wallData[i][j].wallType = eWallTypes_Uneditable;
+				m_mazeDataOriginal.wallData[i][j].wallType = eWallTypes_Uneditable;
 		}
 	}
 	// Make the walker
@@ -257,9 +247,9 @@ void CMazeGenerator::DoMapGeneration()
 			{
 				cx = nx; cy = ny;
 				stepNotDone = false;
-				m_mazeData.wallData[cy][cx].wallType = 0;
+				m_mazeDataOriginal.wallData[cy][cx].wallType = 0;
 				currentId++;
-				m_mazeData.wallData[cy][cx].index = currentId;
+				m_mazeDataOriginal.wallData[cy][cx].index = currentId;
 
 				SMappedCell cell;
 
@@ -287,7 +277,7 @@ void CMazeGenerator::DoMapGeneration()
 					// Jump to a random location.
 					if (MAX_JUMPS > 0)
 					{
-						m_mazeData.wallData[cy][cx].wallType = eWallTypes_Solid;
+						m_mazeDataOriginal.wallData[cy][cx].wallType = eWallTypes_Solid;
 						if (IsAValidLocation(cx, cy))
 						{
 							// choose a different grid location.
@@ -312,14 +302,14 @@ void CMazeGenerator::DoMapGeneration()
 								SStairLocation newStairs;
 								if (nextLevel < currentLevel)
 								{
-									m_mazeData.wallData[cy][cx].wallType = eWallTypes_StairsUp;
+									m_mazeDataOriginal.wallData[cy][cx].wallType = eWallTypes_StairsUp;
 									newStairs.dx = cx;
 									newStairs.dy = cy;
 
 								}
 								else
 								{
-									m_mazeData.wallData[cy][cx].wallType = eWallTypes_StairsDown;
+									m_mazeDataOriginal.wallData[cy][cx].wallType = eWallTypes_StairsDown;
 									newStairs.ux = cx;
 									newStairs.uy = cy;
 
@@ -327,20 +317,20 @@ void CMazeGenerator::DoMapGeneration()
 
 								if (nextLevel > currentLevel)
 								{
-									m_mazeData.wallData[ny][nx].wallType = eWallTypes_StairsUp;
+									m_mazeDataOriginal.wallData[ny][nx].wallType = eWallTypes_StairsUp;
 									newStairs.dx = nx;
 									newStairs.dy = ny;
 
 								}
 								else
 								{
-									m_mazeData.wallData[ny][nx].wallType = eWallTypes_StairsDown;
+									m_mazeDataOriginal.wallData[ny][nx].wallType = eWallTypes_StairsDown;
 									newStairs.ux = nx;
 									newStairs.uy = ny;
 
 								}
 								currentId++;
-								m_mazeData.wallData[ny][nx].index = currentId;
+								m_mazeDataOriginal.wallData[ny][nx].index = currentId;
 								cx = nx; cy = ny;
 								m_stairLocations.emplace_back(newStairs);
 								MAX_JUMPS--;
@@ -349,7 +339,7 @@ void CMazeGenerator::DoMapGeneration()
 							}
 						}
 					}
-					m_mazeData.wallData[cy][cx].wallType = eWallTypes_None;
+					m_mazeDataOriginal.wallData[cy][cx].wallType = eWallTypes_None;
 
 				}
 				else
@@ -359,15 +349,15 @@ void CMazeGenerator::DoMapGeneration()
 					if (m_path.empty())
 					{
 						cy = 0;
-						cx = GetRandomMinMax(0, m_mazeData.width - 1);
-						m_iPlayerX = cx;
-						m_iPlayerY = cy;
+						cx = GetRandomMinMax(0, m_mazeDataOriginal.width - 1);
+						m_pPlayerData->x = cx;
+						m_pPlayerData->y = cy;
 					}
 					else
 					{
 						int newpos = GetRandomMinMax(0, m_path.size() - 1);
 
-						if (m_mazeData.wallData[m_path[newpos].y][m_path[newpos].x].wallType == eWallTypes_None)
+						if (m_mazeDataOriginal.wallData[m_path[newpos].y][m_path[newpos].x].wallType == eWallTypes_None)
 						{
 							cx = m_path[newpos].x;
 							cy = m_path[newpos].y;
@@ -394,21 +384,21 @@ void CMazeGenerator::InitEmptyMaze()
 
 	//m_mazeData.width = 129;
 	//m_mazeData.height = 129;
-	m_mazeData.wallData.resize(m_mazeData.height);
+	m_mazeDataOriginal.wallData.resize(m_mazeDataOriginal.height);
 
-	for (int i = 0; i < m_mazeData.height; i++)
+	for (int i = 0; i < m_mazeDataOriginal.height; i++)
 	{
-		m_mazeData.wallData[i].resize(m_mazeData.width);
+		m_mazeDataOriginal.wallData[i].resize(m_mazeDataOriginal.width);
 	}
 
-	for (int i = 0; i < m_mazeData.height; i++)
+	for (int i = 0; i < m_mazeDataOriginal.height; i++)
 	{
-		for (int j = 0; j < m_mazeData.width; j++)
+		for (int j = 0; j < m_mazeDataOriginal.width; j++)
 		{
 			if (i % 32 == 0 || j % 32 == 0)
-				m_mazeData.wallData[i][j].wallType = eWallTypes_Uneditable;
+				m_mazeDataOriginal.wallData[i][j].wallType = eWallTypes_Uneditable;
 			else
-				m_mazeData.wallData[i][j].wallType = eWallTypes_Solid;
+				m_mazeDataOriginal.wallData[i][j].wallType = eWallTypes_Solid;
 		}
 	}
 }
@@ -417,7 +407,7 @@ void CMazeGenerator::InitMaze()
 {
 	InitEmptyMaze();
 	DoMapGeneration();
-	SaveMap(m_sMapSeed + ".map");
+	//SaveMap(m_sMapSeed + ".map");
 
 	//LoadMap("Test.map");
 
@@ -429,7 +419,7 @@ void CMazeGenerator::InitMaze()
 		if (!pDeviceTexture)
 		{
 
-			pDeviceTexture = GetAttributeManager()->GetEngine()->GetGraphicsDevice()->CreateDeviceTexture2D(m_mazeData.width, m_mazeData.height, ETF_R8G8B8A8);
+			pDeviceTexture = GetAttributeManager()->GetEngine()->GetGraphicsDevice()->CreateDeviceTexture2D(m_mazeDataOriginal.width, m_mazeDataOriginal.height, ETF_R8G8B8A8);
 			m_pMaze2DTexture->SetDeviceTexture(pDeviceTexture);
 		}
 		BYTE* pPixelData;
@@ -437,33 +427,33 @@ void CMazeGenerator::InitMaze()
 
 		if (pDeviceTexture->Lock(&pPixelData, ELKT_WRITE_DISCARD, pitch))
 		{
-			for (int y = 0; y < m_mazeData.height; y++)
+			for (int y = 0; y < m_mazeDataOriginal.height; y++)
 			{
-				for (int x = 0; x < m_mazeData.width; x++)
+				for (int x = 0; x < m_mazeDataOriginal.width; x++)
 				{
 					int index = y * pitch + x * 4;
-					if (m_mazeData.wallData[y][x].wallType == eWallTypes_Solid)
+					if (m_mazeDataOriginal.wallData[y][x].wallType == eWallTypes_Solid)
 					{
 						pPixelData[index + 0] = 255;
 						pPixelData[index + 1] = 255;
 						pPixelData[index + 2] = 255;
 						pPixelData[index + 3] = 255;
 					}
-					else if (m_mazeData.wallData[y][x].wallType == eWallTypes_Uneditable)
+					else if (m_mazeDataOriginal.wallData[y][x].wallType == eWallTypes_Uneditable)
 					{
 						pPixelData[index + 0] = 0;
 						pPixelData[index + 1] = 0;
 						pPixelData[index + 2] = 255;
 						pPixelData[index + 3] = 255;
 					}
-					else if (m_mazeData.wallData[y][x].wallType == eWallTypes_StairsUp)
+					else if (m_mazeDataOriginal.wallData[y][x].wallType == eWallTypes_StairsUp)
 					{
 						pPixelData[index + 0] = 0;
 						pPixelData[index + 1] = 255;
 						pPixelData[index + 2] = 0;
 						pPixelData[index + 3] = 255;
 					}
-					else if (m_mazeData.wallData[y][x].wallType == eWallTypes_StairsDown)
+					else if (m_mazeDataOriginal.wallData[y][x].wallType == eWallTypes_StairsDown)
 					{
 						pPixelData[index + 0] = 0;
 						pPixelData[index + 1] = 0;
@@ -486,9 +476,9 @@ void CMazeGenerator::InitMaze()
 
 bool CMazeGenerator::IsAValidLocation(int cx, int cy)
 {
-	if (cx < 0 || cx >= m_mazeData.width)
+	if (cx < 0 || cx >= m_mazeDataOriginal.width)
 		return false;
-	if (cy < 0 || cy >= m_mazeData.height)
+	if (cy < 0 || cy >= m_mazeDataOriginal.height)
 		return false;
 
 	// check if the 3 out of the 4 adjacent walls are solid, by using the cx and cy values.
@@ -496,15 +486,15 @@ bool CMazeGenerator::IsAValidLocation(int cx, int cy)
 	int count = 0;
 	if (cx > 0)
 	{
-		if (m_mazeData.wallData[cy][cx - 1].wallType == eWallTypes_Solid)
+		if (m_mazeDataOriginal.wallData[cy][cx - 1].wallType == eWallTypes_Solid)
 			count++;
 	}
 	else {
 		count++;
 	}
-	if (cx < m_mazeData.width - 1)
+	if (cx < m_mazeDataOriginal.width - 1)
 	{
-		if (m_mazeData.wallData[cy][cx + 1].wallType == eWallTypes_Solid)
+		if (m_mazeDataOriginal.wallData[cy][cx + 1].wallType == eWallTypes_Solid)
 			count++;
 	}
 	else {
@@ -512,15 +502,15 @@ bool CMazeGenerator::IsAValidLocation(int cx, int cy)
 	}
 	if (cy > 0)
 	{
-		if (m_mazeData.wallData[cy - 1][cx].wallType == eWallTypes_Solid)
+		if (m_mazeDataOriginal.wallData[cy - 1][cx].wallType == eWallTypes_Solid)
 			count++;
 	}
 	else {
 		count++;
 	}
-	if (cy < m_mazeData.height - 1)
+	if (cy < m_mazeDataOriginal.height - 1)
 	{
-		if (m_mazeData.wallData[cy + 1][cx].wallType == eWallTypes_Solid)
+		if (m_mazeDataOriginal.wallData[cy + 1][cx].wallType == eWallTypes_Solid)
 			count++;
 	}
 	else {
@@ -537,7 +527,7 @@ bool CMazeGenerator::IsAValidLocation(int cx, int cy)
 
 
 	// check if the current cell is a solid wall
-	if (m_mazeData.wallData[cy][cx].wallType != eWallTypes_Solid)
+	if (m_mazeDataOriginal.wallData[cy][cx].wallType != eWallTypes_Solid)
 		return false;
 
 	return true;
@@ -571,12 +561,12 @@ void CMazeGenerator::CreateMazeMesh()
 		pCell->FindSceneNode("floor_tile", &Floor);
 	}
 	*/
-	for (int y = 0; y < m_mazeData.height; ++y)
+	for (int y = 0; y < m_mazeDataOriginal.height; ++y)
 	{
 
-		for (int x = 0; x < m_mazeData.width; ++x)
+		for (int x = 0; x < m_mazeDataOriginal.width; ++x)
 		{
-			auto* pCurrent = &m_mazeData.wallData[y][x];
+			auto* pCurrent = &m_mazeDataOriginal.wallData[y][x];
 			CInstancedMazeMesh* pMaze = dynamic_cast<CInstancedMazeMesh*>(m_pRootNode);
 			if (pMaze)
 			{
@@ -602,7 +592,7 @@ void CMazeGenerator::CreateMazeMesh()
 
 				}
 
-				if (x == m_mazeData.width - 1)
+				if (x == m_mazeDataOriginal.width - 1)
 				{
 					pMaze->AddNewMeshInstance((1 + x) * 5, 0, (1 + y) * 5, 1, eMazeMeshType_Wall);
 					pMaze->AddNewMeshInstance((1 + x) * 5, 0, (1 + y) * 5, 1, eMazeMeshType_Pillar);
@@ -616,7 +606,7 @@ void CMazeGenerator::CreateMazeMesh()
 					//AddWall(2, pCurrent, Walls); AddPillar(2, pCurrent, Pillars);
 				}
 
-				if (y == m_mazeData.height - 1)
+				if (y == m_mazeDataOriginal.height - 1)
 				{
 					pMaze->AddNewMeshInstance((1 + x) * 5, 0, (1 + y) * 5, 0, eMazeMeshType_Wall);
 					pMaze->AddNewMeshInstance((1 + x) * 5, 0, (1 + y) * 5, 0, eMazeMeshType_Pillar);
@@ -643,19 +633,19 @@ void CMazeGenerator::CreateMazeMesh()
 					// check which square adjacent to the stairs is empty
 					int dir = -1;
 
-					if (m_mazeData.wallData[y][x - 1].wallType == eWallTypes_None)
+					if (m_mazeDataOriginal.wallData[y][x - 1].wallType == eWallTypes_None)
 					{
 						dir = 3;
 					}
-					else if (m_mazeData.wallData[y][x + 1].wallType == eWallTypes_None)
+					else if (m_mazeDataOriginal.wallData[y][x + 1].wallType == eWallTypes_None)
 					{
 						dir = 1;
 					}
-					else if (m_mazeData.wallData[y - 1][x].wallType == eWallTypes_None)
+					else if (m_mazeDataOriginal.wallData[y - 1][x].wallType == eWallTypes_None)
 					{
 						dir = 2;
 					}
-					else if (m_mazeData.wallData[y + 1][x].wallType == eWallTypes_None)
+					else if (m_mazeDataOriginal.wallData[y + 1][x].wallType == eWallTypes_None)
 					{
 						dir = 0;
 					}
@@ -698,7 +688,7 @@ void CMazeGenerator::AddWall(int i, SCellData* pCurrent, ISceneNode** Walls)
 void CMazeGenerator::Tick(float fDeltaTime)
 {
 	IAttributeObject::Tick(fDeltaTime);
-	((CInstancedMazeMesh*)m_pRootNode)->UpdateMeshInstanceVisibility(m_iPlayerX, m_iPlayerY, 10);
+	((CInstancedMazeMesh*)m_pRootNode)->UpdateMeshInstanceVisibility(m_pPlayerData->x, m_pPlayerData->y, 10);
 }
 
 bool CMazeGenerator::FindPoint(int x1, int y1, int x2, int y2, int x, int y)
@@ -715,19 +705,19 @@ bool CMazeGenerator::SaveMap(const std::string& fileName)
 	nlohmann::json jsonMapData;
 	jsonMapData = nlohmann::json();
 
-	jsonMapData["width"] = m_mazeData.width;
-	jsonMapData["height"] = m_mazeData.height;
-	jsonMapData["startX"] = m_iPlayerX;
-	jsonMapData["startY"] = m_iPlayerY;
+	jsonMapData["width"] = m_mazeDataOriginal.width;
+	jsonMapData["height"] = m_mazeDataOriginal.height;
+	jsonMapData["startX"] = m_pPlayerData->x;
+	jsonMapData["startY"] = m_pPlayerData->y;
 	jsonMapData["seed"] = m_sMapSeed;
 	jsonMapData["wallData"] = nlohmann::json::array();
-	for (int y = 0; y < m_mazeData.height; y++)
+	for (int y = 0; y < m_mazeDataOriginal.height; y++)
 	{
 		nlohmann::json jsonWallData;
-		for (int x = 0; x < m_mazeData.width; x++)
+		for (int x = 0; x < m_mazeDataOriginal.width; x++)
 		{
 
-			jsonWallData.push_back(m_mazeData.wallData[y][x].wallType);
+			jsonWallData.push_back(m_mazeDataOriginal.wallData[y][x].wallType);
 
 
 		}
@@ -759,25 +749,267 @@ bool CMazeGenerator::LoadMap(const std::string& fileName)
 	file >> jsonMapData;
 	file.close();
 
-	m_mazeData.width = jsonMapData["width"];
-	m_mazeData.height = jsonMapData["height"];
-	m_mazeData.wallData.resize(m_mazeData.height);
+	m_mazeDataOriginal.width = jsonMapData["width"];
+	m_mazeDataOriginal.height = jsonMapData["height"];
+	m_mazeDataOriginal.wallData.resize(m_mazeDataOriginal.height);
 
-	for (int i = 0; i < m_mazeData.height; i++)
+	for (int i = 0; i < m_mazeDataOriginal.height; i++)
 	{
-		m_mazeData.wallData[i].resize(m_mazeData.width);
+		m_mazeDataOriginal.wallData[i].resize(m_mazeDataOriginal.width);
 	}
 	//m_mazeData.wallData = new SCellData*[m_mazeData.height];
-	for (int y = 0; y < m_mazeData.height; y++)
+	for (int y = 0; y < m_mazeDataOriginal.height; y++)
 	{
 		//m_mazeData.wallData[y] = new SCellData[m_mazeData.width];
-		for (int x = 0; x < m_mazeData.width; x++)
+		for (int x = 0; x < m_mazeDataOriginal.width; x++)
 		{
-			m_mazeData.wallData[y][x].wallType = jsonMapData["wallData"][y][x];
+			m_mazeDataOriginal.wallData[y][x].wallType = jsonMapData["wallData"][y][x];
 		}
 	}
-
 
 	return res;
 }
 
+CDungeonCrawlerGame::CDungeonCrawlerGame()
+	:IAttributeObject()
+	, m_pPlayerAvatar(nullptr)
+	, m_pMazeGenerator(nullptr)
+{
+	SETCLASS("CDungeonCrawlerGame");
+}
+
+CDungeonCrawlerGame::~CDungeonCrawlerGame()
+{
+
+}
+
+void CDungeonCrawlerGame::OnLostDevice(void)
+{
+	IAttributeObject::OnLostDevice();
+}
+
+void CDungeonCrawlerGame::OnResetDevice(IGraphicsDevice& device)
+{
+	IAttributeObject::OnResetDevice(device);
+}
+float deg_to_rad(float deg)
+{
+	return deg * (3.14159265358979323846 / 180);
+}
+
+VECTOR2 CDungeonCrawlerGame::getDestPos(int direction)
+{
+	//return VECTOR2(m_pPlayerData->x + sin(direction * 90), m_pPlayerData->y		+ cos(direction * 90));
+	VECTOR2 vec = VECTOR2(
+		sin(deg_to_rad(direction * 90)),
+		cos(deg_to_rad(direction * 90)));
+
+	vec.x = int(vec.x) + m_pPlayerData->x;
+	vec.y = int(vec.y) + m_pPlayerData->y;
+	
+	if (vec.x < 0)
+		vec.x = 0;
+	if (vec.y < 0)
+		vec.y = 0;
+
+	if (vec.x >= m_pMazeGenerator->GetMazeData()->width)
+		vec.x = m_pMazeGenerator->GetMazeData()->width - 1;
+
+	if (vec.y >= m_pMazeGenerator->GetMazeData()->height)
+		vec.y = m_pMazeGenerator->GetMazeData()->height - 1;
+
+	return vec;
+}
+
+
+bool CDungeonCrawlerGame::canMove(VECTOR2 pos)
+{
+	if (m_pMazeGenerator->GetMazeData()->wallData[pos.y][pos.x].wallType == eWallTypes_None)
+		return true;
+
+	if (m_pMazeGenerator->GetMazeData()->wallData[pos.y][pos.x].wallType == eWallTypes_Room)
+		return true;
+
+	return false;
+}
+
+void CDungeonCrawlerGame::moveBackward(void)
+{
+	VECTOR2 destPos = getDestPos(invertDirection(m_pPlayerData->facing));
+	if (canMove(destPos))
+	{
+		m_pPlayerData->x = destPos.x;
+		m_pPlayerData->y = destPos.y;
+		//m_bFlipped = !m_bFlipped;
+	}
+}
+
+void CDungeonCrawlerGame::moveForward(void)
+{
+	VECTOR2 destPos = getDestPos(m_pPlayerData->facing);
+	if (canMove(destPos))
+	{
+		m_pPlayerData->x = destPos.x;
+		m_pPlayerData->y = destPos.y;
+		//m_bFlipped = !m_bFlipped;
+	}
+}
+
+void CDungeonCrawlerGame::strafeLeft(void)
+{
+	auto direction = m_pPlayerData->facing - 1;
+	if (direction < 0)
+		direction = 3;
+
+	VECTOR2 destPos = getDestPos(direction);
+	if (canMove(destPos))
+	{
+		m_pPlayerData->x = destPos.x;
+		m_pPlayerData->y = destPos.y;
+		//m_bFlipped = !m_bFlipped;
+	}
+}
+
+void CDungeonCrawlerGame::strafeRight(void)
+{
+	auto direction = m_pPlayerData->facing + 1;
+	if (direction > 3)
+		direction = 0;
+
+	VECTOR2 destPos = getDestPos(direction);
+	if (canMove(destPos))
+	{
+		m_pPlayerData->x = destPos.x;
+		m_pPlayerData->y = destPos.y;
+
+		//m_bFlipped = !m_bFlipped;
+	}
+}
+
+int CDungeonCrawlerGame::invertDirection(int direction)
+{
+	if (direction == 0) return 2;
+	if (direction == 1) return 3;
+	if (direction == 2) return 0;
+	if (direction == 3) return 1;
+	return 0;
+}
+
+void CDungeonCrawlerGame::turnLeft(void)
+{
+	m_pPlayerData->facing = m_pPlayerData->facing - 1;
+	if (m_pPlayerData->facing < 0)
+		m_pPlayerData->facing = 3;
+}
+
+void CDungeonCrawlerGame::turnRight(void)
+{
+	m_pPlayerData->facing = m_pPlayerData->facing + 1;
+	if (m_pPlayerData->facing > 3)
+		m_pPlayerData->facing = 0;
+}
+
+void CDungeonCrawlerGame::DeclareAttributes(IAttributeManager& atrMan)
+{
+	IAttributeObject::DeclareAttributes(atrMan);
+	AddAttribute(new CAtrReference("Map Generator", this, (IIdentifiable**)&m_pMazeGenerator, atrMan.GetTypeVector("CMazeGenerator")));
+	AddAttribute(new CAtrReference("Player Avatar", this, (IIdentifiable**)&m_pPlayerAvatar, atrMan.GetTypeVector("ISceneNode")));
+}
+
+void CDungeonCrawlerGame::InitialiseAttributeObject(IAttributeManager& atrMan, IIdentifiable* pParent)
+{
+	IAttributeObject::InitialiseAttributeObject(atrMan, pParent);
+	atrMan.AddTickableObject(this);
+	atrMan.GetEngine()->GetEventManager()->AddEventHandler("CKeyboardEvent", this, OnKeyboardEvent);
+}
+
+void CDungeonCrawlerGame::PostLoad(void)
+{
+	IAttributeObject::PostLoad();
+
+	if (m_pMazeGenerator)
+		m_pPlayerData = m_pMazeGenerator->PlayerData();
+
+}
+
+void CDungeonCrawlerGame::UninitialiseAttributeObject(IAttributeManager& atrMan)
+{
+	IAttributeObject::UninitialiseAttributeObject(atrMan);
+	atrMan.RemoveTickableObject(this);
+	atrMan.GetEngine()->GetEventManager()->RemoveEventHandler("CKeyboardEvent", this);
+
+
+}
+
+void CDungeonCrawlerGame::Tick(float fDeltaTime)
+{
+	IAttributeObject::Tick(fDeltaTime);
+	if (m_pPlayerAvatar)
+	{
+		m_pPlayerAvatar->SetPosition(m_pPlayerData->x * 5, 0, m_pPlayerData->y * 5);
+		m_pPlayerAvatar->SetRotation(0.0, 90 * m_pPlayerData->facing, 0.f);
+	}
+}
+
+void CDungeonCrawlerGame::OnKeyboardEvent(IReferenceCounted* pThis, IEvent* p)
+{
+	CDungeonCrawlerGame* pMe = (CDungeonCrawlerGame*)pThis;
+	CKeyboardEvent* pEvent = (CKeyboardEvent*)p;
+
+	pMe->HandleKeyboard(pEvent);
+
+}
+
+void CDungeonCrawlerGame::HandleKeyboard(CKeyboardEvent* pEvent)
+{
+	int iKey = pEvent->GetKeyCode();
+
+	if (iKey != 0)
+	{
+		if (m_pPlayerData)
+		{
+
+			if (pEvent->GetKeyState())
+			{
+				// Key down	
+
+
+				switch (iKey)
+				{
+				case 'w':
+				case 'W':
+					moveForward();
+					break;
+				case 's':
+				case 'S':
+					moveBackward();
+					break;
+				case 'a':
+				case 'A':
+					strafeLeft();
+					break;
+				case 'd':
+				case 'D':
+					strafeRight();
+					break;
+				case 'q':
+				case 'Q':
+					turnLeft();
+					break;
+				case 'e':
+				case 'E':
+					turnRight();
+					break;
+				default:
+					break;
+				}
+
+			}
+			else
+			{
+				// Key up
+
+			}
+		}
+	}
+}

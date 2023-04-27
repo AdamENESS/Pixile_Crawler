@@ -107,10 +107,12 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\CInstancedMazeMesh.cpp" />
     <ClCompile Include="source\CMazeGenerator.cpp" />
     <ClCompile Include="source\dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\CInstancedMazeMesh.h" />
     <ClInclude Include="source\CMazeGenerator.h" />
   </ItemGroup>
   <ItemGroup>
