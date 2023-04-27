@@ -47,7 +47,7 @@
         <Attribute name="Fog Colour" value="0.000000, 0.000000, 0.000000, 1.000000" id="147" />
         <Attribute name="Fog Density" value="0.000000" id="148" />
         <Attribute name="GUI" value="0" id="149" />
-        <Attribute name="Post Effects" value="" id="150" />
+        <Attribute name="Post Effects" value="896177,896166,896130" id="150" />
         <Attribute name="FOV" value="60.000000" id="151" />
         <Attribute name="Aspect" value="1.777778" id="152" />
         <Attribute name="Camera Mode" value="0" id="153" />
@@ -402,8 +402,8 @@
         <Attribute name="Script" value="" id="610" />
         <Attribute name="Generate Script" value="" id="611" />
         <Attribute name="Parent" value="103" id="612" />
-        <Attribute name="Position" value="365.000000, 0.000000, 90.000000" id="613" />
-        <Attribute name="Rotation" value="0.000000, 270.000000, 0.000000" id="614" />
+        <Attribute name="Position" value="85.000000, 0.000000, 150.000000" id="613" />
+        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="614" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="615" />
         <Attribute name="Is Visible" value="1" id="616" />
         <Attribute name="Is Cullable" value="1" id="617" />
@@ -734,7 +734,7 @@
         <Attribute name="Generate Script" value="" id="2357" />
         <Attribute name="Source Attribute" value="614" id="2358" />
         <Attribute name="X" value="0.000000" id="2359" />
-        <Attribute name="Y" value="270.000000" id="2360" />
+        <Attribute name="Y" value="90.000000" id="2360" />
         <Attribute name="Z" value="0.000000" id="2361" />
     </CAttributeSplitterVector3>
     <CAttributeModifierAttractFloat name="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2362" parent_id="0">
@@ -1120,14 +1120,6 @@
         <Attribute name="Remove External Object" value="" id="6668" />
         <Attribute name="Run from Flow In" value="" id="6669" />
         <Attribute name="Attribute Positions" value="6859|42468282,7291|4281992744,7322|7145039,894930|4261282768,894931|4264100438,894932|16318393,895340|19924090,895341|56164756" id="6670" />
-        <Attribute name="Avatar-&gt;Rotation-&gt;Y" value="270.000000" id="6859" />
-        <Attribute name="Avatar-&gt;Position-&gt;Z" value="90.000000" id="7291" />
-        <Attribute name="Avatar-&gt;Position-&gt;X" value="365.000000" id="7322" />
-        <Attribute name="CMazeGenerator 1-&gt;Player X" value="73" id="894930" />
-        <Attribute name="CMazeGenerator 1-&gt;Player Y" value="18" id="894931" />
-        <Attribute name="CMazeGenerator 1-&gt;Player Facing" value="3" id="894932" />
-        <Attribute name="Image 2-&gt;Position-&gt;X" value="73.000000" id="895340" />
-        <Attribute name="Image 2-&gt;Position-&gt;Y" value="18.000000" id="895341" />
     </CMachine>
     <CMachineOperatorTrigger name="KEY_W-&gt;On Key Down" id="6710" parent_id="0">
         <Attribute name="Name" value="KEY_W-&gt;On Key Down" id="6711" />
@@ -1464,9 +1456,9 @@
         <Attribute name="Script" value="" id="7278" />
         <Attribute name="Generate Script" value="" id="7279" />
         <Attribute name="Source Attribute" value="613" id="7280" />
-        <Attribute name="X" value="365.000000" id="7281" />
+        <Attribute name="X" value="85.000000" id="7281" />
         <Attribute name="Y" value="0.000000" id="7282" />
-        <Attribute name="Z" value="90.000000" id="7283" />
+        <Attribute name="Z" value="150.000000" id="7283" />
     </CAttributeSplitterVector3>
     <CMachineOperatorConvertIntToFloat name="Convert Int To Float 2" id="7292" parent_id="0">
         <Attribute name="Name" value="Convert Int To Float 2" id="7293" />
@@ -1691,9 +1683,6 @@
         <Attribute name="Maze Root Node" value="548" id="7930" />
         <Attribute name="Maze Width" value="129" id="7931" />
         <Attribute name="Maze Height" value="129" id="7932" />
-        <Attribute name="Player X" value="73" id="894818" />
-        <Attribute name="Player Y" value="18" id="894819" />
-        <Attribute name="Player Facing" value="3" id="894820" />
         <Attribute name="Mini Map Texture" value="895159" id="895056" />
     </CMazeGenerator>
     <CTriggerMapper name="Trigger Mapper 1" id="79740" parent_id="0">
@@ -2024,4 +2013,219 @@
         <Attribute name="Out" value="7316" id="895918" />
         <Attribute name="Trigger" value="219" id="895919" />
     </CMachineOperatorTrigger>
+    <CDungeonCrawlerGame name="CDungeonCrawlerGame 1" id="896022" parent_id="0">
+        <Attribute name="Name" value="CDungeonCrawlerGame 1" id="896023" />
+        <Attribute name="Script" value="" id="896024" />
+        <Attribute name="Generate Script" value="" id="896025" />
+        <Attribute name="Map Generator" value="7923" id="896026" />
+        <Attribute name="Player Avatar" value="608" id="896027" />
+    </CDungeonCrawlerGame>
+    <CPostEffectPixelate name="Post Pixelate 1" id="896130" parent_id="0">
+        <Attribute name="Name" value="Post Pixelate 1" id="896131" />
+        <Attribute name="Script" value="" id="896132" />
+        <Attribute name="Generate Script" value="" id="896133" />
+        <Attribute name="MD5" value="" id="896134" />
+        <Attribute name="Is Visible" value="0" id="896135" />
+        <Attribute name="Visibility Fade Time" value="1.000000" id="896136" />
+        <Attribute name="Intensity" value="1.000000" id="896137" />
+        <Attribute name="Amount" value="1318.588623, 538.891602" id="896138" />
+    </CPostEffectPixelate>
+    <CAttributeModifierOscillateFloat name="Amount-&gt;Y Oscillate (Float)" id="896139" parent_id="0">
+        <Attribute name="Name" value="Amount-&gt;Y Oscillate (Float)" id="896140" />
+        <Attribute name="Script" value="" id="896141" />
+        <Attribute name="Generate Script" value="" id="896142" />
+        <Attribute name="Attributes" value="896155" id="896143" />
+        <Attribute name="Enable Updates" value="1" id="896144" />
+        <Attribute name="Min" value="256.000000" id="896145" />
+        <Attribute name="Max" value="1080.000000" id="896146" />
+        <Attribute name="Speed" value="0.500000" id="896147" />
+        <Attribute name="Phase Shift" value="0.000000" id="896148" />
+    </CAttributeModifierOscillateFloat>
+    <CAttributeSplitterVector2 name="Amount" id="896149" parent_id="0">
+        <Attribute name="Name" value="Amount" id="896150" />
+        <Attribute name="Script" value="" id="896151" />
+        <Attribute name="Generate Script" value="" id="896152" />
+        <Attribute name="Source Attribute" value="896138" id="896153" />
+        <Attribute name="X" value="1318.588623" id="896154" />
+        <Attribute name="Y" value="538.891602" id="896155" />
+    </CAttributeSplitterVector2>
+    <CAttributeModifierOscillateFloat name="Amount-&gt;X Oscillate (Float)" id="896156" parent_id="0">
+        <Attribute name="Name" value="Amount-&gt;X Oscillate (Float)" id="896157" />
+        <Attribute name="Script" value="" id="896158" />
+        <Attribute name="Generate Script" value="" id="896159" />
+        <Attribute name="Attributes" value="896154" id="896160" />
+        <Attribute name="Enable Updates" value="1" id="896161" />
+        <Attribute name="Min" value="320.000000" id="896162" />
+        <Attribute name="Max" value="1920.000000" id="896163" />
+        <Attribute name="Speed" value="20.000000" id="896164" />
+        <Attribute name="Phase Shift" value="0.000000" id="896165" />
+    </CAttributeModifierOscillateFloat>
+    <CPostEffectColourOffset name="Post Colour Offset 1" id="896166" parent_id="0">
+        <Attribute name="Name" value="Post Colour Offset 1" id="896167" />
+        <Attribute name="Script" value="" id="896168" />
+        <Attribute name="Generate Script" value="" id="896169" />
+        <Attribute name="MD5" value="" id="896170" />
+        <Attribute name="Is Visible" value="0" id="896171" />
+        <Attribute name="Visibility Fade Time" value="1.000000" id="896172" />
+        <Attribute name="Intensity" value="1.000000" id="896173" />
+        <Attribute name="Offset R" value="0.002000, 0.002000" id="896174" />
+        <Attribute name="Offset G" value="-0.002000, -0.002000" id="896175" />
+        <Attribute name="Offset B" value="0.000000, 0.000000" id="896176" />
+    </CPostEffectColourOffset>
+    <CPostEffectRadialBlur name="Post Radial Blur 1" id="896177" parent_id="0">
+        <Attribute name="Name" value="Post Radial Blur 1" id="896178" />
+        <Attribute name="Script" value="" id="896179" />
+        <Attribute name="Generate Script" value="" id="896180" />
+        <Attribute name="MD5" value="" id="896181" />
+        <Attribute name="Is Visible" value="0" id="896182" />
+        <Attribute name="Visibility Fade Time" value="1.000000" id="896183" />
+        <Attribute name="Intensity" value="1.000000" id="896184" />
+        <Attribute name="Control Point" value="0.500000, 0.500000" id="896185" />
+        <Attribute name="Texel Offset" value="0.000000, 0.000000" id="896186" />
+        <Attribute name="Blur Start" value="1.000000" id="896187" />
+        <Attribute name="Blur Width" value="-0.150000" id="896188" />
+        <Attribute name="Gamma" value="1.300000" id="896189" />
+        <Attribute name="Strength" value="1.000000" id="896190" />
+    </CPostEffectRadialBlur>
+    <CAttributeStateCollection name="State Collection 1" id="896191" parent_id="0">
+        <Attribute name="Name" value="State Collection 1" id="896192" />
+        <Attribute name="Script" value="" id="896193" />
+        <Attribute name="Generate Script" value="" id="896194" />
+        <Attribute name="States" value="896226,896235,896244" id="896195" />
+        <Attribute name="Attributes" value="896182,896171,896135" id="896196" />
+        <Attribute name="Blend To State" value="" id="896197" />
+        <Attribute name="Blend To Random State" value="" id="896198" />
+        <Attribute name="Blend To Next State" value="" id="896199" />
+        <Attribute name="Blend To Prev State" value="" id="896200" />
+        <Attribute name="Blend To State Index" value="" id="896201" />
+        <Attribute name="Controller" value="0" id="896202" />
+        <Attribute name="Current State" value="1" id="896203" />
+        <Attribute name="Next State" value="1" id="896204" />
+        <Attribute name="Enable External State Changing" value="1" id="896205" />
+        <Attribute name="User State Change Blend Length" value="0.000000" id="896206" />
+        <Attribute name="User State Change Blend Type" value="0" id="896207" />
+        <Attribute name="Current Action" value="0" id="896208" />
+        <Attribute name="On State Change Complete" value="" id="896209" />
+        <Attribute name="On State Change Requested" value="" id="896210" />
+        <Attribute name="Create State" value="" id="896211" />
+        <Attribute name="Get Current State Name" value="" id="896212" />
+        <Attribute name="Blend To State Name" value="" id="896213" />
+        <Attribute name="Fires Functions on Load" value="0" id="896214" />
+        <Attribute name="Only Set Values On State Change" value="0" id="896215" />
+        <Attribute name="Record Mode" value="0" id="896216" />
+        <Attribute name="Default State" value="-1" id="896217" />
+        <Attribute name="Reset To Default Delay" value="1.000000" id="896218" />
+        <Attribute name="Sequential Blending" value="0" id="896219" />
+    </CAttributeStateCollection>
+    <CAttributeState name="State 1" id="896226" parent_id="0">
+        <Attribute name="Name" value="State 1" id="896227" />
+        <Attribute name="Script" value="" id="896228" />
+        <Attribute name="Generate Script" value="" id="896229" />
+        <Attribute name="State Collection" value="896191" id="896230" />
+        <Attribute name="State Attribute Links" value="896253|896182,896256|896171,896259|896135" id="896231" />
+        <Attribute name="State Data" value="" id="896232" />
+        <Attribute name="Function Objects" value="" id="896233" />
+        <Attribute name="Function Object Map" value="" id="896234" />
+        <Attribute name="Is Visible" value="1" id="896253" />
+        <Attribute name="Is Visible" value="1" id="896256" />
+        <Attribute name="Is Visible" value="1" id="896259" />
+    </CAttributeState>
+    <CAttributeState name="State 2" id="896235" parent_id="0">
+        <Attribute name="Name" value="State 2" id="896236" />
+        <Attribute name="Script" value="" id="896237" />
+        <Attribute name="Generate Script" value="" id="896238" />
+        <Attribute name="State Collection" value="896191" id="896239" />
+        <Attribute name="State Attribute Links" value="896254|896182,896257|896171,896260|896135" id="896240" />
+        <Attribute name="State Data" value="" id="896241" />
+        <Attribute name="Function Objects" value="" id="896242" />
+        <Attribute name="Function Object Map" value="" id="896243" />
+        <Attribute name="Is Visible" value="0" id="896254" />
+        <Attribute name="Is Visible" value="0" id="896257" />
+        <Attribute name="Is Visible" value="0" id="896260" />
+    </CAttributeState>
+    <CAttributeState name="State 3" id="896244" parent_id="0">
+        <Attribute name="Name" value="State 3" id="896245" />
+        <Attribute name="Script" value="" id="896246" />
+        <Attribute name="Generate Script" value="" id="896247" />
+        <Attribute name="State Collection" value="896191" id="896248" />
+        <Attribute name="State Attribute Links" value="896255|896182,896258|896171,896261|896135" id="896249" />
+        <Attribute name="State Data" value="" id="896250" />
+        <Attribute name="Function Objects" value="" id="896251" />
+        <Attribute name="Function Object Map" value="" id="896252" />
+        <Attribute name="Is Visible" value="1" id="896255" />
+        <Attribute name="Is Visible" value="1" id="896258" />
+        <Attribute name="Is Visible" value="0" id="896261" />
+    </CAttributeState>
+    <CAttributeTimelineCollection name="Timeline 2" id="896262" parent_id="0">
+        <Attribute name="Name" value="Timeline 2" id="896263" />
+        <Attribute name="Script" value="" id="896264" />
+        <Attribute name="Generate Script" value="" id="896265" />
+        <Attribute name="Timelines" value="896284" id="896266" />
+        <Attribute name="Current Time" value="4.041925" id="896267" />
+        <Attribute name="Duration" value="30.000000" id="896268" />
+        <Attribute name="Looping" value="1" id="896269" />
+        <Attribute name="Play Backwards" value="0" id="896270" />
+        <Attribute name="Window Start Time" value="0.000000" id="896271" />
+        <Attribute name="Window End Time" value="30.000000" id="896272" />
+        <Attribute name="Set Current Time" value="" id="896273" />
+        <Attribute name="Play" value="" id="896274" />
+        <Attribute name="Stop" value="" id="896275" />
+        <Attribute name="Pause" value="" id="896276" />
+        <Attribute name="Play From Start" value="" id="896277" />
+        <Attribute name="Play On Load" value="1" id="896278" />
+        <Attribute name="Enable Updates" value="1" id="896279" />
+        <Attribute name="Time Scale" value="1.000000" id="896280" />
+        <Attribute name="On End" value="" id="896281" />
+        <Attribute name="Get Current Time" value="" id="896282" />
+        <Attribute name="Is Playing" value="1" id="896283" />
+    </CAttributeTimelineCollection>
+    <CAttributeTimeline name="Timeline 1" id="896284" parent_id="0">
+        <Attribute name="Name" value="Timeline 1" id="896285" />
+        <Attribute name="Script" value="" id="896286" />
+        <Attribute name="Generate Script" value="" id="896287" />
+        <Attribute name="Attribute" value="896197" id="896288" />
+        <Attribute name="Attribute Object" value="0" id="896289" />
+        <Attribute name="Keys" value="896292,896310" id="896290" />
+        <Attribute name="Enable Updates" value="1" id="896291" />
+    </CAttributeTimeline>
+    <CAttributeTimelineKeyFunction name="Timeline Key Function 1" id="896292" parent_id="896284">
+        <Attribute name="Name" value="Timeline Key Function 1" id="896293" />
+        <Attribute name="Script" value="" id="896294" />
+        <Attribute name="Generate Script" value="" id="896295" />
+        <Attribute name="Timeline" value="896284" id="896296" />
+        <Attribute name="Time" value="0.533333" id="896297" />
+        <Attribute name="Enabled" value="1" id="896298" />
+        <Attribute name="Repeatable" value="0" id="896299" />
+        <Attribute name="On Key Hit" value="" id="896300" />
+        <Attribute name="Function Object" value="896302" id="896301" />
+    </CAttributeTimelineKeyFunction>
+    <CFunctionObject name="Function Object 3" id="896302" parent_id="0">
+        <Attribute name="Name" value="Function Object 3" id="896303" />
+        <Attribute name="Script" value="" id="896304" />
+        <Attribute name="Generate Script" value="" id="896305" />
+        <Attribute name="Function" value="896197" id="896306" />
+        <Attribute name="Chosen State" value="896235" id="896307" />
+        <Attribute name="Blend Time" value="0.000000" id="896308" />
+        <Attribute name="Blend Type" value="0" id="896309" />
+    </CFunctionObject>
+    <CAttributeTimelineKeyFunction name="Timeline Key Function 2" id="896310" parent_id="896284">
+        <Attribute name="Name" value="Timeline Key Function 2" id="896311" />
+        <Attribute name="Script" value="" id="896312" />
+        <Attribute name="Generate Script" value="" id="896313" />
+        <Attribute name="Timeline" value="896284" id="896314" />
+        <Attribute name="Time" value="22.166670" id="896315" />
+        <Attribute name="Enabled" value="1" id="896316" />
+        <Attribute name="Repeatable" value="0" id="896317" />
+        <Attribute name="On Key Hit" value="" id="896318" />
+        <Attribute name="Function Object" value="896320" id="896319" />
+    </CAttributeTimelineKeyFunction>
+    <CFunctionObject name="Function Object 4" id="896320" parent_id="0">
+        <Attribute name="Name" value="Function Object 4" id="896321" />
+        <Attribute name="Script" value="" id="896322" />
+        <Attribute name="Generate Script" value="" id="896323" />
+        <Attribute name="Function" value="896197" id="896324" />
+        <Attribute name="Chosen State" value="896226" id="896325" />
+        <Attribute name="Blend Time" value="0.000000" id="896326" />
+        <Attribute name="Blend Type" value="0" id="896327" />
+    </CFunctionObject>
 </Project2>
