@@ -402,8 +402,8 @@
         <Attribute name="Script" value="" id="610" />
         <Attribute name="Generate Script" value="" id="611" />
         <Attribute name="Parent" value="103" id="612" />
-        <Attribute name="Position" value="85.000000, 0.000000, 150.000000" id="613" />
-        <Attribute name="Rotation" value="0.000000, 90.000000, 0.000000" id="614" />
+        <Attribute name="Position" value="90.000000, 0.000000, 10.000000" id="613" />
+        <Attribute name="Rotation" value="0.000000, 0.000000, 0.000000" id="614" />
         <Attribute name="Scale" value="1.000000, 1.000000, 1.000000" id="615" />
         <Attribute name="Is Visible" value="1" id="616" />
         <Attribute name="Is Cullable" value="1" id="617" />
@@ -734,7 +734,7 @@
         <Attribute name="Generate Script" value="" id="2357" />
         <Attribute name="Source Attribute" value="614" id="2358" />
         <Attribute name="X" value="0.000000" id="2359" />
-        <Attribute name="Y" value="90.000000" id="2360" />
+        <Attribute name="Y" value="0.000000" id="2360" />
         <Attribute name="Z" value="0.000000" id="2361" />
     </CAttributeSplitterVector3>
     <CAttributeModifierAttractFloat name="Avatar-&gt;Rotation-&gt;Y Attract (Float)" id="2362" parent_id="0">
@@ -1456,9 +1456,9 @@
         <Attribute name="Script" value="" id="7278" />
         <Attribute name="Generate Script" value="" id="7279" />
         <Attribute name="Source Attribute" value="613" id="7280" />
-        <Attribute name="X" value="85.000000" id="7281" />
+        <Attribute name="X" value="90.000000" id="7281" />
         <Attribute name="Y" value="0.000000" id="7282" />
-        <Attribute name="Z" value="150.000000" id="7283" />
+        <Attribute name="Z" value="10.000000" id="7283" />
     </CAttributeSplitterVector3>
     <CMachineOperatorConvertIntToFloat name="Convert Int To Float 2" id="7292" parent_id="0">
         <Attribute name="Name" value="Convert Int To Float 2" id="7293" />
@@ -2019,6 +2019,12 @@
         <Attribute name="Generate Script" value="" id="896025" />
         <Attribute name="Map Generator" value="7923" id="896026" />
         <Attribute name="Player Avatar" value="608" id="896027" />
+        <Attribute name="Show Map" value="0" id="896328" />
+        <Attribute name="Instant Move" value="1" id="896329" />
+        <Attribute name="Music Volume" value="0.500000" id="896330" />
+        <Attribute name="Sound Volume" value="1.000000" id="896331" />
+        <Attribute name="Blend Type" value="6" id="896332" />
+        <Attribute name="Blend Time" value="1.000000" id="896333" />
     </CDungeonCrawlerGame>
     <CPostEffectPixelate name="Post Pixelate 1" id="896130" parent_id="0">
         <Attribute name="Name" value="Post Pixelate 1" id="896131" />
@@ -2028,7 +2034,7 @@
         <Attribute name="Is Visible" value="0" id="896135" />
         <Attribute name="Visibility Fade Time" value="1.000000" id="896136" />
         <Attribute name="Intensity" value="1.000000" id="896137" />
-        <Attribute name="Amount" value="1318.588623, 538.891602" id="896138" />
+        <Attribute name="Amount" value="997.822693, 395.012207" id="896138" />
     </CPostEffectPixelate>
     <CAttributeModifierOscillateFloat name="Amount-&gt;Y Oscillate (Float)" id="896139" parent_id="0">
         <Attribute name="Name" value="Amount-&gt;Y Oscillate (Float)" id="896140" />
@@ -2046,8 +2052,8 @@
         <Attribute name="Script" value="" id="896151" />
         <Attribute name="Generate Script" value="" id="896152" />
         <Attribute name="Source Attribute" value="896138" id="896153" />
-        <Attribute name="X" value="1318.588623" id="896154" />
-        <Attribute name="Y" value="538.891602" id="896155" />
+        <Attribute name="X" value="997.822693" id="896154" />
+        <Attribute name="Y" value="395.012207" id="896155" />
     </CAttributeSplitterVector2>
     <CAttributeModifierOscillateFloat name="Amount-&gt;X Oscillate (Float)" id="896156" parent_id="0">
         <Attribute name="Name" value="Amount-&gt;X Oscillate (Float)" id="896157" />
@@ -2161,7 +2167,7 @@
         <Attribute name="Script" value="" id="896264" />
         <Attribute name="Generate Script" value="" id="896265" />
         <Attribute name="Timelines" value="896284" id="896266" />
-        <Attribute name="Current Time" value="4.041925" id="896267" />
+        <Attribute name="Current Time" value="0.000000" id="896267" />
         <Attribute name="Duration" value="30.000000" id="896268" />
         <Attribute name="Looping" value="1" id="896269" />
         <Attribute name="Play Backwards" value="0" id="896270" />
@@ -2172,12 +2178,12 @@
         <Attribute name="Stop" value="" id="896275" />
         <Attribute name="Pause" value="" id="896276" />
         <Attribute name="Play From Start" value="" id="896277" />
-        <Attribute name="Play On Load" value="1" id="896278" />
+        <Attribute name="Play On Load" value="0" id="896278" />
         <Attribute name="Enable Updates" value="1" id="896279" />
         <Attribute name="Time Scale" value="1.000000" id="896280" />
         <Attribute name="On End" value="" id="896281" />
         <Attribute name="Get Current Time" value="" id="896282" />
-        <Attribute name="Is Playing" value="1" id="896283" />
+        <Attribute name="Is Playing" value="0" id="896283" />
     </CAttributeTimelineCollection>
     <CAttributeTimeline name="Timeline 1" id="896284" parent_id="0">
         <Attribute name="Name" value="Timeline 1" id="896285" />
